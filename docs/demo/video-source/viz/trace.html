@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>trace waterfall</title>
+<meta name="viewport" content="width=1280">
+<link rel="stylesheet" href="viz.css">
+<style>
+  #hdr { position: absolute; left: 24px; right: 24px; top: 0; height: 52px; display: flex; align-items: center; justify-content: space-between; }
+  #hdr h1 { font-size: 29px; font-weight: 800; letter-spacing: -0.01em; white-space: nowrap; }
+  #hdr h1 b { color: var(--gold); }
+  .thr { display: flex; align-items: center; gap: 10px; font-size: 17px; color: var(--muted); font-weight: 600; transition: all .5s; }
+  .thr .v { font-family: var(--mono); font-size: 18px; color: var(--text); background: var(--panel); border: 2px solid var(--line); border-radius: 9px; padding: 5px 12px; transition: all .5s; }
+  .thr.hot .v { border-color: var(--gold); box-shadow: 0 0 0 5px rgba(244,201,93,.18); color: #fff3cf; }
+  #tabs { position: absolute; left: 24px; right: 24px; top: 56px; height: 50px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .tab { display: flex; align-items: center; gap: 12px; padding: 0 14px; border-radius: 12px; border: 2px solid var(--line); background: var(--panel); color: var(--muted); font-size: 19px; font-weight: 600; white-space: nowrap; transition: all .45s; opacity: .55; overflow: hidden; }
+  .tab b { color: var(--text); font-weight: 800; }
+  .tab .id { font-family: var(--mono); font-size: 17px; }
+  .tab .badge { margin-left: auto; font-size: 16px; font-weight: 800; letter-spacing: .04em; padding: 4px 11px; border-radius: 999px; }
+  .tab .badge.amber { background: #3a2a0b; color: #ffdb97; border: 2px solid var(--amber); }
+  .tab .badge.green { background: #0f3128; color: #aaf5d6; border: 2px solid var(--green); }
+  .tab.on { opacity: 1; border-color: var(--blue); background: #112038; color: #cfe0ff; }
+  .tab.hot { opacity: 1; border-color: var(--gold); background: #1f1b0b; }
+
+  #wf { position: absolute; left: 24px; top: 112px; width: 770px; height: 520px; background: var(--panel); border: 2px solid var(--line); border-radius: 16px; overflow: hidden; }
+  #axis { position: absolute; left: 0; right: 0; top: 0; height: 30px; border-bottom: 2px solid var(--line); background: #10172a; }
+  #axis span { position: absolute; top: 4px; font-size: 16px; font-family: var(--mono); color: var(--muted); transform: translateX(-50%); }
+  #axis .nm { left: 14px; transform: none; font-family: var(--sans); font-weight: 700; letter-spacing: .05em; color: var(--dim); }
+  #rows { position: absolute; left: 0; right: 0; top: 32px; }
+  .grid { position: absolute; top: 32px; bottom: 0; width: 1px; background: #232d45; }
+  .row { position: absolute; left: 0; right: 0; height: 25px; display: flex; align-items: center; opacity: 0; transform: translateX(-8px); transition: opacity .35s, transform .35s, background .3s; }
+  .row.in { opacity: 1; transform: none; }
+  .row.focus { background: rgba(74,168,255,.13); box-shadow: inset 4px 0 0 var(--blue); }
+  .row.focus.llm { background: rgba(244,201,93,.12); box-shadow: inset 4px 0 0 var(--gold); }
+  .row.focus.int { background: rgba(255,185,56,.14); box-shadow: inset 4px 0 0 var(--amber); }
+  .nm { width: 332px; flex: none; display: flex; align-items: center; font-size: 20px; font-weight: 600; white-space: nowrap; color: var(--text); }
+  .dot { width: 13px; height: 13px; border-radius: 50%; margin-right: 9px; flex: none; background: var(--blue); }
+  .dot.llm { background: var(--gold); } .dot.int { background: var(--amber); } .dot.root { background: var(--green); }
+  .x { margin-left: 8px; font-size: 17px; font-weight: 800; color: #1a1304; background: var(--gold); border-radius: 6px; padding: 0 7px; }
+  .tk { margin-left: 9px; font-size: 16px; color: var(--gold); font-family: var(--mono); font-weight: 600; }
+  .ib { margin-left: 9px; font-size: 15px; font-weight: 800; color: #1a1204; background: var(--amber); border-radius: 999px; padding: 0 9px; }
+  .rb { margin-left: 9px; font-size: 15px; font-weight: 800; color: #04221a; background: var(--green); border-radius: 999px; padding: 0 9px; }
+  .bar { position: relative; flex: 1; height: 100%; }
+  .bar i { position: absolute; top: 7px; height: 12px; border-radius: 5px; background: var(--blue); width: 0; transition: width .55s ease; }
+  .bar i.llm { background: var(--gold); } .bar i.int { background: var(--amber); } .bar i.root { background: #2fae7d; }
+  .ms { width: 84px; flex: none; text-align: right; padding-right: 14px; font-family: var(--mono); font-size: 17px; color: var(--muted); }
+
+  #card { position: absolute; left: 808px; right: 24px; top: 112px; height: 520px; background: linear-gradient(180deg, #172038, #111a2d); border: 2px solid var(--line); border-radius: 16px; padding: 16px 20px; overflow: hidden; transition: border-color .4s; }
+  #card.llm { border-color: #6b5a22; } #card.int { border-color: #8a6414; } #card.root { border-color: #1f6a52; }
+  #card .in-anim { animation: cin .45s ease both; }
+  @keyframes cin { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+  .ct { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+  .chipT { font-size: 15px; font-weight: 800; letter-spacing: .08em; padding: 3px 10px; border-radius: 6px; background: #1d3a62; color: #bfe0ff; }
+  .chipT.llm { background: #4a3a0c; color: #ffe29a; } .chipT.int { background: #4a3205; color: #ffd48a; } .chipT.root { background: #0f3a2d; color: #aaf5d6; }
+  .cn { font-size: 30px; font-weight: 800; letter-spacing: -0.01em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .cs { font-size: 19px; color: var(--muted); margin: -4px 0 10px; line-height: 1.25; }
+  .facts { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 14px; margin-bottom: 12px; }
+  .facts.f3 { grid-template-columns: 1fr 1fr 1fr; gap: 8px 10px; }
+  .facts.f3 .fact .v { font-size: 22px; }
+  .fact { background: #0f1626; border: 1px solid #26314b; border-radius: 10px; padding: 6px 11px 7px; }
+  .fact .k { font-size: 15px; color: var(--muted); font-weight: 600; }
+  .fact .v { font-size: 23px; font-weight: 800; color: var(--text); font-variant-numeric: tabular-nums; }
+  .fact .v.g { color: var(--gold); } .fact .v.ok { color: var(--green); } .fact .v.am { color: var(--amber); }
+  .fact.wide { grid-column: span 2; } .fact .v.mono { font-family: var(--mono); font-size: 17px; font-weight: 600; word-break: break-all; }
+  .blk { margin-top: 8px; }
+  .blk .k { font-size: 15px; font-weight: 800; letter-spacing: .08em; color: var(--dim); margin-bottom: 3px; }
+  .blk .t { font-size: 19px; line-height: 25px; color: #dbe4f7; background: #0e1424; border-left: 4px solid #35517e; border-radius: 0 8px 8px 0; padding: 6px 11px; }
+  .blk .t .in { display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; }
+  .blk.reply .t { border-left-color: var(--gold); color: #fff3cf; }
+  .blk .t.c2 .in { -webkit-line-clamp: 2; } .blk .t.c3 .in { -webkit-line-clamp: 3; } .blk .t.c4 .in { -webkit-line-clamp: 4; }
+  .note { margin-top: 10px; font-size: 20px; line-height: 1.3; color: #ffe0a8; background: #2a1f08; border: 2px solid #7a5a14; border-radius: 12px; padding: 10px 14px; }
+  .note.ok { color: #c9f7e5; background: #0d2b22; border-color: #1f6a52; }
+
+  #banner { position: absolute; left: 24px; right: 24px; top: 640px; height: 56px; border-radius: 14px; background: linear-gradient(90deg, #2d2308, #1d1a10); border: 3px solid var(--gold); display: flex; align-items: center; gap: 14px; padding: 0 20px; opacity: 0; transform: translateY(10px); transition: opacity .5s, transform .5s; }
+  #banner.in { opacity: 1; transform: none; }
+  #banner .ico { flex: none; display: flex; gap: 5px; align-items: center; }
+  #banner .ico i { width: 7px; height: 22px; border-radius: 2px; background: var(--amber); display: block; }
+  #banner .tx { font-size: 22px; font-weight: 600; line-height: 1.18; color: #f4ecd4; }
+  #banner .tx b { color: var(--gold); font-weight: 800; }
+  #foot { position: absolute; left: 24px; right: 24px; top: 700px; height: 20px; font-size: 17px; color: var(--dim); text-align: center; line-height: 20px; }
+</style>
+</head>
+<body>
+  <div id="hdr"><h1>One night's show, as a <b>trace</b></h1><div class="thr" id="thr"><span>thread_id</span><span class="v" id="tid">…</span></div></div>
+  <div id="tabs"></div>
+  <div id="wf"><div id="axis"></div><div id="rows"></div></div>
+  <div id="card"></div>
+  <div id="banner"><span class="ico"><i></i><i></i></span><span class="tx"><b>Two traces, one thread_id:</b> run 1 stopped at the Prompter's box (interrupt), run 2 resumed after the whisper</span></div>
+  <div id="foot">Run data read back from LangSmith via the API, rendered locally</div>
+  <script src="trace.js"></script>
+</body>
+</html>

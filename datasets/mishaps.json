@@ -1,0 +1,1787 @@
+[
+ {
+  "id": "lean_collapse",
+  "flaw": "leans_left",
+  "kind": "collapse",
+  "severity": "major",
+  "title": "{actor} leans too far left",
+  "text": "{actor} leans into the kiss and keeps leaning. {other} is now holding a very sincere diagonal.",
+  "tags": [
+   "slapstick",
+   "romance"
+  ],
+  "effects": {
+   "warmth": -2,
+   "chaos": 9
+  },
+  "calamity": "the_lean",
+  "anim": "lean_left"
+ },
+ {
+  "id": "lean_stairs",
+  "flaw": "leans_left",
+  "kind": "collapse",
+  "severity": "major",
+  "title": "{actor} loses the staircase",
+  "text": "Climbing the stairs, {actor} tilts one degree a step. At the top, the staircase and {actor} disagree about which way is up.",
+  "tags": [
+   "stairs",
+   "slapstick"
+  ],
+  "effects": {
+   "warmth": -3,
+   "chaos": 10
+  },
+  "calamity": "the_banister",
+  "anim": "slide"
+ },
+ {
+  "id": "lean_drift",
+  "flaw": "leans_left",
+  "kind": "upstage",
+  "severity": "minor",
+  "title": "{actor} drifts into the wings",
+  "text": "{actor} has leaned so gradually that the speech is now being delivered, with great feeling, to a curtain.",
+  "tags": [
+   "speech",
+   "romance"
+  ],
+  "effects": {
+   "warmth": -1,
+   "chaos": 4
+  },
+  "calamity": "the_lean",
+  "anim": "lean_left"
+ },
+ {
+  "id": "lean_waltz",
+  "flaw": "leans_left",
+  "kind": "collapse",
+  "severity": "minor",
+  "title": "The waltz becomes a knot",
+  "text": "The waltz begins well. By the third bar {actor}'s strings have found {other}'s, and the dance continues as one ambitious knot.",
+  "tags": [
+   "dance",
+   "romance"
+  ],
+  "effects": {
+   "warmth": 1,
+   "chaos": 5
+  },
+  "calamity": "the_string_knot",
+  "anim": "wobble"
+ },
+ {
+  "id": "can_flood",
+  "flaw": "cries_by_watering_can",
+  "kind": "cry",
+  "severity": "major",
+  "title": "{actor} fills the watering can",
+  "text": "{actor} weeps so sincerely that the watering can overflows. The front row is invited to consider their shoes.",
+  "tags": [
+   "mourning",
+   "slapstick"
+  ],
+  "effects": {
+   "warmth": -1,
+   "chaos": 9
+  },
+  "calamity": "the_watering_can",
+  "anim": "shake"
+ },
+ {
+  "id": "can_wedding",
+  "flaw": "cries_by_watering_can",
+  "kind": "cry",
+  "severity": "minor",
+  "title": "{actor} cries at the wedding",
+  "text": "{actor} cries at the vows, which is reasonable, and again at the buffet, which is not.",
+  "tags": [
+   "wedding",
+   "feast"
+  ],
+  "effects": {
+   "warmth": 1,
+   "chaos": 3
+  },
+  "calamity": "the_watering_can",
+  "anim": "shake"
+ },
+ {
+  "id": "can_garden",
+  "flaw": "cries_by_watering_can",
+  "kind": "prop",
+  "severity": "minor",
+  "title": "The watering can waters the scenery",
+  "text": "{actor} has quietly been watering the {object} with the can. It was never going to bloom, but the effort is noted.",
+  "tags": [
+   "mourning"
+  ],
+  "effects": {
+   "warmth": 2,
+   "chaos": 3
+  },
+  "calamity": "the_watering_can",
+  "anim": "drop_prop"
+ },
+ {
+  "id": "can_letter",
+  "flaw": "cries_by_watering_can",
+  "kind": "cry",
+  "severity": "major",
+  "title": "The letter becomes porridge",
+  "text": "{actor} is handed a letter, reads it aloud, weeps into it, and the letter becomes soup. {other} improvises the will.",
+  "tags": [
+   "letter",
+   "mourning"
+  ],
+  "effects": {
+   "warmth": -3,
+   "chaos": 9
+  },
+  "calamity": "the_watering_can",
+  "anim": "collapse"
+ },
+ {
+  "id": "apol_dagger",
+  "flaw": "apologises_mid_villainy",
+  "kind": "apology",
+  "severity": "major",
+  "title": "{actor} apologises to the victim",
+  "text": "{actor} raises the dagger, lowers it, and begins an apology that outlasts the plot. {other} is asked to wait.",
+  "tags": [
+   "murder",
+   "betrayal"
+  ],
+  "effects": {
+   "warmth": 0,
+   "chaos": 8
+  },
+  "calamity": "the_apology",
+  "anim": "bow"
+ },
+ {
+  "id": "apol_duel",
+  "flaw": "apologises_mid_villainy",
+  "kind": "freeze",
+  "severity": "major",
+  "title": "{actor} checks the duel is comfortable",
+  "text": "Mid-duel, {actor} stops to ask if {other} would like a sit-down. {other} says 'Quite, thank you.' The duel resumes, warmer.",
+  "tags": [
+   "sword",
+   "slapstick"
+  ],
+  "effects": {
+   "warmth": 0,
+   "chaos": 10
+  },
+  "calamity": "the_swordfight",
+  "anim": "freeze"
+ },
+ {
+  "id": "apol_tea",
+  "flaw": "apologises_mid_villainy",
+  "kind": "apology",
+  "severity": "minor",
+  "title": "Poison, with an apology",
+  "text": "{actor} pours the poison, then offers {other} tea instead, 'in case it is a bad day for it'.",
+  "tags": [
+   "poison",
+   "lie"
+  ],
+  "effects": {
+   "warmth": 1,
+   "chaos": 3
+  },
+  "calamity": "the_apology",
+  "anim": "bow"
+ },
+ {
+  "id": "apol_town",
+  "flaw": "apologises_mid_villainy",
+  "kind": "apology",
+  "severity": "minor",
+  "title": "{actor} apologises to {town}",
+  "text": "{actor} apologises to the whole of {town} for the villainy ahead, and promises to keep it brief.",
+  "tags": [
+   "speech",
+   "betrayal"
+  ],
+  "effects": {
+   "warmth": 2,
+   "chaos": 3
+  },
+  "calamity": "the_apology",
+  "anim": "bow"
+ },
+ {
+  "id": "chand_stare",
+  "flaw": "afraid_of_the_chandelier",
+  "kind": "freeze",
+  "severity": "major",
+  "title": "The chandelier is looking at {actor}",
+  "text": "The chandelier sways. {actor} stops mid-menace and says, in a small voice, 'It is looking at me.' It is, a little.",
+  "tags": [
+   "chandelier"
+  ],
+  "effects": {
+   "warmth": -1,
+   "chaos": 9
+  },
+  "calamity": "the_chandelier",
+  "anim": "freeze"
+ },
+ {
+  "id": "chand_storm",
+  "flaw": "afraid_of_the_chandelier",
+  "kind": "collapse",
+  "severity": "major",
+  "title": "{actor} dives for cover",
+  "text": "Thunder shakes the chandelier. {actor} dives for cover and finds {other}, who is not furniture but is, for now, helping.",
+  "tags": [
+   "chandelier",
+   "storm"
+  ],
+  "effects": {
+   "warmth": -2,
+   "chaos": 10
+  },
+  "calamity": "the_chandelier",
+  "anim": "collapse"
+ },
+ {
+  "id": "chand_behind",
+  "flaw": "afraid_of_the_chandelier",
+  "kind": "exit",
+  "severity": "minor",
+  "title": "A villain behind {other}",
+  "text": "{actor} delivers the entire villain monologue from behind {other}, in case of falling things.",
+  "tags": [
+   "chandelier",
+   "speech"
+  ],
+  "effects": {
+   "warmth": 1,
+   "chaos": 4
+  },
+  "calamity": "the_chandelier",
+  "anim": "hide"
+ },
+ {
+  "id": "chand_aisle",
+  "flaw": "afraid_of_the_chandelier",
+  "kind": "exit",
+  "severity": "minor",
+  "title": "The aisle takes a detour",
+  "text": "At the wedding, {actor} will not walk under the chandelier. The aisle is now three metres wider and passes the bar.",
+  "tags": [
+   "chandelier",
+   "wedding"
+  ],
+  "effects": {
+   "warmth": 1,
+   "chaos": 3
+  },
+  "calamity": "the_chandelier",
+  "anim": "slide"
+ },
+ {
+  "id": "gus_light",
+  "flaw": "never_been_on_stage",
+  "kind": "freeze",
+  "severity": "major",
+  "title": "{actor} meets the spotlight",
+  "text": "{actor} steps into the light for the first time and waits for the prompt. The prompt waits for {actor}. A courteous standoff.",
+  "tags": [
+   "speech"
+  ],
+  "effects": {
+   "warmth": -2,
+   "chaos": 9
+  },
+  "calamity": "the_prompt",
+  "anim": "freeze"
+ },
+ {
+  "id": "gus_thanks",
+  "flaw": "never_been_on_stage",
+  "kind": "freeze",
+  "severity": "major",
+  "title": "{actor} thanks the audience, personally",
+  "text": "A laugh arrives. {actor}, who has never been laughed at, nor with, stops the play to thank the house individually.",
+  "tags": [
+   "speech",
+   "pun"
+  ],
+  "effects": {
+   "warmth": 1,
+   "chaos": 8
+  },
+  "calamity": "the_encore",
+  "anim": "bow"
+ },
+ {
+  "id": "gus_exits",
+  "flaw": "never_been_on_stage",
+  "kind": "exit",
+  "severity": "minor",
+  "title": "{actor} knows every exit",
+  "text": "{actor} knows where every exit is, having watched from the wings for years, and uses all of them. Politely.",
+  "tags": [
+   "door"
+  ],
+  "effects": {
+   "warmth": 1,
+   "chaos": 4
+  },
+  "calamity": "the_wrong_door",
+  "anim": "slide"
+ },
+ {
+  "id": "gus_order",
+  "flaw": "never_been_on_stage",
+  "kind": "wrong_play",
+  "severity": "minor",
+  "title": "Every line, in the wrong order",
+  "text": "{actor} knows every line of every part and delivers them in the order they come to mind, which is not the play's.",
+  "tags": [
+   "speech"
+  ],
+  "effects": {
+   "warmth": -1,
+   "chaos": 5
+  },
+  "calamity": "the_wrong_play",
+  "anim": "wobble"
+ },
+ {
+  "id": "gus_chorus",
+  "flaw": "says_everyones_lines",
+  "kind": "wrong_play",
+  "severity": "major",
+  "title": "{actor} says all the parts",
+  "text": "{actor} recites every part under the scene, half a second early. {other} has nothing left to say and says so, ahead of time.",
+  "tags": [
+   "speech",
+   "lie"
+  ],
+  "effects": {
+   "warmth": -2,
+   "chaos": 9
+  },
+  "calamity": "the_wrong_play",
+  "anim": "wobble"
+ },
+ {
+  "id": "gus_nudge",
+  "flaw": "says_everyones_lines",
+  "kind": "upstage",
+  "severity": "minor",
+  "title": "A helpful whisper, loudly",
+  "text": "{actor} whispers {other}'s line to {other} a beat early, helpfully, in front of the entire house.",
+  "tags": [
+   "secret",
+   "speech"
+  ],
+  "effects": {
+   "warmth": -1,
+   "chaos": 4
+  },
+  "calamity": "the_prompt",
+  "anim": "shake"
+ },
+ {
+  "id": "gus_wedding",
+  "flaw": "says_everyones_lines",
+  "kind": "wrong_play",
+  "severity": "minor",
+  "title": "A very good speech, wrong play",
+  "text": "{actor} knows the villain's speech very well. It is the wedding. It is a very good speech.",
+  "tags": [
+   "wedding",
+   "speech"
+  ],
+  "effects": {
+   "warmth": 0,
+   "chaos": 5
+  },
+  "calamity": "the_wrong_play",
+  "anim": "bow"
+ },
+ {
+  "id": "gus_duel",
+  "flaw": "says_everyones_lines",
+  "kind": "upstage",
+  "severity": "minor",
+  "title": "{actor} fights both sides",
+  "text": "{actor} knows the choreography for both duellists and performs all of it alone, at speed, losing to {actor} with great dignity.",
+  "tags": [
+   "sword",
+   "slapstick"
+  ],
+  "effects": {
+   "warmth": 2,
+   "chaos": 5
+  },
+  "calamity": "the_swordfight",
+  "anim": "flip"
+ },
+ {
+  "id": "gus_takeover",
+  "flaw": "says_everyones_lines",
+  "kind": "upstage",
+  "severity": "major",
+  "title": "{actor} plays every part",
+  "text": "{actor} plays both halves of the love scene, changing wigs at speed. Somewhere in the middle, {actor} marries the wrong wig.",
+  "tags": [
+   "romance",
+   "speech"
+  ],
+  "effects": {
+   "warmth": -3,
+   "chaos": 11
+  },
+  "calamity": "the_wig",
+  "anim": "flip"
+ },
+ {
+  "id": "eat_cake",
+  "flaw": "eats_the_props",
+  "kind": "feast",
+  "severity": "major",
+  "title": "{actor} eats the wedding cake",
+  "text": "Mrs. Gasket sends on a wedding cake. {actor} was told it was a prop, and has been testing the theory ever since.",
+  "tags": [
+   "feast",
+   "wedding"
+  ],
+  "effects": {
+   "warmth": -2,
+   "chaos": 8
+  },
+  "calamity": "the_cake",
+  "anim": "drop_prop"
+ },
+ {
+  "id": "eat_letter",
+  "flaw": "eats_the_props",
+  "kind": "prop",
+  "severity": "minor",
+  "title": "{actor} eats the evidence",
+  "text": "A letter containing the secret is handed to {actor}, who eats it. The secret is now safe, and also digested.",
+  "tags": [
+   "letter",
+   "goose"
+  ],
+  "effects": {
+   "warmth": 1,
+   "chaos": 3
+  },
+  "calamity": "the_goose_incident",
+  "anim": "drop_prop"
+ },
+ {
+  "id": "eat_feast",
+  "flaw": "eats_the_props",
+  "kind": "feast",
+  "severity": "minor",
+  "title": "Only one guest is eating",
+  "text": "At the feast, {actor} is the only guest still eating and, to be fair, the only guest still in character.",
+  "tags": [
+   "feast"
+  ],
+  "effects": {
+   "warmth": 2,
+   "chaos": 2
+  },
+  "calamity": "the_snack",
+  "anim": "bow"
+ },
+ {
+  "id": "eat_treasure",
+  "flaw": "eats_the_props",
+  "kind": "prop",
+  "severity": "major",
+  "title": "The treasure was chocolate",
+  "text": "The treasure turns out to be chocolate coins. {actor} discovers this slowly, then entirely. The plot develops a gap.",
+  "tags": [
+   "treasure",
+   "goose"
+  ],
+  "effects": {
+   "warmth": -2,
+   "chaos": 9
+  },
+  "calamity": "the_snack",
+  "anim": "drop_prop"
+ },
+ {
+  "id": "door_cupboard",
+  "flaw": "exits_through_the_wrong_door",
+  "kind": "exit",
+  "severity": "minor",
+  "title": "{actor} exits into the cupboard",
+  "text": "{actor} exits with great authority through the door marked CUPBOARD. The scene continues. So does the sound of mops.",
+  "tags": [
+   "door",
+   "slapstick"
+  ],
+  "effects": {
+   "warmth": 1,
+   "chaos": 4
+  },
+  "calamity": "the_wrong_door",
+  "anim": "hide"
+ },
+ {
+  "id": "door_house",
+  "flaw": "exits_through_the_wrong_door",
+  "kind": "exit",
+  "severity": "major",
+  "title": "{actor} exits into the audience",
+  "text": "{actor} exits through the wrong door, which opens onto the auditorium. A seat is found. The scene is watched from row C.",
+  "tags": [
+   "door",
+   "chase"
+  ],
+  "effects": {
+   "warmth": -1,
+   "chaos": 10
+  },
+  "calamity": "the_wrong_door",
+  "anim": "hide"
+ },
+ {
+  "id": "door_parade",
+  "flaw": "exits_through_the_wrong_door",
+  "kind": "upstage",
+  "severity": "minor",
+  "title": "Five entrances, no exits",
+  "text": "{actor} makes five entrances in a row, each through a door never meant to be one. Nobody has the heart to stop it.",
+  "tags": [
+   "door",
+   "chase"
+  ],
+  "effects": {
+   "warmth": 1,
+   "chaos": 5
+  },
+  "calamity": "the_wrong_door",
+  "anim": "slide"
+ },
+ {
+  "id": "door_trap",
+  "flaw": "exits_through_the_wrong_door",
+  "kind": "exit",
+  "severity": "major",
+  "title": "{actor} finds the trapdoor",
+  "text": "Looking for the door, {actor} finds the trapdoor, which is more of a hole in a bad mood. The scene continues from below.",
+  "tags": [
+   "door",
+   "secret"
+  ],
+  "effects": {
+   "warmth": -2,
+   "chaos": 11
+  },
+  "calamity": "the_trapdoor",
+  "anim": "hide"
+ },
+ {
+  "id": "moon_solo",
+  "flaw": "upstages_the_moon",
+  "kind": "upstage",
+  "severity": "major",
+  "title": "{actor} steps in front of the moon",
+  "text": "{actor} steps in front of the paper moon for a solo nobody asked for. The moon is lowered, quietly. The moon remembers.",
+  "tags": [
+   "song"
+  ],
+  "effects": {
+   "warmth": -2,
+   "chaos": 9
+  },
+  "calamity": "the_moon",
+  "anim": "bow"
+ },
+ {
+  "id": "moon_dance",
+  "flaw": "upstages_the_moon",
+  "kind": "upstage",
+  "severity": "minor",
+  "title": "The moon and {actor} exchange a look",
+  "text": "{actor} dances in front of the paper moon. The moon dips to reclaim the light. They exchange a look that will last years.",
+  "tags": [
+   "dance"
+  ],
+  "effects": {
+   "warmth": 1,
+   "chaos": 4
+  },
+  "calamity": "the_moon",
+  "anim": "spin"
+ },
+ {
+  "id": "moon_wall",
+  "flaw": "upstages_the_moon",
+  "kind": "upstage",
+  "severity": "minor",
+  "title": "{actor} turns the moon around",
+  "text": "{actor} delivers the soliloquy to the paper moon, then turns the moon to face the wall so it cannot steal the ending.",
+  "tags": [
+   "speech"
+  ],
+  "effects": {
+   "warmth": 0,
+   "chaos": 4
+  },
+  "calamity": "the_moon",
+  "anim": "spin"
+ },
+ {
+  "id": "moon_crown",
+  "flaw": "upstages_the_moon",
+  "kind": "prop",
+  "severity": "major",
+  "title": "A coronation, with the moon",
+  "text": "{actor} takes the crown, the spotlight and the moon (in that order) and leaves the scene somewhere to the left of them all.",
+  "tags": [
+   "crown",
+   "speech"
+  ],
+  "effects": {
+   "warmth": -3,
+   "chaos": 11
+  },
+  "calamity": "the_moon",
+  "anim": "fly"
+ },
+ {
+  "id": "feather_sneeze",
+  "flaw": "allergic_to_feathers",
+  "kind": "collapse",
+  "severity": "major",
+  "title": "{actor} sneezes out the candles",
+  "text": "A ball mask arrives with a feather. {actor} regards the feather; the feather regards {actor}. The sneeze snuffs every candle in the {place}.",
+  "tags": [
+   "mask",
+   "fire"
+  ],
+  "effects": {
+   "warmth": -2,
+   "chaos": 10
+  },
+  "calamity": "the_candle",
+  "anim": "shake"
+ },
+ {
+  "id": "feather_goose",
+  "flaw": "allergic_to_feathers",
+  "kind": "collapse",
+  "severity": "minor",
+  "title": "A sneeze in B flat",
+  "text": "A feather of unknown origin drifts by. {actor} sneezes; a goose, offended, honks. They reach an understanding in B flat.",
+  "tags": [
+   "goose",
+   "song"
+  ],
+  "effects": {
+   "warmth": 2,
+   "chaos": 4
+  },
+  "calamity": "the_goose_incident",
+  "anim": "shake"
+ },
+ {
+  "id": "feather_disguise",
+  "flaw": "allergic_to_feathers",
+  "kind": "prop",
+  "severity": "minor",
+  "title": "The disguise blows away",
+  "text": "{actor} is disguised as a bird, which is the problem. By the second sneeze the mask is in the dress circle, and so is the plot.",
+  "tags": [
+   "disguise",
+   "mask"
+  ],
+  "effects": {
+   "warmth": 0,
+   "chaos": 5
+  },
+  "calamity": "the_mask",
+  "anim": "fly"
+ },
+ {
+  "id": "feather_crown",
+  "flaw": "allergic_to_feathers",
+  "kind": "collapse",
+  "severity": "major",
+  "title": "A coronation, horizontally",
+  "text": "A crown arrives with a plume. {actor} sneezes eleven times, faints, and is crowned lying down. It is felt to be a modern reading.",
+  "tags": [
+   "crown",
+   "slapstick"
+  ],
+  "effects": {
+   "warmth": -1,
+   "chaos": 9
+  },
+  "calamity": "the_fainting",
+  "anim": "collapse"
+ },
+ {
+  "id": "act2_early",
+  "flaw": "only_knows_act_two",
+  "kind": "wrong_play",
+  "severity": "major",
+  "title": "It is not Act Two",
+  "text": "It is Act One. {actor} delivers the Act Two reconciliation with total confidence. {other} has not yet been wronged.",
+  "tags": [
+   "reunion",
+   "secret"
+  ],
+  "effects": {
+   "warmth": -3,
+   "chaos": 10
+  },
+  "calamity": "the_wrong_play",
+  "anim": "spin"
+ },
+ {
+  "id": "act2_letter",
+  "flaw": "only_knows_act_two",
+  "kind": "wrong_play",
+  "severity": "major",
+  "title": "The letter has not been written",
+  "text": "{actor} reveals the secret of the letter. The letter has not been written yet. {other} writes it hastily during the gasp.",
+  "tags": [
+   "letter",
+   "secret"
+  ],
+  "effects": {
+   "warmth": -2,
+   "chaos": 9
+  },
+  "calamity": "the_wrong_play",
+  "anim": "wobble"
+ },
+ {
+  "id": "act2_chair",
+  "flaw": "only_knows_act_two",
+  "kind": "wrong_play",
+  "severity": "minor",
+  "title": "The jury is a chair",
+  "text": "In the version {actor} knows, the jury is a chair. {actor} addresses it for three minutes. The chair, to its credit, listens.",
+  "tags": [
+   "trial",
+   "chair"
+  ],
+  "effects": {
+   "warmth": 1,
+   "chaos": 4
+  },
+  "calamity": "the_chair",
+  "anim": "bow"
+ },
+ {
+  "id": "act2_interval",
+  "flaw": "only_knows_act_two",
+  "kind": "exit",
+  "severity": "minor",
+  "title": "{actor} exits for the interval",
+  "text": "{actor} exits for the interval that comes in Act Two. It is forty minutes away. {actor} is found in the {place}, eating an orange.",
+  "tags": [
+   "secret"
+  ],
+  "effects": {
+   "warmth": 1,
+   "chaos": 3
+  },
+  "calamity": "the_snack",
+  "anim": "slide"
+ },
+ {
+  "id": "death_long",
+  "flaw": "over_commits_to_death",
+  "kind": "corpse",
+  "severity": "major",
+  "title": "{actor} dies for six minutes",
+  "text": "{actor} is struck down and dies for six minutes, in three languages. {other} checks the programme: 'dies briefly'.",
+  "tags": [
+   "death",
+   "murder"
+  ],
+  "effects": {
+   "warmth": -1,
+   "chaos": 9
+  },
+  "calamity": "the_corpse",
+  "anim": "collapse"
+ },
+ {
+  "id": "death_stairs",
+  "flaw": "over_commits_to_death",
+  "kind": "collapse",
+  "severity": "minor",
+  "title": "A death down every stair",
+  "text": "{actor} falls down the entire staircase, one step at a time, with a small salute at each landing.",
+  "tags": [
+   "stairs",
+   "death"
+  ],
+  "effects": {
+   "warmth": 2,
+   "chaos": 4
+  },
+  "calamity": "the_banister",
+  "anim": "slide"
+ },
+ {
+  "id": "death_poison",
+  "flaw": "over_commits_to_death",
+  "kind": "corpse",
+  "severity": "major",
+  "title": "{actor} dies ahead of the poison",
+  "text": "{actor} dies a full minute before the poison could possibly work. The poison, embarrassed, goes and sits down.",
+  "tags": [
+   "poison",
+   "death"
+  ],
+  "effects": {
+   "warmth": -2,
+   "chaos": 9
+  },
+  "calamity": "the_corpse",
+  "anim": "collapse"
+ },
+ {
+  "id": "death_encore",
+  "flaw": "over_commits_to_death",
+  "kind": "corpse",
+  "severity": "minor",
+  "title": "A ghost with a second act",
+  "text": "{actor} dies, is covered by Mrs. Gasket's sheet, remembers a line, rises as a ghost and delivers it. The ghost gets the applause.",
+  "tags": [
+   "death",
+   "ghost"
+  ],
+  "effects": {
+   "warmth": 2,
+   "chaos": 5
+  },
+  "calamity": "the_ghost_sheet",
+  "anim": "flip"
+ },
+ {
+  "id": "death_curtain",
+  "flaw": "over_commits_to_death",
+  "kind": "corpse",
+  "severity": "minor",
+  "title": "The curtain falls on a long death",
+  "text": "Clipboard calls the curtain on {actor}'s death. It sticks at knee height. The death continues underneath, visible from the shins.",
+  "tags": [
+   "death",
+   "slapstick"
+  ],
+  "effects": {
+   "warmth": 1,
+   "chaos": 4
+  },
+  "calamity": "the_curtain_stuck",
+  "anim": "collapse"
+ },
+ {
+  "id": "rhyme_orange",
+  "flaw": "speaks_in_rhyme",
+  "kind": "rhyme",
+  "severity": "minor",
+  "title": "Nothing rhymes with orange",
+  "text": "{actor} reaches for a rhyme for 'orange', finds none, and delivers the line as a long and dignified silence.",
+  "tags": [
+   "rhyme",
+   "pun"
+  ],
+  "effects": {
+   "warmth": 1,
+   "chaos": 3
+  },
+  "calamity": "the_rhyme",
+  "anim": "freeze"
+ },
+ {
+  "id": "rhyme_couplets",
+  "flaw": "speaks_in_rhyme",
+  "kind": "rhyme",
+  "severity": "major",
+  "title": "The whole stage scans",
+  "text": "Everyone on stage is now speaking in couplets. {actor} started it. {other} is losing, and knows it.",
+  "tags": [
+   "rhyme",
+   "slapstick"
+  ],
+  "effects": {
+   "warmth": 2,
+   "chaos": 9
+  },
+  "calamity": "the_rhyme",
+  "anim": "spin"
+ },
+ {
+  "id": "rhyme_death",
+  "flaw": "speaks_in_rhyme",
+  "kind": "rhyme",
+  "severity": "major",
+  "title": "A rhyming death",
+  "text": "Dying, {actor} insists on a rhyme for 'expire'. The death takes four minutes. {other} offers 'higher' and is thanked.",
+  "tags": [
+   "death",
+   "rhyme"
+  ],
+  "effects": {
+   "warmth": -1,
+   "chaos": 9
+  },
+  "calamity": "the_rhyme",
+  "anim": "collapse"
+ },
+ {
+  "id": "rhyme_cart",
+  "flaw": "speaks_in_rhyme",
+  "kind": "rhyme",
+  "severity": "minor",
+  "title": "My heart sings like a cart",
+  "text": "'My heart, my heart, it sings like a cart,' says {actor}. {other} nods slowly, as if it were the finest poetry.",
+  "tags": [
+   "romance",
+   "rhyme"
+  ],
+  "effects": {
+   "warmth": 2,
+   "chaos": 3
+  },
+  "calamity": "the_rhyme",
+  "anim": "wobble"
+ },
+ {
+  "id": "whisper_secret",
+  "flaw": "stage_whispers_everything",
+  "kind": "upstage",
+  "severity": "major",
+  "title": "The secret is out in row F",
+  "text": "{actor} stage-whispers the secret the whole plot hangs on. Row F confirms: 'We heard.'",
+  "tags": [
+   "secret",
+   "lie"
+  ],
+  "effects": {
+   "warmth": -3,
+   "chaos": 9
+  },
+  "calamity": "the_echo",
+  "anim": "shake"
+ },
+ {
+  "id": "whisper_bear",
+  "flaw": "stage_whispers_everything",
+  "kind": "upstage",
+  "severity": "minor",
+  "title": "Exit, pursued by a bear",
+  "text": "{actor} whispers the stage directions for the back row: '(exits, pursued by a bear)'. A bear is sourced.",
+  "tags": [
+   "chase",
+   "secret"
+  ],
+  "effects": {
+   "warmth": 2,
+   "chaos": 4
+  },
+  "calamity": "the_echo",
+  "anim": "wobble"
+ },
+ {
+  "id": "whisper_sorry",
+  "flaw": "stage_whispers_everything",
+  "kind": "apology",
+  "severity": "minor",
+  "title": "Sorry, in a whisper, to everyone",
+  "text": "{actor} apologises to the Prompter in a whisper the whole house can hear. Then apologises for the whisper.",
+  "tags": [
+   "secret"
+  ],
+  "effects": {
+   "warmth": 1,
+   "chaos": 3
+  },
+  "calamity": "the_prompt",
+  "anim": "bow"
+ },
+ {
+  "id": "whisper_love",
+  "flaw": "stage_whispers_everything",
+  "kind": "upstage",
+  "severity": "major",
+  "title": "{actor} whispers 'I love you'",
+  "text": "{actor} whispers 'I love you' to {other}. It is heard in the next town. {other} replies at the same volume, which is only fair.",
+  "tags": [
+   "romance",
+   "secret"
+  ],
+  "effects": {
+   "warmth": 0,
+   "chaos": 8
+  },
+  "calamity": "the_echo",
+  "anim": "bow"
+ },
+ {
+  "id": "love_chair",
+  "flaw": "falls_in_love_with_props",
+  "kind": "flirt",
+  "severity": "major",
+  "title": "{actor} meets the chair",
+  "text": "{actor} has met the chair. It is the one. The scene waits while {actor} recites a sonnet about its legs.",
+  "tags": [
+   "chair",
+   "romance"
+  ],
+  "effects": {
+   "warmth": 1,
+   "chaos": 8
+  },
+  "calamity": "the_chair",
+  "anim": "wobble"
+ },
+ {
+  "id": "love_mirror",
+  "flaw": "falls_in_love_with_props",
+  "kind": "flirt",
+  "severity": "minor",
+  "title": "A mutual gaze",
+  "text": "Mrs. Gasket wheels on a mirror. {actor} sees it, and the gaze is mutual. The mirror is, as ever, an excellent listener.",
+  "tags": [
+   "mirror",
+   "romance"
+  ],
+  "effects": {
+   "warmth": 2,
+   "chaos": 3
+  },
+  "calamity": "the_echo",
+  "anim": "freeze"
+ },
+ {
+  "id": "love_crown",
+  "flaw": "falls_in_love_with_props",
+  "kind": "prop",
+  "severity": "minor",
+  "title": "{actor} proposes to the crown",
+  "text": "Mrs. Gasket brings the crown on a cushion. {actor} proposes to it. The crown accepts, being in no position to do otherwise.",
+  "tags": [
+   "crown",
+   "wedding"
+  ],
+  "effects": {
+   "warmth": 2,
+   "chaos": 3
+  },
+  "calamity": "the_kiss",
+  "anim": "bow"
+ },
+ {
+  "id": "love_object",
+  "flaw": "falls_in_love_with_props",
+  "kind": "prop",
+  "severity": "major",
+  "title": "{actor} will not give it back",
+  "text": "{actor} has fallen for the {object} and will not hand it over, not even to {other}, not even when the plot needs it.",
+  "tags": [
+   "romance",
+   "treasure"
+  ],
+  "effects": {
+   "warmth": -1,
+   "chaos": 9
+  },
+  "calamity": "the_kiss",
+  "anim": "drop_prop"
+ },
+ {
+  "id": "love_umbrella",
+  "flaw": "falls_in_love_with_props",
+  "kind": "prop",
+  "severity": "minor",
+  "title": "{actor} adopts the umbrellas",
+  "text": "{actor} falls for the umbrella stand, adopts all eleven umbrellas, and introduces each by name to anyone who will stand still.",
+  "tags": [
+   "mirror",
+   "mistaken_identity"
+  ],
+  "effects": {
+   "warmth": 2,
+   "chaos": 4
+  },
+  "calamity": "the_umbrella",
+  "anim": "drop_prop"
+ },
+ {
+  "id": "wind_speech",
+  "flaw": "winds_down_mid_scene",
+  "kind": "freeze",
+  "severity": "major",
+  "title": "{actor} winds down mid-speech",
+  "text": "Halfway through the big speech, {actor} winds down. The last syllable lasts a full minute and ends like a gate.",
+  "tags": [
+   "speech"
+  ],
+  "effects": {
+   "warmth": -2,
+   "chaos": 9
+  },
+  "calamity": "the_echo",
+  "anim": "freeze"
+ },
+ {
+  "id": "wind_key",
+  "flaw": "winds_down_mid_scene",
+  "kind": "freeze",
+  "severity": "major",
+  "title": "Mrs. Gasket brings the key",
+  "text": "Mrs. Gasket arrives with the key and, with eight hands, winds the wrong thing. {actor} performs the scene backwards, politely.",
+  "tags": [
+   "slapstick"
+  ],
+  "effects": {
+   "warmth": -1,
+   "chaos": 10
+  },
+  "calamity": "the_encore",
+  "anim": "spin"
+ },
+ {
+  "id": "wind_faint",
+  "flaw": "winds_down_mid_scene",
+  "kind": "freeze",
+  "severity": "minor",
+  "title": "{actor} has fainted (wound down)",
+  "text": "{actor} winds down at the height of the tragedy. The cast, assuming a faint, fan {actor} with a programme.",
+  "tags": [
+   "mourning",
+   "death"
+  ],
+  "effects": {
+   "warmth": 1,
+   "chaos": 4
+  },
+  "calamity": "the_fainting",
+  "anim": "collapse"
+ },
+ {
+  "id": "wind_trial",
+  "flaw": "winds_down_mid_scene",
+  "kind": "freeze",
+  "severity": "minor",
+  "title": "The verdict never comes",
+  "text": "{actor} winds down while pointing at the guilty party. Everyone holds the pose until Clipboard calls cue 31.",
+  "tags": [
+   "trial"
+  ],
+  "effects": {
+   "warmth": 0,
+   "chaos": 4
+  },
+  "calamity": "the_prompt",
+  "anim": "freeze"
+ },
+ {
+  "id": "corpse_giggle",
+  "flaw": "corpses",
+  "kind": "corpse",
+  "severity": "major",
+  "title": "The corpse is laughing",
+  "text": "{actor} dies beautifully, then begins to giggle. The funeral continues around a corpse that is visibly enjoying it.",
+  "tags": [
+   "death",
+   "mourning"
+  ],
+  "effects": {
+   "warmth": -1,
+   "chaos": 9
+  },
+  "calamity": "the_corpse",
+  "anim": "shake"
+ },
+ {
+  "id": "corpse_sheet",
+  "flaw": "corpses",
+  "kind": "corpse",
+  "severity": "minor",
+  "title": "The corpse gets up to be the ghost",
+  "text": "Mrs. Gasket covers the late {actor} with a sheet. {actor} sits up too early. The ghost is now a corpse in a sheet.",
+  "tags": [
+   "ghost",
+   "death"
+  ],
+  "effects": {
+   "warmth": 1,
+   "chaos": 5
+  },
+  "calamity": "the_ghost_sheet",
+  "anim": "flip"
+ },
+ {
+  "id": "corpse_wave",
+  "flaw": "corpses",
+  "kind": "corpse",
+  "severity": "minor",
+  "title": "The deceased waves at row D",
+  "text": "{actor}, deceased, waves at someone in row D. Row D waves back. The funeral is now a reunion.",
+  "tags": [
+   "death",
+   "reunion"
+  ],
+  "effects": {
+   "warmth": 2,
+   "chaos": 3
+  },
+  "calamity": "the_corpse",
+  "anim": "wobble"
+ },
+ {
+  "id": "forget_pantomime",
+  "flaw": "forgets_which_play",
+  "kind": "wrong_play",
+  "severity": "major",
+  "title": "{actor} is in a different play",
+  "text": "In the middle of the drama, {actor} shouts 'It's behind you!' at {other}. Nobody is behind anyone. Everyone looks.",
+  "tags": [
+   "slapstick",
+   "pun"
+  ],
+  "effects": {
+   "warmth": -2,
+   "chaos": 9
+  },
+  "calamity": "the_wrong_play",
+  "anim": "spin"
+ },
+ {
+  "id": "forget_sword",
+  "flaw": "forgets_which_play",
+  "kind": "wrong_play",
+  "severity": "minor",
+  "title": "A duel in a drawing room",
+  "text": "{actor} draws a sword in a play with no swords. Mrs. Gasket supplies an umbrella with a nod. They duel, politely.",
+  "tags": [
+   "sword",
+   "slapstick"
+  ],
+  "effects": {
+   "warmth": 1,
+   "chaos": 5
+  },
+  "calamity": "the_umbrella",
+  "anim": "drop_prop"
+ },
+ {
+  "id": "forget_wig",
+  "flaw": "forgets_which_play",
+  "kind": "wrong_play",
+  "severity": "minor",
+  "title": "A wig from another play",
+  "text": "{actor} enters in the wig from a different play and addresses {other} as someone who has been dead since Act Two.",
+  "tags": [
+   "disguise",
+   "mistaken_identity"
+  ],
+  "effects": {
+   "warmth": 0,
+   "chaos": 5
+  },
+  "calamity": "the_wig",
+  "anim": "flip"
+ },
+ {
+  "id": "mac_name",
+  "flaw": "cannot_say_the_word_macbeth",
+  "kind": "freeze",
+  "severity": "major",
+  "title": "The play that must not be named",
+  "text": "{actor} cannot name the Scottish play, calls it 'that one with the hands', spins three times and spits. A candle goes out, in sympathy.",
+  "tags": [
+   "murder",
+   "ghost"
+  ],
+  "effects": {
+   "warmth": -1,
+   "chaos": 9
+  },
+  "calamity": "the_candle",
+  "anim": "spin"
+ },
+ {
+  "id": "mac_ghost",
+  "flaw": "cannot_say_the_word_macbeth",
+  "kind": "wrong_play",
+  "severity": "minor",
+  "title": "The guest who must not be named",
+  "text": "Seeing the ghost at the feast, {actor} says 'that fellow' and refuses to say who. The ghost is offended and sits at the end.",
+  "tags": [
+   "ghost",
+   "murder"
+  ],
+  "effects": {
+   "warmth": 0,
+   "chaos": 5
+  },
+  "calamity": "the_ghost_sheet",
+  "anim": "hide"
+ },
+ {
+  "id": "mac_storm",
+  "flaw": "cannot_say_the_word_macbeth",
+  "kind": "freeze",
+  "severity": "major",
+  "title": "Thunder, and a very careful word",
+  "text": "Thunder. {actor} wants to say the name, wants to very much, and instead holds a six-second silence with great courage.",
+  "tags": [
+   "storm",
+   "crown"
+  ],
+  "effects": {
+   "warmth": -1,
+   "chaos": 8
+  },
+  "calamity": "the_echo",
+  "anim": "freeze"
+ },
+ {
+  "id": "bows_clap",
+  "flaw": "takes_bows_early",
+  "kind": "upstage",
+  "severity": "major",
+  "title": "{actor} bows in Act One",
+  "text": "A single cough is heard. {actor} mistakes it for applause, bows, and leaves. The play is not over. {other} says so, at length.",
+  "tags": [
+   "song",
+   "slapstick"
+  ],
+  "effects": {
+   "warmth": -3,
+   "chaos": 10
+  },
+  "calamity": "the_encore",
+  "anim": "bow"
+ },
+ {
+  "id": "bows_curtain",
+  "flaw": "takes_bows_early",
+  "kind": "upstage",
+  "severity": "minor",
+  "title": "{actor} bows to a stuck curtain",
+  "text": "The curtain sticks half-way. {actor} bows to it, to the house, and to the curtain again, and holds the pose until released.",
+  "tags": [
+   "dance",
+   "slapstick"
+  ],
+  "effects": {
+   "warmth": 1,
+   "chaos": 4
+  },
+  "calamity": "the_curtain_stuck",
+  "anim": "bow"
+ },
+ {
+  "id": "bows_death",
+  "flaw": "takes_bows_early",
+  "kind": "corpse",
+  "severity": "minor",
+  "title": "A corpse takes a bow",
+  "text": "{actor} dies and, hearing a sniffle, rises to bow, remembers, and lies down again with enormous tact.",
+  "tags": [
+   "death",
+   "mourning"
+  ],
+  "effects": {
+   "warmth": 2,
+   "chaos": 3
+  },
+  "calamity": "the_corpse",
+  "anim": "bow"
+ },
+ {
+  "id": "wave_kiss",
+  "flaw": "waves_at_the_front_row",
+  "kind": "flirt",
+  "severity": "major",
+  "title": "A kiss blown to row C",
+  "text": "{actor} blows a kiss to a cousin in row C. Row C sends one back. {other} stands in the crossfire, looking slightly kissed.",
+  "tags": [
+   "reunion",
+   "wedding"
+  ],
+  "effects": {
+   "warmth": 1,
+   "chaos": 8
+  },
+  "calamity": "the_kiss",
+  "anim": "wobble"
+ },
+ {
+  "id": "wave_snack",
+  "flaw": "waves_at_the_front_row",
+  "kind": "feast",
+  "severity": "minor",
+  "title": "{actor} asks for the snacks",
+  "text": "In the middle of the speech, {actor} asks the front row to pass the snacks. The front row, to its credit, does.",
+  "tags": [
+   "feast",
+   "reunion"
+  ],
+  "effects": {
+   "warmth": 2,
+   "chaos": 3
+  },
+  "calamity": "the_snack",
+  "anim": "bow"
+ },
+ {
+  "id": "wave_umbrella",
+  "flaw": "waves_at_the_front_row",
+  "kind": "upstage",
+  "severity": "minor",
+  "title": "A borrowed umbrella",
+  "text": "{actor} borrows an umbrella from the third row for the storm scene. It is returned, with a note, at the end.",
+  "tags": [
+   "storm",
+   "song"
+  ],
+  "effects": {
+   "warmth": 2,
+   "chaos": 3
+  },
+  "calamity": "the_umbrella",
+  "anim": "drop_prop"
+ },
+ {
+  "id": "answer_thanks",
+  "flaw": "answers_the_prompter_aloud",
+  "kind": "upstage",
+  "severity": "major",
+  "title": "{actor} thanks the Prompter",
+  "text": "The prompt arrives. 'Thank you!' says {actor}, to the whole house, and then, a beat late, the line.",
+  "tags": [
+   "secret",
+   "lie"
+  ],
+  "effects": {
+   "warmth": -1,
+   "chaos": 9
+  },
+  "calamity": "the_prompt",
+  "anim": "bow"
+ },
+ {
+  "id": "answer_wrong",
+  "flaw": "answers_the_prompter_aloud",
+  "kind": "wrong_play",
+  "severity": "minor",
+  "title": "A line, loyally mis-heard",
+  "text": "{actor} mishears the prompt and, loyally, delivers 'The tea is snowing, my lord.' {other} accepts this.",
+  "tags": [
+   "pun",
+   "lie"
+  ],
+  "effects": {
+   "warmth": 1,
+   "chaos": 4
+  },
+  "calamity": "the_prompt",
+  "anim": "wobble"
+ },
+ {
+  "id": "answer_argue",
+  "flaw": "answers_the_prompter_aloud",
+  "kind": "apology",
+  "severity": "major",
+  "title": "{actor} argues with the Prompter",
+  "text": "{actor} disagrees with the prompt, in a whisper. The Prompter whispers back. {actor} apologises, with feeling, to the whole box.",
+  "tags": [
+   "secret",
+   "trial"
+  ],
+  "effects": {
+   "warmth": -2,
+   "chaos": 8
+  },
+  "calamity": "the_prompt",
+  "anim": "shake"
+ },
+ {
+  "id": "sleep_coat",
+  "flaw": "sleepwalks_into_the_audience",
+  "kind": "exit",
+  "severity": "major",
+  "title": "{actor} takes a walk in row E",
+  "text": "During the quiet scene, {actor} drifts off the stage and sits down in someone's coat. The scene continues, slightly emptier.",
+  "tags": [
+   "mourning",
+   "ghost"
+  ],
+  "effects": {
+   "warmth": -2,
+   "chaos": 9
+  },
+  "calamity": "the_wrong_door",
+  "anim": "hide"
+ },
+ {
+  "id": "sleep_candle",
+  "flaw": "sleepwalks_into_the_audience",
+  "kind": "exit",
+  "severity": "minor",
+  "title": "A candle goes for a walk",
+  "text": "{actor} sleepwalks the length of the {place}, carrying a candle, and is applauded at the far end like a small lighthouse.",
+  "tags": [
+   "ghost",
+   "stairs"
+  ],
+  "effects": {
+   "warmth": 2,
+   "chaos": 3
+  },
+  "calamity": "the_candle",
+  "anim": "slide"
+ },
+ {
+  "id": "sleep_banister",
+  "flaw": "sleepwalks_into_the_audience",
+  "kind": "exit",
+  "severity": "minor",
+  "title": "{actor} sleepwalks down the banister",
+  "text": "{actor} sleepwalks down the banister and reaches the bottom asleep and in excellent time. Row A calls it the best bit.",
+  "tags": [
+   "stairs",
+   "ghost"
+  ],
+  "effects": {
+   "warmth": 2,
+   "chaos": 3
+  },
+  "calamity": "the_banister",
+  "anim": "slide"
+ },
+ {
+  "id": "tangle_knot",
+  "flaw": "tangles_in_own_strings",
+  "kind": "collapse",
+  "severity": "major",
+  "title": "{actor} ties a bow",
+  "text": "{actor} walks through {actor}'s own strings, then the scenery, then {other}. The result is a knot with a pulse.",
+  "tags": [
+   "slapstick",
+   "chase"
+  ],
+  "effects": {
+   "warmth": -3,
+   "chaos": 11
+  },
+  "calamity": "the_string_knot",
+  "anim": "collapse"
+ },
+ {
+  "id": "tangle_dance",
+  "flaw": "tangles_in_own_strings",
+  "kind": "freeze",
+  "severity": "minor",
+  "title": "A figure of eight, accidentally",
+  "text": "During the dance, {actor} and {other} find they are one set of strings. The dance continues, as a figure of eight.",
+  "tags": [
+   "dance"
+  ],
+  "effects": {
+   "warmth": 1,
+   "chaos": 5
+  },
+  "calamity": "the_string_knot",
+  "anim": "spin"
+ },
+ {
+  "id": "tangle_stairs",
+  "flaw": "tangles_in_own_strings",
+  "kind": "collapse",
+  "severity": "minor",
+  "title": "Strung up on the stairs",
+  "text": "{actor} reaches the top of the stairs and discovers the stairs have kept hold of one string. A pause follows, then a tug.",
+  "tags": [
+   "stairs",
+   "chase"
+  ],
+  "effects": {
+   "warmth": 0,
+   "chaos": 5
+  },
+  "calamity": "the_string_knot",
+  "anim": "flip"
+ },
+ {
+  "id": "chand_trapdoor",
+  "flaw": "afraid_of_the_chandelier",
+  "kind": "exit",
+  "severity": "minor",
+  "title": "{actor} flees by the trapdoor",
+  "text": "{actor} flees the swaying chandelier by the nearest exit, which is the trapdoor. The chandelier, satisfied, stops swinging.",
+  "tags": [
+   "chandelier",
+   "door"
+  ],
+  "effects": {
+   "warmth": 1,
+   "chaos": 4
+  },
+  "calamity": "the_trapdoor",
+  "anim": "hide"
+ },
+ {
+  "id": "chand_umbrella",
+  "flaw": "afraid_of_the_chandelier",
+  "kind": "exit",
+  "severity": "minor",
+  "title": "{actor} opens an umbrella indoors",
+  "text": "In the ballroom, {actor} opens an umbrella against the chandelier. Indoors. Several superstitions leave the room.",
+  "tags": [
+   "chandelier",
+   "wedding"
+  ],
+  "effects": {
+   "warmth": 0,
+   "chaos": 5
+  },
+  "calamity": "the_umbrella",
+  "anim": "hide"
+ },
+ {
+  "id": "eat_wig",
+  "flaw": "eats_the_props",
+  "kind": "prop",
+  "severity": "minor",
+  "title": "{actor} eats the wig",
+  "text": "Mrs. Gasket hands {actor} a spare wig. It is a prop. It is also, now, lunch.",
+  "tags": [
+   "disguise",
+   "feast"
+  ],
+  "effects": {
+   "warmth": 0,
+   "chaos": 4
+  },
+  "calamity": "the_wig",
+  "anim": "drop_prop"
+ },
+ {
+  "id": "apol_cake",
+  "flaw": "apologises_mid_villainy",
+  "kind": "apology",
+  "severity": "minor",
+  "title": "{actor} apologises to the cake",
+  "text": "A wedding cake arrives. {actor} apologises to it before cutting it. The cake accepts. The cutting is postponed until further notice.",
+  "tags": [
+   "wedding",
+   "feast"
+  ],
+  "effects": {
+   "warmth": 2,
+   "chaos": 3
+  },
+  "calamity": "the_cake",
+  "anim": "bow"
+ },
+ {
+  "id": "can_candle",
+  "flaw": "cries_by_watering_can",
+  "kind": "prop",
+  "severity": "minor",
+  "title": "The watering can meets the candle",
+  "text": "A candle is lit for the sad bit. {actor} weeps on it. The candle hisses. A small silence follows, then applause for the candle.",
+  "tags": [
+   "mourning",
+   "fire"
+  ],
+  "effects": {
+   "warmth": 2,
+   "chaos": 3
+  },
+  "calamity": "the_candle",
+  "anim": "shake"
+ },
+ {
+  "id": "moon_ghost",
+  "flaw": "upstages_the_moon",
+  "kind": "upstage",
+  "severity": "minor",
+  "title": "{actor} haunts the moon",
+  "text": "In the ghost scene, {actor} borrows a sheet and haunts the moon directly. The moon does not blink. It has no lids.",
+  "tags": [
+   "ghost",
+   "speech"
+  ],
+  "effects": {
+   "warmth": 1,
+   "chaos": 4
+  },
+  "calamity": "the_ghost_sheet",
+  "anim": "hide"
+ },
+ {
+  "id": "love_mask",
+  "flaw": "falls_in_love_with_props",
+  "kind": "flirt",
+  "severity": "minor",
+  "title": "A mask in love",
+  "text": "Mrs. Gasket hands {actor} a mask. {actor} falls for it at once. The mask takes the news well, as masks do, and does not change expression.",
+  "tags": [
+   "mask",
+   "romance"
+  ],
+  "effects": {
+   "warmth": 2,
+   "chaos": 3
+  },
+  "calamity": "the_mask",
+  "anim": "freeze"
+ },
+ {
+  "id": "rhyme_curtain",
+  "flaw": "speaks_in_rhyme",
+  "kind": "rhyme",
+  "severity": "minor",
+  "title": "The curtain stalls, in rhyme",
+  "text": "'The curtain falls!' says {actor}. It does not. 'The curtain stalls!' tries {actor}, which scans, and is accurate.",
+  "tags": [
+   "rhyme",
+   "pun"
+  ],
+  "effects": {
+   "warmth": 2,
+   "chaos": 3
+  },
+  "calamity": "the_curtain_stuck",
+  "anim": "freeze"
+ },
+ {
+  "id": "lean_knot",
+  "flaw": "leans_left",
+  "kind": "upstage",
+  "severity": "minor",
+  "title": "A cure for the lean",
+  "text": "To stop the lean, Mrs. Gasket ties {actor} to {other}. The lean is cured. The scene now travels as one.",
+  "tags": [
+   "romance",
+   "slapstick"
+  ],
+  "effects": {
+   "warmth": 1,
+   "chaos": 5
+  },
+  "calamity": "the_string_knot",
+  "anim": "wobble"
+ }
+]

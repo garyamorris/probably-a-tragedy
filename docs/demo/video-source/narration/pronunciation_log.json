@@ -1,0 +1,19 @@
+{
+  "model": "gpt-4o-mini-tts",
+  "voice": "marin",
+  "instructions": "Voice: a warm, wry, intelligent British-leaning storyteller explaining something delightful to developer friends. Pace: unhurried but engaged, never rushed, with natural pauses between ideas and a slightly longer breath at full stops. Tone: friendly and conversational with a slight smile, dry humour when it is earned, not a corporate announcer. Pronunciation: say technical terms clearly and precisely (LangGraph, reducer, checkpoint, interrupt, LangSmith).",
+  "fixes": [
+    {
+      "scene": "I",
+      "pattern": "\\bthread id\\b",
+      "replacement": "thread I D",
+      "why": "make sure 'id' is read as the letters, not as Freud's id"
+    },
+    {
+      "scene": "K",
+      "pattern": "\\bthread id\\b",
+      "replacement": "thread I D",
+      "why": "make sure 'id' is read as the letters, not as Freud's id"
+    }
+  ]
+}

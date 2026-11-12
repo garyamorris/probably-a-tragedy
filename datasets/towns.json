@@ -1,0 +1,926 @@
+[
+ {
+  "id": "marshwick",
+  "name": "Marshwick-on-Mire",
+  "blurb": "Damp, proud of it, and thoroughly in favour of a good pun.",
+  "sky": "dusk",
+  "landmark": "windmill",
+  "temperament": {
+   "likes": [
+    "pun",
+    "goose"
+   ],
+   "hates": [
+    "death",
+    "fire"
+   ],
+   "expects": "the_chair",
+   "openness": 0.4,
+   "favours": "pantomime",
+   "scorns": "melodrama"
+  },
+  "audience": {
+   "mix": [
+    "pun_lover",
+    "tearful_aunt",
+    "man_who_hates_death"
+   ],
+   "hat_bias": "bonnet"
+  },
+  "gossip": "They still talk about the time a swan was cast as the vicar."
+ },
+ {
+  "id": "gloomsby",
+  "name": "Gloomsby-by-the-Sea",
+  "blurb": "Fog, funerals and a tea shop that closes whenever someone interesting dies.",
+  "sky": "storm",
+  "landmark": "lighthouse",
+  "temperament": {
+   "likes": [
+    "mourning",
+    "death",
+    "storm"
+   ],
+   "hates": [
+    "slapstick",
+    "pun"
+   ],
+   "expects": "the_candle",
+   "openness": 0.3,
+   "favours": "gothic_romance",
+   "scorns": "farce"
+  },
+  "audience": {
+   "mix": [
+    "tearful_aunt",
+    "romantic",
+    "retired_actor"
+   ],
+   "hat_bias": "top"
+  },
+  "gossip": "The lighthouse has not been lit since 1931, out of respect for something nobody will name."
+ },
+ {
+  "id": "snoring_magna",
+  "name": "Snoring Magna",
+  "blurb": "Population: mostly asleep. Do not take offence; it is the highest compliment.",
+  "sky": "dawn",
+  "landmark": "silo",
+  "temperament": {
+   "likes": [
+    "feast",
+    "rhyme"
+   ],
+   "hates": [
+    "speech",
+    "murder",
+    "chase"
+   ],
+   "expects": null,
+   "openness": 0.8,
+   "favours": "farce",
+   "scorns": "melodrama"
+  },
+  "audience": {
+   "mix": [
+    "sleepy_farmer",
+    "snack_vendor",
+    "mayor"
+   ],
+   "hat_bias": "flat"
+  },
+  "gossip": "The mayor has been elected nine times without once being fully awake."
+ },
+ {
+  "id": "wibbling_opera",
+  "name": "The Royal Opera House of Wibbling",
+  "blurb": "Velvet, gilt and a faint smell of disapproval. Dress as if you mean it.",
+  "sky": "night",
+  "landmark": "spire",
+  "temperament": {
+   "likes": [
+    "song",
+    "crown",
+    "speech"
+   ],
+   "hates": [
+    "goose",
+    "slapstick"
+   ],
+   "expects": "the_chandelier",
+   "openness": 0.2,
+   "favours": "whodunit",
+   "scorns": "farce"
+  },
+  "audience": {
+   "mix": [
+    "critic_in_disguise",
+    "retired_actor",
+    "mayor"
+   ],
+   "hat_bias": "top"
+  },
+  "gossip": "The chandelier has been scheduled for repair since 1887, and the ushers have a seating plan for that."
+ },
+ {
+  "id": "hinge_regis",
+  "name": "Hinge Regis",
+  "blurb": "Four hundred doors, one lock, no keys, and a very proud locksmith.",
+  "sky": "noon",
+  "landmark": "clocktower",
+  "temperament": {
+   "likes": [
+    "door",
+    "slapstick"
+   ],
+   "hates": [
+    "lie",
+    "poison"
+   ],
+   "expects": "the_wrong_door",
+   "openness": 0.6,
+   "favours": "farce",
+   "scorns": "whodunit"
+  },
+  "audience": {
+   "mix": [
+    "child_in_the_front",
+    "pun_lover",
+    "snack_vendor"
+   ],
+   "hat_bias": "flat"
+  },
+  "gossip": "Nobody has found the front door since 1923, but everyone has found somebody else's."
+ },
+ {
+  "id": "hemlock_green",
+  "name": "Hemlock Green",
+  "blurb": "Famous for its gardens and, increasingly, for the absence of its gardeners.",
+  "sky": "dusk",
+  "landmark": "chimneys",
+  "temperament": {
+   "likes": [
+    "poison",
+    "secret",
+    "murder"
+   ],
+   "hates": [
+    "feast",
+    "dance"
+   ],
+   "expects": "the_corpse",
+   "openness": 0.3,
+   "favours": "whodunit",
+   "scorns": "pantomime"
+  },
+  "audience": {
+   "mix": [
+    "skeptic",
+    "critic_in_disguise",
+    "retired_actor"
+   ],
+   "hat_bias": "none"
+  },
+  "gossip": "The Horticultural Society holds its prize-giving in the dark, and no one has asked why."
+ },
+ {
+  "id": "lettersham",
+  "name": "Lettersham Parva",
+  "blurb": "The post office is the tallest building and the postmistress the most feared.",
+  "sky": "noon",
+  "landmark": "spire",
+  "temperament": {
+   "likes": [
+    "letter",
+    "secret",
+    "betrayal"
+   ],
+   "hates": [
+    "mistaken_identity",
+    "chair"
+   ],
+   "expects": null,
+   "openness": 0.5,
+   "favours": "melodrama",
+   "scorns": "farce"
+  },
+  "audience": {
+   "mix": [
+    "mayor",
+    "retired_actor",
+    "tearful_aunt"
+   ],
+   "hat_bias": "feather"
+  },
+  "gossip": "Letters arrive eventually, rarely for the person named on them, and nobody will discuss it."
+ },
+ {
+  "id": "gandersby",
+  "name": "Gandersby",
+  "blurb": "A town built around a pond, a green, and one very large opinion.",
+  "sky": "dawn",
+  "landmark": "bridge",
+  "temperament": {
+   "likes": [
+    "goose",
+    "dance"
+   ],
+   "hates": [
+    "ghost",
+    "mourning"
+   ],
+   "expects": "the_goose_incident",
+   "openness": 0.6,
+   "favours": "pantomime",
+   "scorns": "gothic_romance"
+  },
+  "audience": {
+   "mix": [
+    "goose_fancier",
+    "child_in_the_front",
+    "snack_vendor"
+   ],
+   "hat_bias": "feather"
+  },
+  "gossip": "The goose on the village green has outlasted four mayors and a statue of itself."
+ },
+ {
+  "id": "candlewick",
+  "name": "Candlewick Down",
+  "blurb": "Every window holds a candle, and every candle has views on love.",
+  "sky": "dusk",
+  "landmark": "chimneys",
+  "temperament": {
+   "likes": [
+    "romance",
+    "wedding",
+    "letter"
+   ],
+   "hates": [
+    "chase",
+    "betrayal"
+   ],
+   "expects": "the_kiss",
+   "openness": 0.5,
+   "favours": "gothic_romance",
+   "scorns": "melodrama"
+  },
+  "audience": {
+   "mix": [
+    "romantic",
+    "tearful_aunt",
+    "pun_lover"
+   ],
+   "hat_bias": "bow"
+  },
+  "gossip": "Four hundred couples have met at the village pump, and the pump takes no credit."
+ },
+ {
+  "id": "twelve_bridges",
+  "name": "Twelve Bridges",
+  "blurb": "Twelve bridges, no river, and a firm sense of purpose.",
+  "sky": "noon",
+  "landmark": "bridge",
+  "temperament": {
+   "likes": [
+    "chase",
+    "mistaken_identity"
+   ],
+   "hates": [
+    "storm",
+    "mourning"
+   ],
+   "expects": "the_lean",
+   "openness": 0.5,
+   "favours": "farce",
+   "scorns": "gothic_romance"
+  },
+  "audience": {
+   "mix": [
+    "child_in_the_front",
+    "skeptic",
+    "mayor"
+   ],
+   "hat_bias": "flat"
+  },
+  "gossip": "The river moved away in 1840; the bridges stayed, leaning left, in case it comes back."
+ },
+ {
+  "id": "puddlecombe",
+  "name": "Puddlecombe-under-Cloud",
+  "blurb": "It has rained since Tuesday. Nobody remembers which Tuesday.",
+  "sky": "storm",
+  "landmark": "chimneys",
+  "temperament": {
+   "likes": [
+    "storm",
+    "rhyme"
+   ],
+   "hates": [
+    "door",
+    "dance"
+   ],
+   "expects": "the_umbrella",
+   "openness": 0.4,
+   "favours": "gothic_romance",
+   "scorns": "pantomime"
+  },
+  "audience": {
+   "mix": [
+    "sleepy_farmer",
+    "skeptic",
+    "tearful_aunt"
+   ],
+   "hat_bias": "bow"
+  },
+  "gossip": "The umbrella stand in the town hall is on the payroll and has been promised a pension."
+ },
+ {
+  "id": "pettifog",
+  "name": "Pettifog",
+  "blurb": "Every resident is a solicitor, and every sentence arrives with a clause.",
+  "sky": "noon",
+  "landmark": "clocktower",
+  "temperament": {
+   "likes": [
+    "trial",
+    "speech",
+    "secret"
+   ],
+   "hates": [
+    "song",
+    "pun"
+   ],
+   "expects": "the_wrong_play",
+   "openness": 0.2,
+   "favours": "whodunit",
+   "scorns": "pantomime"
+  },
+  "audience": {
+   "mix": [
+    "skeptic",
+    "mayor",
+    "critic_in_disguise"
+   ],
+   "hat_bias": "top"
+  },
+  "gossip": "The court has been hearing the wrong case since 1911, and a verdict is expected shortly."
+ },
+ {
+  "id": "fiddleton",
+  "name": "Fiddleton Tarn",
+  "blurb": "Everyone plays something. Nobody plays it in the same key.",
+  "sky": "dusk",
+  "landmark": "pier",
+  "temperament": {
+   "likes": [
+    "song",
+    "dance",
+    "rhyme"
+   ],
+   "hates": [
+    "murder",
+    "speech"
+   ],
+   "expects": "the_encore",
+   "openness": 0.7,
+   "favours": "pantomime",
+   "scorns": "whodunit"
+  },
+  "audience": {
+   "mix": [
+    "pun_lover",
+    "snack_vendor",
+    "child_in_the_front"
+   ],
+   "hat_bias": "fez"
+  },
+  "gossip": "No show here has ended in fewer than three encores, including the funerals."
+ },
+ {
+  "id": "cakeley",
+  "name": "Cakeley Wold",
+  "blurb": "Three bakeries, one rivalry, and a sponge with its own bodyguard.",
+  "sky": "dawn",
+  "landmark": "windmill",
+  "temperament": {
+   "likes": [
+    "feast",
+    "wedding",
+    "treasure"
+   ],
+   "hates": [
+    "poison",
+    "fire",
+    "death"
+   ],
+   "expects": "the_cake",
+   "openness": 0.6,
+   "favours": "gothic_romance",
+   "scorns": "melodrama"
+  },
+  "audience": {
+   "mix": [
+    "snack_vendor",
+    "tearful_aunt",
+    "goose_fancier"
+   ],
+   "hat_bias": "bonnet"
+  },
+  "gossip": "The Great Sponge Dispute of 1952 ended only when both bakers married each other."
+ },
+ {
+  "id": "grimstone",
+  "name": "Grimstone Keep",
+  "blurb": "A castle with a town attached, and a mood attached to the castle.",
+  "sky": "night",
+  "landmark": "castle",
+  "temperament": {
+   "likes": [
+    "sword",
+    "betrayal",
+    "secret"
+   ],
+   "hates": [
+    "song",
+    "dance",
+    "pun"
+   ],
+   "expects": "the_swordfight",
+   "openness": 0.25,
+   "favours": "whodunit",
+   "scorns": "pantomime"
+  },
+  "audience": {
+   "mix": [
+    "retired_actor",
+    "skeptic",
+    "critic_in_disguise"
+   ],
+   "hat_bias": "crown"
+  },
+  "gossip": "The Lord of the Keep is, by law, always away, and the portraits have taken over."
+ },
+ {
+  "id": "cragley_steps",
+  "name": "Cragley Steps",
+  "blurb": "Built on a hill so steep that even the pigeons walk.",
+  "sky": "dawn",
+  "landmark": "spire",
+  "temperament": {
+   "likes": [
+    "stairs",
+    "chase",
+    "dance"
+   ],
+   "hates": [
+    "romance",
+    "kiss"
+   ],
+   "expects": "the_banister",
+   "openness": 0.5,
+   "favours": "whodunit",
+   "scorns": "gothic_romance"
+  },
+  "audience": {
+   "mix": [
+    "child_in_the_front",
+    "snack_vendor",
+    "sleepy_farmer"
+   ],
+   "hat_bias": "bow"
+  },
+  "gossip": "Every banister has a name and a grudge, and the names are not for repeating."
+ },
+ {
+  "id": "periwick",
+  "name": "Periwick",
+  "blurb": "The only town where the barber outranks the vicar, and both wear wigs.",
+  "sky": "noon",
+  "landmark": "clocktower",
+  "temperament": {
+   "likes": [
+    "disguise",
+    "mask",
+    "mistaken_identity"
+   ],
+   "hates": [
+    "mirror",
+    "chair"
+   ],
+   "expects": "the_wig",
+   "openness": 0.5,
+   "favours": "melodrama",
+   "scorns": "farce"
+  },
+  "audience": {
+   "mix": [
+    "pun_lover",
+    "critic_in_disguise",
+    "mayor"
+   ],
+   "hat_bias": "top"
+  },
+  "gossip": "Three residents are secretly bald, and the whole town goes along with it."
+ },
+ {
+  "id": "mooncalf_bay",
+  "name": "Mooncalf Bay",
+  "blurb": "Sea, sand, and a moon that arrives early and stays late.",
+  "sky": "night",
+  "landmark": "lighthouse",
+  "temperament": {
+   "likes": [
+    "romance",
+    "mirror",
+    "letter"
+   ],
+   "hates": [
+    "slapstick",
+    "poison"
+   ],
+   "expects": "the_moon",
+   "openness": 0.4,
+   "favours": "gothic_romance",
+   "scorns": "farce"
+  },
+  "audience": {
+   "mix": [
+    "romantic",
+    "tearful_aunt",
+    "goose_fancier"
+   ],
+   "hat_bias": "feather"
+  },
+  "gossip": "On certain nights the moon hangs a little low, and the fishermen touch their caps to it."
+ },
+ {
+  "id": "tinderford",
+  "name": "Tinderford",
+  "blurb": "Rebuilt four times, a little more flammable each time, and never discouraged.",
+  "sky": "dusk",
+  "landmark": "chimneys",
+  "temperament": {
+   "likes": [
+    "fire",
+    "chase",
+    "slapstick"
+   ],
+   "hates": [
+    "storm",
+    "mourning"
+   ],
+   "expects": "the_curtain_stuck",
+   "openness": 0.35,
+   "favours": "farce",
+   "scorns": "gothic_romance"
+  },
+  "audience": {
+   "mix": [
+    "child_in_the_front",
+    "sleepy_farmer",
+    "goose_fancier"
+   ],
+   "hat_bias": "fez"
+  },
+  "gossip": "The fire brigade has a reserved seat at every performance, and a bucket under it."
+ },
+ {
+  "id": "crumbling_upton",
+  "name": "Crumbling Upton",
+  "blurb": "Everything is gently falling down, apart from the pie stall.",
+  "sky": "dusk",
+  "landmark": "crane",
+  "temperament": {
+   "likes": [
+    "feast",
+    "song"
+   ],
+   "hates": [
+    "secret",
+    "lie"
+   ],
+   "expects": "the_snack",
+   "openness": 0.6,
+   "favours": "pantomime",
+   "scorns": "whodunit"
+  },
+  "audience": {
+   "mix": [
+    "snack_vendor",
+    "sleepy_farmer",
+    "child_in_the_front"
+   ],
+   "hat_bias": "flat"
+  },
+  "gossip": "The pie stall has outlasted the church, the pub, and two attempts to move it."
+ },
+ {
+  "id": "hullabaloo_gap",
+  "name": "Hullabaloo Gap",
+  "blurb": "A valley so echoing that gossip returns before it has left.",
+  "sky": "noon",
+  "landmark": "silo",
+  "temperament": {
+   "likes": [
+    "rhyme",
+    "speech",
+    "song"
+   ],
+   "hates": [
+    "ghost",
+    "secret"
+   ],
+   "expects": "the_echo",
+   "openness": 0.5,
+   "favours": "farce",
+   "scorns": "whodunit"
+  },
+  "audience": {
+   "mix": [
+    "pun_lover",
+    "retired_actor",
+    "mayor"
+   ],
+   "hat_bias": "fez"
+  },
+  "gossip": "The echo here has opinions of its own and is, on balance, unkind to baritones."
+ },
+ {
+  "id": "mutterby",
+  "name": "Mutterby",
+  "blurb": "The audience knows the lines and will happily help you with them.",
+  "sky": "dusk",
+  "landmark": "spire",
+  "temperament": {
+   "likes": [
+    "rhyme",
+    "speech"
+   ],
+   "hates": [
+    "mistaken_identity",
+    "lie"
+   ],
+   "expects": "the_prompt",
+   "openness": 0.35,
+   "favours": "melodrama",
+   "scorns": "farce"
+  },
+  "audience": {
+   "mix": [
+    "retired_actor",
+    "tearful_aunt",
+    "skeptic"
+   ],
+   "hat_bias": "none"
+  },
+  "gossip": "Last Christmas they corrected the vicar mid-sermon, and he thanked them."
+ },
+ {
+  "id": "tumbledown_hatch",
+  "name": "Tumbledown Hatch",
+  "blurb": "Built on top of its own cellars. Mind the floor; it minds you.",
+  "sky": "night",
+  "landmark": "silo",
+  "temperament": {
+   "likes": [
+    "slapstick",
+    "chase",
+    "treasure"
+   ],
+   "hates": [
+    "mourning",
+    "speech"
+   ],
+   "expects": "the_trapdoor",
+   "openness": 0.65,
+   "favours": "farce",
+   "scorns": "melodrama"
+  },
+  "audience": {
+   "mix": [
+    "child_in_the_front",
+    "pun_lover",
+    "goose_fancier"
+   ],
+   "hat_bias": "flat"
+  },
+  "gossip": "The mayor vanished through the town hall floor in 1998 and gave the speech from below."
+ },
+ {
+  "id": "swoonsea",
+  "name": "Swoonsea",
+  "blurb": "Sea air so heavy that someone faints every quarter hour. Do hydrate.",
+  "sky": "dusk",
+  "landmark": "pier",
+  "temperament": {
+   "likes": [
+    "betrayal",
+    "reunion",
+    "romance"
+   ],
+   "hates": [
+    "fire",
+    "sword",
+    "murder"
+   ],
+   "expects": "the_fainting",
+   "openness": 0.55,
+   "favours": "gothic_romance",
+   "scorns": "whodunit"
+  },
+  "audience": {
+   "mix": [
+    "tearful_aunt",
+    "romantic",
+    "man_who_hates_death"
+   ],
+   "hat_bias": "bonnet"
+  },
+  "gossip": "The fainting couch outside the town hall has been re-covered six times, always in a hurry."
+ },
+ {
+  "id": "pardonmere",
+  "name": "Pardonmere",
+  "blurb": "Everyone apologises first, and the weather is no exception.",
+  "sky": "dawn",
+  "landmark": "windmill",
+  "temperament": {
+   "likes": [
+    "reunion",
+    "wedding"
+   ],
+   "hates": [
+    "betrayal",
+    "slapstick",
+    "fire"
+   ],
+   "expects": "the_apology",
+   "openness": 0.8,
+   "favours": "whodunit",
+   "scorns": "melodrama"
+  },
+  "audience": {
+   "mix": [
+    "tearful_aunt",
+    "mayor",
+    "sleepy_farmer"
+   ],
+   "hat_bias": "none"
+  },
+  "gossip": "A man once apologised to a door for so long that the door apologised back, and it was lovely."
+ },
+ {
+  "id": "sheetley_moor",
+  "name": "Sheetley Moor",
+  "blurb": "A moor, a ruin, and a great deal of laundry nobody will claim.",
+  "sky": "night",
+  "landmark": "castle",
+  "temperament": {
+   "likes": [
+    "ghost",
+    "mourning",
+    "mask"
+   ],
+   "hates": [
+    "feast",
+    "song",
+    "goose"
+   ],
+   "expects": "the_ghost_sheet",
+   "openness": 0.3,
+   "favours": "gothic_romance",
+   "scorns": "pantomime"
+  },
+  "audience": {
+   "mix": [
+    "romantic",
+    "skeptic",
+    "man_who_hates_death"
+   ],
+   "hat_bias": "none"
+  },
+  "gossip": "The ghost is real, polite, and has not been paid since the last census."
+ },
+ {
+  "id": "couplethwaite",
+  "name": "Couplethwaite",
+  "blurb": "Everything here rhymes, from the street names to the quarrels.",
+  "sky": "noon",
+  "landmark": "spire",
+  "temperament": {
+   "likes": [
+    "rhyme",
+    "song",
+    "pun"
+   ],
+   "hates": [
+    "lie",
+    "murder"
+   ],
+   "expects": "the_rhyme",
+   "openness": 0.6,
+   "favours": "pantomime",
+   "scorns": "whodunit"
+  },
+  "audience": {
+   "mix": [
+    "pun_lover",
+    "child_in_the_front",
+    "retired_actor"
+   ],
+   "hat_bias": "crown"
+  },
+  "gossip": "The town crier's announcements scan, and he has promised to resign the day one doesn't."
+ },
+ {
+  "id": "dewbury",
+  "name": "Dewbury-in-Bloom",
+  "blurb": "Prize marrows, a prize vicar, and a watering can for every occasion.",
+  "sky": "dawn",
+  "landmark": "silo",
+  "temperament": {
+   "likes": [
+    "feast",
+    "wedding"
+   ],
+   "hates": [
+    "storm",
+    "death"
+   ],
+   "expects": "the_watering_can",
+   "openness": 0.55,
+   "favours": "pantomime",
+   "scorns": "gothic_romance"
+  },
+  "audience": {
+   "mix": [
+    "sleepy_farmer",
+    "tearful_aunt",
+    "pun_lover"
+   ],
+   "hat_bias": "bonnet"
+  },
+  "gossip": "The Dewbury Marrow Show has been rained on every year, which the committee calls consistency."
+ },
+ {
+  "id": "grimsditch",
+  "name": "Grimsditch",
+  "blurb": "An ordinary town, and ashamed of it. Please be gentle.",
+  "sky": "noon",
+  "landmark": "chimneys",
+  "temperament": {
+   "likes": [
+    "chair",
+    "letter"
+   ],
+   "hates": [
+    "ghost",
+    "fire"
+   ],
+   "expects": null,
+   "openness": 0.9,
+   "favours": "farce",
+   "scorns": "gothic_romance"
+  },
+  "audience": {
+   "mix": [
+    "sleepy_farmer",
+    "mayor",
+    "snack_vendor"
+   ],
+   "hat_bias": "flat"
+  },
+  "gossip": "Nothing has happened here since 1974, and the town holds a small parade about it every spring."
+ },
+ {
+  "id": "plovers_rest",
+  "name": "Plover's Rest",
+  "blurb": "A bird sanctuary with a theatre attached, or possibly the other way round.",
+  "sky": "dawn",
+  "landmark": "pier",
+  "temperament": {
+   "likes": [
+    "goose",
+    "secret"
+   ],
+   "hates": [
+    "song",
+    "dance"
+   ],
+   "expects": null,
+   "openness": 0.6,
+   "favours": "whodunit",
+   "scorns": "pantomime"
+  },
+  "audience": {
+   "mix": [
+    "goose_fancier",
+    "retired_actor",
+    "skeptic"
+   ],
+   "hat_bias": "feather"
+  },
+  "gossip": "A pigeon has sat in the third row since 1997, and nobody has liked to ask it to leave."
+ }
+]

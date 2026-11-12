@@ -1,0 +1,1017 @@
+[
+ {
+  "kind": "collapse",
+  "options": [
+   {
+    "id": "lean_in",
+    "label": "Yes, and...",
+    "hint": "Make it part of the play.",
+    "effects": {
+     "warmth": 3,
+     "chaos": 10
+    },
+    "adds_tag": "slapstick",
+    "chain": true,
+    "line": "(whispering) It is a tragedy of the angle, darling. Commit.",
+    "keywords": [
+     "yes",
+     "commit",
+     "embrace",
+     "improvise",
+     "continue",
+     "incorporate",
+     "more",
+     "again",
+     "lean",
+     "tilt",
+     "fall"
+    ]
+   },
+   {
+    "id": "cover_up",
+    "label": "Cover it up",
+    "hint": "Pretend nothing happened.",
+    "effects": {
+     "warmth": 1,
+     "chaos": -8
+    },
+    "adds_tag": null,
+    "chain": false,
+    "line": "(whispering) Rise slowly. The staging was always diagonal. Nobody saw a thing.",
+    "keywords": [
+     "cover",
+     "hide",
+     "ignore",
+     "pretend",
+     "nothing",
+     "quiet",
+     "recover",
+     "smooth",
+     "stand",
+     "rise"
+    ]
+   },
+   {
+    "id": "blame",
+    "label": "Blame the goose",
+    "hint": "A classic.",
+    "effects": {
+     "warmth": 2,
+     "chaos": 2
+    },
+    "adds_tag": "goose",
+    "chain": false,
+    "line": "(whispering) Glare at the wings. Somebody left a goose on the boards. Let the house decide.",
+    "keywords": [
+     "blame",
+     "goose",
+     "wings",
+     "fault",
+     "someone",
+     "bird"
+    ]
+   }
+  ]
+ },
+ {
+  "kind": "apology",
+  "options": [
+   {
+    "id": "lean_in",
+    "label": "Apologise harder",
+    "hint": "The sorry is the plot now.",
+    "effects": {
+     "warmth": 3,
+     "chaos": 8
+    },
+    "adds_tag": "speech",
+    "chain": true,
+    "line": "(whispering) Weep. Offer a cushion. Apologise for the apology. They will adore it.",
+    "keywords": [
+     "yes",
+     "commit",
+     "embrace",
+     "improvise",
+     "continue",
+     "incorporate",
+     "more",
+     "again",
+     "sorry",
+     "harder",
+     "weep",
+     "beg",
+     "grovel"
+    ]
+   },
+   {
+    "id": "cover_up",
+    "label": "Snarl it back",
+    "hint": "Villains do not say sorry.",
+    "effects": {
+     "warmth": 1,
+     "chaos": -7
+    },
+    "adds_tag": null,
+    "chain": false,
+    "line": "(whispering) That was a snarl, darling. A very soft snarl. Menace, from the top.",
+    "keywords": [
+     "cover",
+     "hide",
+     "ignore",
+     "pretend",
+     "nothing",
+     "quiet",
+     "recover",
+     "smooth",
+     "snarl",
+     "menace",
+     "villain",
+     "harden",
+     "cut",
+     "stop"
+    ]
+   },
+   {
+    "id": "forgive",
+    "label": "Accept the apology",
+    "hint": "The victim forgives. Everyone sniffs.",
+    "effects": {
+     "warmth": 3,
+     "chaos": 0
+    },
+    "adds_tag": "reunion",
+    "chain": false,
+    "line": "(whispering) Forgive them. Slowly. Let the back row see you do it.",
+    "keywords": [
+     "forgive",
+     "accept",
+     "pardon",
+     "mercy",
+     "hug",
+     "reconcile"
+    ]
+   }
+  ]
+ },
+ {
+  "kind": "prop",
+  "options": [
+   {
+    "id": "lean_in",
+    "label": "Make it a character",
+    "hint": "The prop has motives.",
+    "effects": {
+     "warmth": 3,
+     "chaos": 10
+    },
+    "adds_tag": "pun",
+    "chain": true,
+    "line": "(whispering) Give it a name and a past. It is clearly hiding something.",
+    "keywords": [
+     "yes",
+     "commit",
+     "embrace",
+     "improvise",
+     "continue",
+     "incorporate",
+     "more",
+     "again",
+     "character",
+     "name",
+     "motive",
+     "star",
+     "hero"
+    ]
+   },
+   {
+    "id": "cover_up",
+    "label": "Pass it to Mrs. Gasket",
+    "hint": "Eight hands, one swap.",
+    "effects": {
+     "warmth": 1,
+     "chaos": -7
+    },
+    "adds_tag": null,
+    "chain": false,
+    "line": "(whispering) Hand it to the wings. Mrs. Gasket will return something plausible. Possibly.",
+    "keywords": [
+     "cover",
+     "hide",
+     "ignore",
+     "pretend",
+     "nothing",
+     "quiet",
+     "recover",
+     "smooth",
+     "gasket",
+     "swap",
+     "replace",
+     "wings",
+     "hand"
+    ]
+   },
+   {
+    "id": "blame_gasket",
+    "label": "Blame Mrs. Gasket",
+    "hint": "She did bring the wrong one.",
+    "effects": {
+     "warmth": 2,
+     "chaos": 1
+    },
+    "adds_tag": null,
+    "chain": false,
+    "line": "(whispering) Look at the wings with great disappointment. Mrs. Gasket will understand. She always does.",
+    "keywords": [
+     "blame",
+     "wrong",
+     "fault",
+     "spider",
+     "culprit"
+    ]
+   }
+  ]
+ },
+ {
+  "kind": "upstage",
+  "options": [
+   {
+    "id": "lean_in",
+    "label": "Share the spotlight",
+    "hint": "Stand beside it with great interest.",
+    "effects": {
+     "warmth": 2,
+     "chaos": 8
+    },
+    "adds_tag": "speech",
+    "chain": true,
+    "line": "(whispering) Give them the stage. Watch with such interest that the audience follows your eyes.",
+    "keywords": [
+     "yes",
+     "commit",
+     "embrace",
+     "improvise",
+     "continue",
+     "incorporate",
+     "more",
+     "again",
+     "share",
+     "spotlight",
+     "watch",
+     "support"
+    ]
+   },
+   {
+    "id": "cover_up",
+    "label": "Tape it down",
+    "hint": "Back to your mark, darling.",
+    "effects": {
+     "warmth": 0,
+     "chaos": -7
+    },
+    "adds_tag": null,
+    "chain": false,
+    "line": "(whispering) Back to your mark. The mark is the one with the tape. We have all seen the tape.",
+    "keywords": [
+     "cover",
+     "hide",
+     "ignore",
+     "pretend",
+     "nothing",
+     "quiet",
+     "recover",
+     "smooth",
+     "mark",
+     "tape",
+     "back",
+     "stop",
+     "return"
+    ]
+   },
+   {
+    "id": "applaud",
+    "label": "Start the applause",
+    "hint": "Someone will join in.",
+    "effects": {
+     "warmth": 3,
+     "chaos": 1
+    },
+    "adds_tag": null,
+    "chain": false,
+    "line": "(whispering) Clap. Softly, as though planned. A farmer in row B will join. Farmers always do.",
+    "keywords": [
+     "clap",
+     "applaud",
+     "applause",
+     "cheer",
+     "bravo",
+     "ovation"
+    ]
+   }
+  ]
+ },
+ {
+  "kind": "rhyme",
+  "options": [
+   {
+    "id": "lean_in",
+    "label": "Rhyme along",
+    "hint": "Everything scans now.",
+    "effects": {
+     "warmth": 3,
+     "chaos": 10
+    },
+    "adds_tag": "rhyme",
+    "chain": true,
+    "line": "(whispering) Everyone scans now, darling. Be brave. Rhyme 'orange' with confidence.",
+    "keywords": [
+     "yes",
+     "commit",
+     "embrace",
+     "improvise",
+     "continue",
+     "incorporate",
+     "more",
+     "again",
+     "rhyme",
+     "verse",
+     "couplet",
+     "scan",
+     "poetry"
+    ]
+   },
+   {
+    "id": "cover_up",
+    "label": "Back to prose",
+    "hint": "Plain words only.",
+    "effects": {
+     "warmth": 1,
+     "chaos": -6
+    },
+    "adds_tag": null,
+    "chain": false,
+    "line": "(whispering) Plain speech, darling. No couplets until the interval. We are all so tired.",
+    "keywords": [
+     "cover",
+     "hide",
+     "ignore",
+     "pretend",
+     "nothing",
+     "quiet",
+     "recover",
+     "smooth",
+     "prose",
+     "plain",
+     "normal",
+     "stop",
+     "speech"
+    ]
+   },
+   {
+    "id": "song",
+    "label": "Make it a song",
+    "hint": "A rhyme wants a tune.",
+    "effects": {
+     "warmth": 3,
+     "chaos": 2
+    },
+    "adds_tag": "song",
+    "chain": false,
+    "line": "(whispering) Hum anything. The rhyme will find the melody. It always knows the way.",
+    "keywords": [
+     "song",
+     "sing",
+     "hum",
+     "tune",
+     "melody",
+     "chorus"
+    ]
+   }
+  ]
+ },
+ {
+  "kind": "exit",
+  "options": [
+   {
+    "id": "lean_in",
+    "label": "Pursue them",
+    "hint": "A chase is a scene.",
+    "effects": {
+     "warmth": 3,
+     "chaos": 10
+    },
+    "adds_tag": "chase",
+    "chain": true,
+    "line": "(whispering) Follow through the same door, 'pursuing'. It is a chase now. Everyone run slightly.",
+    "keywords": [
+     "yes",
+     "commit",
+     "embrace",
+     "improvise",
+     "continue",
+     "incorporate",
+     "more",
+     "again",
+     "follow",
+     "chase",
+     "pursue",
+     "run",
+     "after"
+    ]
+   },
+   {
+    "id": "cover_up",
+    "label": "Block the door",
+    "hint": "Stand in it like a wall.",
+    "effects": {
+     "warmth": 1,
+     "chaos": -7
+    },
+    "adds_tag": null,
+    "chain": false,
+    "line": "(whispering) Stand in front of the wrong door as if it was always load-bearing.",
+    "keywords": [
+     "cover",
+     "hide",
+     "ignore",
+     "pretend",
+     "nothing",
+     "quiet",
+     "recover",
+     "smooth",
+     "block",
+     "door",
+     "stand",
+     "wall",
+     "guard"
+    ]
+   },
+   {
+    "id": "meanwhile",
+    "label": "'Meanwhile, next door...'",
+    "hint": "Time passes. Nobody checks.",
+    "effects": {
+     "warmth": 2,
+     "chaos": 1
+    },
+    "adds_tag": "secret",
+    "chain": false,
+    "line": "(whispering) Say 'Meanwhile, in the next room.' Nobody checks. Nobody ever checks.",
+    "keywords": [
+     "meanwhile",
+     "next",
+     "later",
+     "elsewhere",
+     "time",
+     "interval"
+    ]
+   }
+  ]
+ },
+ {
+  "kind": "freeze",
+  "options": [
+   {
+    "id": "lean_in",
+    "label": "Hold the silence",
+    "hint": "A pause is acting.",
+    "effects": {
+     "warmth": 3,
+     "chaos": 8
+    },
+    "adds_tag": "secret",
+    "chain": true,
+    "line": "(whispering) It is a pregnant pause, darling. Let it come to term.",
+    "keywords": [
+     "yes",
+     "commit",
+     "embrace",
+     "improvise",
+     "continue",
+     "incorporate",
+     "more",
+     "again",
+     "hold",
+     "silence",
+     "pause",
+     "wait",
+     "dramatic"
+    ]
+   },
+   {
+    "id": "cover_up",
+    "label": "Feed the line",
+    "hint": "The Prompter's oldest trick.",
+    "effects": {
+     "warmth": 1,
+     "chaos": -8
+    },
+    "adds_tag": null,
+    "chain": false,
+    "line": "(whispering) Next line: 'Not while I live.' Say it like you remembered it.",
+    "keywords": [
+     "cover",
+     "hide",
+     "ignore",
+     "pretend",
+     "nothing",
+     "quiet",
+     "recover",
+     "smooth",
+     "line",
+     "prompt",
+     "feed",
+     "remind",
+     "script"
+    ]
+   },
+   {
+    "id": "count",
+    "label": "Cue forty-one",
+    "hint": "Let Clipboard count them in.",
+    "effects": {
+     "warmth": 2,
+     "chaos": -2
+    },
+    "adds_tag": null,
+    "chain": false,
+    "line": "(whispering) Clipboard says cue forty-one. Clipboard is never wrong. Clipboard is also never early.",
+    "keywords": [
+     "cue",
+     "clipboard",
+     "count",
+     "number",
+     "forty",
+     "standby"
+    ]
+   }
+  ]
+ },
+ {
+  "kind": "cry",
+  "options": [
+   {
+    "id": "lean_in",
+    "label": "Cry with them",
+    "hint": "Let the whole stage weep.",
+    "effects": {
+     "warmth": 3,
+     "chaos": 10
+    },
+    "adds_tag": "mourning",
+    "chain": true,
+    "line": "(whispering) Everyone weep. Hold the sob until it reaches the back row. Hold it. Hold it.",
+    "keywords": [
+     "yes",
+     "commit",
+     "embrace",
+     "improvise",
+     "continue",
+     "incorporate",
+     "more",
+     "again",
+     "cry",
+     "weep",
+     "sob",
+     "tears",
+     "mourn"
+    ]
+   },
+   {
+    "id": "cover_up",
+    "label": "Pass the handkerchief",
+    "hint": "Dab once and move on.",
+    "effects": {
+     "warmth": 1,
+     "chaos": -6
+    },
+    "adds_tag": null,
+    "chain": false,
+    "line": "(whispering) Hand over a handkerchief, dab once, and go to the next line. Quickly. Quietly.",
+    "keywords": [
+     "cover",
+     "hide",
+     "ignore",
+     "pretend",
+     "nothing",
+     "quiet",
+     "recover",
+     "smooth",
+     "handkerchief",
+     "tissue",
+     "dab",
+     "dry",
+     "move"
+    ]
+   },
+   {
+    "id": "laugh",
+    "label": "Turn it into a laugh",
+    "hint": "It was a sneeze.",
+    "effects": {
+     "warmth": 3,
+     "chaos": 1
+    },
+    "adds_tag": "slapstick",
+    "chain": false,
+    "line": "(whispering) Say it was a sneeze. A very sad sneeze. A sneeze with a past.",
+    "keywords": [
+     "laugh",
+     "joke",
+     "sneeze",
+     "giggle",
+     "funny",
+     "tickle"
+    ]
+   }
+  ]
+ },
+ {
+  "kind": "wrong_play",
+  "options": [
+   {
+    "id": "lean_in",
+    "label": "Yes, and... new play",
+    "hint": "Commit to the wrong play.",
+    "effects": {
+     "warmth": 3,
+     "chaos": 10
+    },
+    "adds_tag": "mistaken_identity",
+    "chain": true,
+    "line": "(whispering) Welcome to the new play. It is better. Everybody keep going.",
+    "keywords": [
+     "yes",
+     "commit",
+     "embrace",
+     "improvise",
+     "continue",
+     "incorporate",
+     "more",
+     "again",
+     "new",
+     "play",
+     "switch",
+     "different"
+    ]
+   },
+   {
+    "id": "cover_up",
+    "label": "Back to page nine",
+    "hint": "Everyone find the script.",
+    "effects": {
+     "warmth": 1,
+     "chaos": -8
+    },
+    "adds_tag": null,
+    "chain": false,
+    "line": "(whispering) Page nine, darlings. Thumb on page nine. We are all going to page nine.",
+    "keywords": [
+     "cover",
+     "hide",
+     "ignore",
+     "pretend",
+     "nothing",
+     "quiet",
+     "recover",
+     "smooth",
+     "page",
+     "script",
+     "back",
+     "nine",
+     "return"
+    ]
+   },
+   {
+    "id": "ask_house",
+    "label": "Ask the front row",
+    "hint": "Which play is this?",
+    "effects": {
+     "warmth": 3,
+     "chaos": 2
+    },
+    "adds_tag": "speech",
+    "chain": false,
+    "line": "(whispering) Ask the front row which play this is. Majority wins. Row C has strong views.",
+    "keywords": [
+     "ask",
+     "audience",
+     "vote",
+     "row",
+     "house",
+     "poll"
+    ]
+   }
+  ]
+ },
+ {
+  "kind": "corpse",
+  "options": [
+   {
+    "id": "lean_in",
+    "label": "Raise the dead",
+    "hint": "It was a miracle.",
+    "effects": {
+     "warmth": 3,
+     "chaos": 10
+    },
+    "adds_tag": "ghost",
+    "chain": true,
+    "line": "(whispering) Rise. Announce a miracle. Sit down. Die properly this time, with feeling.",
+    "keywords": [
+     "yes",
+     "commit",
+     "embrace",
+     "improvise",
+     "continue",
+     "incorporate",
+     "more",
+     "again",
+     "raise",
+     "rise",
+     "miracle",
+     "ghost",
+     "resurrect"
+    ]
+   },
+   {
+    "id": "cover_up",
+    "label": "Carry them off",
+    "hint": "A stretcher is a prop.",
+    "effects": {
+     "warmth": 1,
+     "chaos": -8
+    },
+    "adds_tag": null,
+    "chain": false,
+    "line": "(whispering) Two stagehands, one blanket. Nobody looks. Everyone knows. Nobody says.",
+    "keywords": [
+     "cover",
+     "hide",
+     "ignore",
+     "pretend",
+     "nothing",
+     "quiet",
+     "recover",
+     "smooth",
+     "carry",
+     "stretcher",
+     "blanket",
+     "drag",
+     "remove"
+    ]
+   },
+   {
+    "id": "pronounce",
+    "label": "Pronounce them dead",
+    "hint": "Insist, loudly.",
+    "effects": {
+     "warmth": 2,
+     "chaos": 1
+    },
+    "adds_tag": "death",
+    "chain": false,
+    "line": "(whispering) Someone say 'Alas' and mean it. They are dead. They are very, very dead.",
+    "keywords": [
+     "dead",
+     "pronounce",
+     "alas",
+     "declare",
+     "insist",
+     "doctor"
+    ]
+   }
+  ]
+ },
+ {
+  "kind": "flirt",
+  "options": [
+   {
+    "id": "lean_in",
+    "label": "Marry them",
+    "hint": "The wedding is now.",
+    "effects": {
+     "warmth": 4,
+     "chaos": 10
+    },
+    "adds_tag": "wedding",
+    "chain": true,
+    "line": "(whispering) The wedding is now. Someone find a ring. A curtain ring will do.",
+    "keywords": [
+     "yes",
+     "commit",
+     "embrace",
+     "improvise",
+     "continue",
+     "incorporate",
+     "more",
+     "again",
+     "marry",
+     "wedding",
+     "ring",
+     "propose",
+     "love"
+    ]
+   },
+   {
+    "id": "cover_up",
+    "label": "Send in a chaperone",
+    "hint": "A potted plant will do.",
+    "effects": {
+     "warmth": 0,
+     "chaos": -6
+    },
+    "adds_tag": null,
+    "chain": false,
+    "line": "(whispering) Put a potted plant between them. Firmly. Like a governess.",
+    "keywords": [
+     "cover",
+     "hide",
+     "ignore",
+     "pretend",
+     "nothing",
+     "quiet",
+     "recover",
+     "smooth",
+     "chaperone",
+     "plant",
+     "between",
+     "separate",
+     "apart"
+    ]
+   },
+   {
+    "id": "sonnet",
+    "label": "Make it a sonnet",
+    "hint": "Turn the flirting into art.",
+    "effects": {
+     "warmth": 3,
+     "chaos": 1
+    },
+    "adds_tag": "rhyme",
+    "chain": false,
+    "line": "(whispering) Fourteen lines, darling. Begin anywhere. The audience will assume you meant it.",
+    "keywords": [
+     "sonnet",
+     "poem",
+     "verse",
+     "art",
+     "poetry",
+     "fourteen"
+    ]
+   }
+  ]
+ },
+ {
+  "kind": "feast",
+  "options": [
+   {
+    "id": "lean_in",
+    "label": "Pass the plate",
+    "hint": "Dinner is the plot now.",
+    "effects": {
+     "warmth": 3,
+     "chaos": 8
+    },
+    "adds_tag": "feast",
+    "chain": true,
+    "line": "(whispering) Everyone eat. Dinner is the plot now, darling, and the plot is delicious.",
+    "keywords": [
+     "yes",
+     "commit",
+     "embrace",
+     "improvise",
+     "continue",
+     "incorporate",
+     "more",
+     "again",
+     "eat",
+     "plate",
+     "pass",
+     "dinner",
+     "feast",
+     "hungry"
+    ]
+   },
+   {
+    "id": "cover_up",
+    "label": "Clear the table",
+    "hint": "Waiters, whisk.",
+    "effects": {
+     "warmth": 1,
+     "chaos": -8
+    },
+    "adds_tag": null,
+    "chain": false,
+    "line": "(whispering) Waiters, whisk it all away. Whisk! Nothing was ever there. It was a very short feast.",
+    "keywords": [
+     "cover",
+     "hide",
+     "ignore",
+     "pretend",
+     "nothing",
+     "quiet",
+     "recover",
+     "smooth",
+     "clear",
+     "whisk",
+     "waiter",
+     "table",
+     "remove"
+    ]
+   },
+   {
+    "id": "toast",
+    "label": "Raise a toast",
+    "hint": "To absent friends.",
+    "effects": {
+     "warmth": 3,
+     "chaos": 0
+    },
+    "adds_tag": "speech",
+    "chain": false,
+    "line": "(whispering) Stand. Raise a glass. 'To absent friends.' Hold it until the chewing stops.",
+    "keywords": [
+     "toast",
+     "glass",
+     "cheers",
+     "drink",
+     "raise",
+     "friends"
+    ]
+   }
+  ]
+ },
+ {
+  "kind": "generic",
+  "options": [
+   {
+    "id": "lean_in",
+    "label": "Yes, and...",
+    "hint": "Make it part of the play.",
+    "effects": {
+     "warmth": 3,
+     "chaos": 10
+    },
+    "adds_tag": "slapstick",
+    "chain": true,
+    "line": "(whispering) Whatever that was, it was intentional. Do it again, but better.",
+    "keywords": [
+     "yes",
+     "commit",
+     "embrace",
+     "improvise",
+     "continue",
+     "incorporate",
+     "more",
+     "again",
+     "intentional",
+     "play"
+    ]
+   },
+   {
+    "id": "cover_up",
+    "label": "Cover it up",
+    "hint": "Pretend nothing happened.",
+    "effects": {
+     "warmth": 1,
+     "chaos": -8
+    },
+    "adds_tag": null,
+    "chain": false,
+    "line": "(whispering) Smile. Breathe. Say the next line. We saw nothing. We are professionals.",
+    "keywords": [
+     "cover",
+     "hide",
+     "ignore",
+     "pretend",
+     "nothing",
+     "quiet",
+     "recover",
+     "smooth",
+     "smile",
+     "line"
+    ]
+   },
+   {
+    "id": "blame",
+    "label": "Blame the goose",
+    "hint": "A classic.",
+    "effects": {
+     "warmth": 2,
+     "chaos": 2
+    },
+    "adds_tag": "goose",
+    "chain": false,
+    "line": "(whispering) Point at the wings. Say 'The goose.' No further explanation is ever required.",
+    "keywords": [
+     "blame",
+     "goose",
+     "wings",
+     "fault",
+     "someone",
+     "bird"
+    ]
+   }
+  ]
+ }
+]

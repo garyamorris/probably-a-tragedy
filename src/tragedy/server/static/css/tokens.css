@@ -1,0 +1,19 @@
+/* Design tokens: the toy-theatre palette. A theatre is dark; paper cards are the light surfaces. */
+:root {
+  --plum-950: #130a17; --plum-900: #1b0f1f; --plum-800: #2a1630; --plum-700: #3a2142; --plum-600: #4d2e58; --plum-500: #6a4575;
+  --crimson: #b3263d; --crimson-dk: #7d1527; --crimson-lt: #d8546b;
+  --gold: #e9b949; --gold-lt: #f7dc8c; --gold-dk: #a97c1f;
+  --cream: #f6ecd6; --paper: #efe0c2; --paper-dk: #d9c49a; --ink: #241a26; --ink-soft: #4a3b4d;
+  --teal: #4fb3a5; --mustard: #e0a82e; --lilac: #b8a1e3; --coral: #ee6c4d; --sky: #7fb7e6; --leaf: #7bb661;
+  --ok: var(--leaf); --warn: var(--mustard); --bad: var(--coral);
+  --bg: var(--plum-900); --fg: var(--cream); --muted: #b9a7be; --line: rgba(246, 236, 214, 0.16);
+  --font-display: ui-serif, "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --font-ui: ui-rounded, "SF Pro Rounded", "Avenir Next Rounded", "Avenir Next", system-ui, sans-serif;
+  --font-hand: "Bradley Hand", "Segoe Script", "Marker Felt", "Comic Sans MS", cursive;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --r-1: 6px; --r-2: 12px; --r-3: 20px;
+  --sp-1: 4px; --sp-2: 8px; --sp-3: 12px; --sp-4: 16px; --sp-5: 24px; --sp-6: 32px; --sp-7: 48px;
+  --shadow-card: 0 2px 0 rgba(0,0,0,.25), 0 10px 24px rgba(0,0,0,.35);
+  --ease-spring: cubic-bezier(.34, 1.56, .64, 1);
+}
+@media (prefers-reduced-motion: reduce) { :root { --motion: 0; } }

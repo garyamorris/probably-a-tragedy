@@ -1,0 +1,249 @@
+[
+ {
+  "id": "sword",
+  "name": "Rubber Sword",
+  "tags": [
+   "sword"
+  ],
+  "draw": "sword"
+ },
+ {
+  "id": "chair",
+  "name": "Wobbly Chair",
+  "tags": [
+   "chair"
+  ],
+  "draw": "chair"
+ },
+ {
+  "id": "candle",
+  "name": "Supervised Candle",
+  "tags": [
+   "fire"
+  ],
+  "draw": "candle"
+ },
+ {
+  "id": "door",
+  "name": "Freestanding Door",
+  "tags": [
+   "door"
+  ],
+  "draw": "door"
+ },
+ {
+  "id": "umbrella_stand",
+  "name": "Umbrella Stand",
+  "tags": [
+   "mistaken_identity"
+  ],
+  "draw": "umbrella_stand"
+ },
+ {
+  "id": "letter",
+  "name": "Sealed Letter",
+  "tags": [
+   "letter",
+   "secret"
+  ],
+  "draw": "letter"
+ },
+ {
+  "id": "mask",
+  "name": "Feathered Ball Mask",
+  "tags": [
+   "mask",
+   "disguise"
+  ],
+  "draw": "mask"
+ },
+ {
+  "id": "mirror",
+  "name": "Full-Length Mirror",
+  "tags": [
+   "mirror"
+  ],
+  "draw": "mirror"
+ },
+ {
+  "id": "crown",
+  "name": "Cardboard Crown",
+  "tags": [
+   "crown"
+  ],
+  "draw": "crown"
+ },
+ {
+  "id": "chandelier",
+  "name": "Probably Secure Chandelier",
+  "tags": [
+   "chandelier"
+  ],
+  "draw": "chandelier"
+ },
+ {
+  "id": "goose",
+  "name": "Spare Goose",
+  "tags": [
+   "goose"
+  ],
+  "draw": "goose"
+ },
+ {
+  "id": "cake",
+  "name": "Three-Tier Cake",
+  "tags": [
+   "feast",
+   "wedding"
+  ],
+  "draw": "cake"
+ },
+ {
+  "id": "ghost_sheet",
+  "name": "Pre-Haunted Sheet",
+  "tags": [
+   "ghost"
+  ],
+  "draw": "ghost_sheet"
+ },
+ {
+  "id": "trunk",
+  "name": "Unclaimed Trunk",
+  "tags": [
+   "treasure",
+   "secret"
+  ],
+  "draw": "trunk"
+ },
+ {
+  "id": "skull",
+  "name": "Philosophical Skull",
+  "tags": [
+   "death",
+   "speech"
+  ],
+  "draw": "skull"
+ },
+ {
+  "id": "bouquet",
+  "name": "Bouquet of Mild Surprise",
+  "tags": [
+   "romance",
+   "wedding"
+  ],
+  "draw": "bouquet"
+ },
+ {
+  "id": "ladder",
+  "name": "Ladder to Somewhere",
+  "tags": [
+   "stairs"
+  ],
+  "draw": "ladder"
+ },
+ {
+  "id": "teapot",
+  "name": "Suspicious Teapot",
+  "tags": [
+   "poison",
+   "feast"
+  ],
+  "draw": "teapot"
+ },
+ {
+  "id": "lantern",
+  "name": "Storm Lantern",
+  "tags": [
+   "storm",
+   "fire"
+  ],
+  "draw": "lantern"
+ },
+ {
+  "id": "tree",
+  "name": "Cardboard Tree",
+  "tags": [],
+  "draw": "tree"
+ },
+ {
+  "id": "bed",
+  "name": "Reversible Deathbed",
+  "tags": [
+   "death",
+   "romance"
+  ],
+  "draw": "bed"
+ },
+ {
+  "id": "clock",
+  "name": "Clock Stuck at Murder",
+  "tags": [
+   "murder"
+  ],
+  "draw": "clock"
+ },
+ {
+  "id": "harp",
+  "name": "Three-String Harp",
+  "tags": [
+   "song"
+  ],
+  "draw": "harp"
+ },
+ {
+  "id": "trophy",
+  "name": "Trophy for Nobody",
+  "tags": [
+   "treasure"
+  ],
+  "draw": "trophy"
+ },
+ {
+  "id": "bottle",
+  "name": "Bottle Marked Poison",
+  "tags": [
+   "poison"
+  ],
+  "draw": "bottle"
+ },
+ {
+  "id": "book",
+  "name": "Book of Rules",
+  "tags": [
+   "trial"
+  ],
+  "draw": "book"
+ },
+ {
+  "id": "rope",
+  "name": "Ambitious Rope",
+  "tags": [
+   "chase"
+  ],
+  "draw": "rope"
+ },
+ {
+  "id": "banner",
+  "name": "Welcome Home Banner",
+  "tags": [
+   "reunion"
+  ],
+  "draw": "banner"
+ },
+ {
+  "id": "fish",
+  "name": "Wet Fish",
+  "tags": [
+   "slapstick"
+  ],
+  "draw": "fish"
+ },
+ {
+  "id": "moon",
+  "name": "Spare Paper Moon",
+  "tags": [
+   "romance"
+  ],
+  "draw": "moon"
+ }
+]

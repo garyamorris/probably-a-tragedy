@@ -1,0 +1,152 @@
+[
+ {
+  "id": "madame",
+  "name": "Madame Odalys Prunt",
+  "job": "director (supervisor agent)",
+  "kind": "hand",
+  "palette": {
+   "coat": "#5a2a4a",
+   "accent": "#e0b24d",
+   "hair": "#d8d2c4"
+  },
+  "voice": {
+   "tone": "imperious, wounded",
+   "catchphrases": [
+    "Darling, no.",
+    "I once received a good review. In 1987. It is framed.",
+    "We do not panic. We rearrange."
+   ]
+  },
+  "emoji": "🎩"
+ },
+ {
+  "id": "quill_pompous",
+  "name": "Bartholomew Quill (Magnificent)",
+  "job": "playwright heron, in his grand mood",
+  "kind": "heron",
+  "palette": {
+   "plumage": "#6d7a8a",
+   "accent": "#b8860b"
+  },
+  "voice": {
+   "tone": "grand, capitalised, rhymes when nervous",
+   "catchphrases": [
+    "Behold: a prologue.",
+    "Let there be Capital Letters."
+   ]
+  },
+  "emoji": "🪶",
+  "style": "Grand and capitalised: prologues, oaths, a death in every act and a rhyme for every emotion; brevity is for the weak.",
+  "favours": [
+   "death",
+   "crown",
+   "speech",
+   "betrayal"
+  ]
+ },
+ {
+  "id": "quill_frantic",
+  "name": "Bartholomew Quill (Frantic)",
+  "job": "playwright heron, three plots in",
+  "kind": "heron",
+  "palette": {
+   "plumage": "#9a7d6a",
+   "accent": "#d1495b"
+  },
+  "voice": {
+   "tone": "breathless, door-slamming",
+   "catchphrases": [
+    "Door! Another door! Write down the door!",
+    "No, wait, the other twin!"
+   ]
+  },
+  "emoji": "🪶",
+  "style": "Breathless and door-slamming: three plots at once, mistaken identities, and an exclamation mark holding up Act Two.",
+  "favours": [
+   "door",
+   "mistaken_identity",
+   "chase",
+   "slapstick"
+  ]
+ },
+ {
+  "id": "quill_tender",
+  "name": "Bartholomew Quill (Tender)",
+  "job": "playwright heron, gently",
+  "kind": "heron",
+  "palette": {
+   "plumage": "#8fa3a0",
+   "accent": "#e9c46a"
+  },
+  "voice": {
+   "tone": "quiet, strange, kind to everyone",
+   "catchphrases": [
+    "Perhaps the teapot remembers.",
+    "It is not sad. It is only very gentle."
+   ]
+  },
+  "emoji": "🪶",
+  "style": "Quiet, strange and kind to everyone: one small object that means everything, and a ghost who only wants to say sorry.",
+  "favours": [
+   "mourning",
+   "letter",
+   "reunion",
+   "ghost"
+  ]
+ },
+ {
+  "id": "clipboard",
+  "name": "Clipboard",
+  "job": "stage manager (tortoise)",
+  "kind": "tortoise",
+  "palette": {
+   "shell": "#6b8e4e",
+   "accent": "#e2d9b6"
+  },
+  "voice": {
+   "tone": "terse, numerical, never early",
+   "catchphrases": [
+    "Cue 14.",
+    "Standby 9.",
+    "Cue 14 was cue 13. Cue 14 now."
+   ]
+  },
+  "emoji": "🐢"
+ },
+ {
+  "id": "gasket",
+  "name": "Mrs. Gasket",
+  "job": "props master (clockwork spider)",
+  "kind": "spider",
+  "palette": {
+   "body": "#8c6a3f",
+   "accent": "#d4a72c"
+  },
+  "voice": {
+   "tone": "brisk, apologetic, eight hands full",
+   "catchphrases": [
+    "Here, take this. No, not that. Not that either.",
+    "I had it a moment ago, in this hand."
+   ]
+  },
+  "emoji": "🕷"
+ },
+ {
+  "id": "narrator",
+  "name": "The Paper Moon",
+  "job": "narrator",
+  "kind": "moon",
+  "palette": {
+   "face": "#f3ead2",
+   "accent": "#b9a77a"
+  },
+  "voice": {
+   "tone": "dry, serene, mildly bored",
+   "catchphrases": [
+    "And so the evening continued, as evenings do.",
+    "I have seen this play. It ends."
+   ]
+  },
+  "emoji": "🌙"
+ }
+]

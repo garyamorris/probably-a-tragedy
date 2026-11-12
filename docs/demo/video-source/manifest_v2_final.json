@@ -1,0 +1,485 @@
+{
+ "width": 1920,
+ "height": 1080,
+ "fps": 30,
+ "narration_dir": "narration/audio",
+ "preset": "Match Source \u2013 Adaptive Low Bitrate",
+ "max_mb": 60,
+ "audio_kbps": 128,
+ "small": {
+  "width": 1280,
+  "height": 720,
+  "max_mb": 28,
+  "audio_kbps": 96
+ },
+ "xfade": 0.35,
+ "narration_db": -3.0,
+ "title": {
+  "text": "Probably a Tragedy",
+  "sub": "how a puppet-theatre game runs on LangGraph",
+  "seconds": 3.5,
+  "bg": {
+   "type": "video",
+   "path": "raw/game.mp4",
+   "in": 0.95,
+   "freeze": true
+  },
+  "dim": -90
+ },
+ "outro": {
+  "text": "Play it yourself",
+  "sub": "make dev  \u00b7  http://127.0.0.1:2027/app/",
+  "seconds": 3.5,
+  "bg": {
+   "type": "video",
+   "path": "raw/game.mp4",
+   "in": 120.0,
+   "freeze": true
+  },
+  "dim": -90
+ },
+ "scenes": [
+  {
+   "id": "A",
+   "tag": "The game",
+   "segments": [
+    {
+     "type": "video",
+     "path": "raw/game.mp4",
+     "speed": 1.0,
+     "in": 0.95,
+     "out": 9.6
+    },
+    {
+     "type": "video",
+     "path": "viz_out/overview.mp4",
+     "speed": "fit",
+     "in": 0,
+     "out": 12.1
+    }
+   ],
+   "callouts": [
+    {
+     "at": 1.0,
+     "dur": 5,
+     "text": "Probably a Tragedy",
+     "style": "caption",
+     "anchor": "bl"
+    },
+    {
+     "at": 9.4,
+     "dur": 6,
+     "text": "Nine LangGraph workflows, one theatre",
+     "style": "tech",
+     "anchor": "bl"
+    }
+   ],
+   "pad_before": 0.4,
+   "pad_after": 0.6
+  },
+  {
+   "id": "B",
+   "tag": "The game",
+   "segments": [
+    {
+     "type": "video",
+     "path": "raw/game.mp4",
+     "speed": "fit",
+     "in": 9.6,
+     "out": 17.2
+    }
+   ],
+   "callouts": [
+    {
+     "at": 1.0,
+     "dur": 6,
+     "text": "15 generated datasets drive the towns and plays",
+     "style": "caption",
+     "anchor": "bl"
+    }
+   ],
+   "pad_before": 0.4,
+   "pad_after": 0.6
+  },
+  {
+   "id": "C",
+   "tag": "Graph \u00b7 casting_call",
+   "segments": [
+    {
+     "type": "video",
+     "path": "raw/game.mp4",
+     "speed": "fit",
+     "in": 17.2,
+     "out": 33.8
+    }
+   ],
+   "callouts": [
+    {
+     "at": 2.0,
+     "dur": 7,
+     "text": "Send API \u00b7 8 puppets \u00d7 3 roles = 24 tasks",
+     "style": "tech",
+     "anchor": "bl"
+    },
+    {
+     "at": 15.5,
+     "dur": 7,
+     "text": "interrupt() \u00b7 waits for your approval",
+     "style": "tech",
+     "anchor": "bl"
+    }
+   ],
+   "pad_before": 0.4,
+   "pad_after": 0.6
+  },
+  {
+   "id": "D",
+   "tag": "Graph \u00b7 writers_room",
+   "segments": [
+    {
+     "type": "video",
+     "path": "raw/game.mp4",
+     "speed": "fit",
+     "in": 33.84,
+     "out": 50.9
+    }
+   ],
+   "callouts": [
+    {
+     "at": 1.5,
+     "dur": 4,
+     "text": "Send \u00b7 three drafts in parallel",
+     "style": "tech",
+     "anchor": "bl"
+    },
+    {
+     "at": 6.5,
+     "dur": 4.5,
+     "text": "Conditional edge \u00b7 revise or continue",
+     "style": "tech",
+     "anchor": "bl"
+    },
+    {
+     "at": 11.5,
+     "dur": 4,
+     "text": "interrupt() \u00b7 you pick the draft",
+     "style": "tech",
+     "anchor": "bl"
+    }
+   ],
+   "pad_before": 0.4,
+   "pad_after": 0.6
+  },
+  {
+   "id": "E",
+   "tag": "Graph \u00b7 rehearsal",
+   "segments": [
+    {
+     "type": "video",
+     "path": "raw/game.mp4",
+     "speed": "fit",
+     "in": 50.9,
+     "out": 67.2
+    }
+   ],
+   "callouts": [
+    {
+     "at": 1.0,
+     "dur": 6.5,
+     "text": "Send \u00b7 twelve parallel rehearsals",
+     "style": "tech",
+     "anchor": "bl"
+    }
+   ],
+   "pad_before": 0.4,
+   "pad_after": 0.6
+  },
+  {
+   "id": "F",
+   "tag": "Graph \u00b7 performance",
+   "segments": [
+    {
+     "type": "video",
+     "path": "raw/game.mp4",
+     "speed": 1.6,
+     "in": 67.3,
+     "out": 86.0
+    },
+    {
+     "type": "video",
+     "path": "raw/game.mp4",
+     "speed": 1.0,
+     "in": 157.7,
+     "out": 167.9
+    },
+    {
+     "type": "video",
+     "path": "raw/game.mp4",
+     "speed": 1.6,
+     "in": 167.9,
+     "out": 175.9
+    }
+   ],
+   "callouts": [
+    {
+     "at": 1.5,
+     "dur": 6,
+     "text": "Supervisor node \u00b7 Command(goto)",
+     "style": "tech",
+     "anchor": "bl"
+    },
+    {
+     "at": 11.5,
+     "dur": 6,
+     "text": "interrupt() \u00b7 state saved to a checkpoint",
+     "style": "tech",
+     "anchor": "bl"
+    },
+    {
+     "at": 19.5,
+     "dur": 6,
+     "text": "Command(resume=\u2026) \u00b7 the run continues",
+     "style": "tech",
+     "anchor": "bl"
+    }
+   ],
+   "pad_before": 0.4,
+   "pad_after": 0.6
+  },
+  {
+   "id": "G",
+   "tag": "Graphs \u00b7 reviews, almanac",
+   "segments": [
+    {
+     "type": "video",
+     "path": "raw/game.mp4",
+     "speed": 2.3,
+     "in": 245.7,
+     "out": 268.4
+    },
+    {
+     "type": "video",
+     "path": "raw/game.mp4",
+     "speed": 2.2,
+     "in": 270.0,
+     "out": 282.0
+    }
+   ],
+   "callouts": [
+    {
+     "at": 2.0,
+     "dur": 6,
+     "text": "Send \u00b7 five critics in parallel",
+     "style": "tech",
+     "anchor": "bl"
+    },
+    {
+     "at": 10.0,
+     "dur": 5,
+     "text": "Store + semantic search \u00b7 memory",
+     "style": "tech",
+     "anchor": "bl"
+    }
+   ],
+   "pad_before": 0.4,
+   "pad_after": 0.6
+  },
+  {
+   "id": "H",
+   "tag": null,
+   "segments": [
+    {
+     "type": "video",
+     "path": "viz_out/concept.mp4",
+     "speed": 0.75,
+     "in": 0,
+     "out": 9.2
+    },
+    {
+     "type": "video",
+     "path": "viz_out/live_casting.mp4",
+     "speed": 1.0,
+     "in": 2.3,
+     "out": 13.0
+    }
+   ],
+   "pad_before": 0.4,
+   "pad_after": 0.6
+  },
+  {
+   "id": "I",
+   "tag": null,
+   "segments": [
+    {
+     "type": "video",
+     "path": "viz_out/live_writers.mp4",
+     "speed": 1.0,
+     "in": 8.5,
+     "out": 16.5
+    },
+    {
+     "type": "video",
+     "path": "viz_out/live_performance.mp4",
+     "speed": 1.0,
+     "in": 14.0,
+     "out": 27.0
+    }
+   ],
+   "pad_before": 0.4,
+   "pad_after": 0.6
+  },
+  {
+   "id": "J",
+   "tag": null,
+   "segments": [
+    {
+     "type": "video",
+     "path": "raw/studio_thread.mp4",
+     "speed": 1.0,
+     "in": 2.5,
+     "out": 9.5
+    },
+    {
+     "type": "video",
+     "path": "raw/studio_live.mp4",
+     "speed": 0.6,
+     "in": 7.0,
+     "out": 12.5
+    },
+    {
+     "type": "video",
+     "path": "raw/game.mp4",
+     "speed": 1.0,
+     "in": 289.5,
+     "out": 294.5
+    }
+   ],
+   "callouts": [
+    {
+     "at": 1.0,
+     "dur": 5,
+     "text": "LangGraph Studio \u00b7 every graph, live",
+     "style": "tech",
+     "anchor": "bl"
+    },
+    {
+     "at": 16.2,
+     "dur": 5,
+     "text": "Prompt Book \u2192 deep links to graph + thread",
+     "style": "caption",
+     "anchor": "bl"
+    }
+   ],
+   "pad_before": 0.4,
+   "pad_after": 0.6
+  },
+  {
+   "id": "K",
+   "tag": null,
+   "segments": [
+    {
+     "type": "video",
+     "path": "viz_out/trace.mp4",
+     "speed": "fit",
+     "in": 0,
+     "out": 28.0
+    }
+   ],
+   "pad_before": 0.4,
+   "pad_after": 0.6
+  },
+  {
+   "id": "K2",
+   "tag": null,
+   "segments": [
+    {
+     "type": "still",
+     "path": "shots/c01_trace_tree.png",
+     "move": "zoom-in",
+     "weight": 1.0
+    },
+    {
+     "type": "still",
+     "path": "shots/c02_llm_call.png",
+     "move": "pan-right",
+     "weight": 1.3
+    },
+    {
+     "type": "still",
+     "path": "shots/c03_waterfall.png",
+     "move": "zoom-in",
+     "weight": 1.0
+    },
+    {
+     "type": "still",
+     "path": "shots/c04_two_turns.png",
+     "move": "zoom-out",
+     "weight": 1.0
+    }
+   ],
+   "callouts": [
+    {
+     "at": 0.8,
+     "dur": 4.5,
+     "text": "The real LangSmith trace, inside Studio",
+     "style": "tech",
+     "anchor": "bl"
+    },
+    {
+     "at": 5.2,
+     "dur": 4.5,
+     "text": "prompt \u00b7 reply \u00b7 tokens \u00b7 cost",
+     "style": "caption",
+     "anchor": "bl"
+    },
+    {
+     "at": 9.6,
+     "dur": 3.5,
+     "text": "waterfall: where the time went",
+     "style": "caption",
+     "anchor": "bl"
+    },
+    {
+     "at": 13.2,
+     "dur": 3.2,
+     "text": "turn 2 = the resumed run",
+     "style": "caption",
+     "anchor": "bl"
+    }
+   ],
+   "pad_before": 0.4,
+   "pad_after": 0.6
+  },
+  {
+   "id": "L",
+   "tag": "Try it",
+   "segments": [
+    {
+     "type": "video",
+     "path": "viz_out/overview.mp4",
+     "speed": "fit",
+     "in": 0,
+     "out": 12.1
+    }
+   ],
+   "callouts": [
+    {
+     "at": 1.0,
+     "dur": 6,
+     "text": "Nine graphs \u00b7 fifteen datasets \u00b7 a real model",
+     "style": "caption",
+     "anchor": "bl"
+    },
+    {
+     "at": 8.0,
+     "dur": 6,
+     "text": "make dev \u2192 /app/   \u00b7   /go \u2192 Studio",
+     "style": "caption",
+     "anchor": "bl"
+    }
+   ],
+   "pad_before": 0.4,
+   "pad_after": 0.6
+  }
+ ]
+}

@@ -1,0 +1,395 @@
+[
+ {
+  "id": "leans_left",
+  "name": "Leans left",
+  "text": "One string is too short.",
+  "triggers": [
+   "romance",
+   "kiss",
+   "stairs",
+   "dance"
+  ],
+  "intensity": 0.45,
+  "kinds": [
+   "collapse",
+   "upstage"
+  ]
+ },
+ {
+  "id": "cries_by_watering_can",
+  "name": "Cries into a watering can",
+  "text": "Weeps beautifully, on cue, into a small brass watering can kept up one sleeve.",
+  "triggers": [
+   "mourning",
+   "death",
+   "wedding",
+   "reunion",
+   "letter"
+  ],
+  "intensity": 0.5,
+  "kinds": [
+   "cry",
+   "prop"
+  ]
+ },
+ {
+  "id": "apologises_mid_villainy",
+  "name": "Apologises mid-villainy",
+  "text": "Cannot commit a crime without a heartfelt note of regret.",
+  "triggers": [
+   "murder",
+   "betrayal",
+   "poison",
+   "sword",
+   "trial"
+  ],
+  "intensity": 0.55,
+  "kinds": [
+   "apology",
+   "freeze"
+  ]
+ },
+ {
+  "id": "afraid_of_the_chandelier",
+  "name": "Afraid of the chandelier",
+  "text": "Is quite sure it is looking at them. It is, a little.",
+  "triggers": [
+   "chandelier",
+   "wedding",
+   "stairs",
+   "storm"
+  ],
+  "intensity": 0.6,
+  "kinds": [
+   "freeze",
+   "exit",
+   "collapse"
+  ]
+ },
+ {
+  "id": "never_been_on_stage",
+  "name": "Never been on stage",
+  "text": "Knows every part by heart. Has watched from the wings for eleven years.",
+  "triggers": [
+   "speech",
+   "stairs",
+   "door",
+   "song",
+   "trial"
+  ],
+  "intensity": 0.6,
+  "kinds": [
+   "freeze",
+   "wrong_play",
+   "exit"
+  ]
+ },
+ {
+  "id": "says_everyones_lines",
+  "name": "Says everyone's lines",
+  "text": "Knows every part and is generous with all of them.",
+  "triggers": [
+   "speech",
+   "lie",
+   "secret",
+   "trial",
+   "reunion"
+  ],
+  "intensity": 0.45,
+  "kinds": [
+   "wrong_play",
+   "upstage"
+  ]
+ },
+ {
+  "id": "eats_the_props",
+  "name": "Eats the props",
+  "text": "Was told it was a prop. Has tested this.",
+  "triggers": [
+   "feast",
+   "treasure",
+   "poison",
+   "wedding"
+  ],
+  "intensity": 0.5,
+  "kinds": [
+   "feast",
+   "prop"
+  ]
+ },
+ {
+  "id": "exits_through_the_wrong_door",
+  "name": "Exits by the wrong door",
+  "text": "Very confident about doors. Not correct, but confident.",
+  "triggers": [
+   "door",
+   "chase",
+   "stairs",
+   "secret"
+  ],
+  "intensity": 0.5,
+  "kinds": [
+   "exit",
+   "upstage"
+  ]
+ },
+ {
+  "id": "upstages_the_moon",
+  "name": "Upstages the moon",
+  "text": "Regards the paper moon as a rival and behaves accordingly.",
+  "triggers": [
+   "song",
+   "speech",
+   "dance",
+   "crown"
+  ],
+  "intensity": 0.55,
+  "kinds": [
+   "upstage",
+   "prop"
+  ]
+ },
+ {
+  "id": "allergic_to_feathers",
+  "name": "Allergic to feathers",
+  "text": "Sneezes at plumes, masks, and anything that has met a goose.",
+  "triggers": [
+   "goose",
+   "mask",
+   "disguise",
+   "crown"
+  ],
+  "intensity": 0.45,
+  "kinds": [
+   "collapse",
+   "prop"
+  ]
+ },
+ {
+  "id": "only_knows_act_two",
+  "name": "Only knows Act Two",
+  "text": "Rehearsed one act, thoroughly. It is always that act.",
+  "triggers": [
+   "secret",
+   "trial",
+   "chase",
+   "reunion"
+  ],
+  "intensity": 0.4,
+  "kinds": [
+   "wrong_play",
+   "exit"
+  ]
+ },
+ {
+  "id": "over_commits_to_death",
+  "name": "Over-commits to death",
+  "text": "Dies at length, in character, with the last words of a small opera.",
+  "triggers": [
+   "death",
+   "murder",
+   "poison",
+   "sword"
+  ],
+  "intensity": 0.55,
+  "kinds": [
+   "corpse",
+   "collapse"
+  ]
+ },
+ {
+  "id": "speaks_in_rhyme",
+  "name": "Speaks in rhyme",
+  "text": "Once a line starts to scan, nothing can stop it. Orange has been a problem.",
+  "triggers": [
+   "rhyme",
+   "song",
+   "pun",
+   "romance",
+   "speech"
+  ],
+  "intensity": 0.5,
+  "kinds": [
+   "rhyme"
+  ]
+ },
+ {
+  "id": "stage_whispers_everything",
+  "name": "Stage-whispers everything",
+  "text": "Every secret is delivered at a whisper audible in the next county.",
+  "triggers": [
+   "secret",
+   "lie",
+   "betrayal",
+   "letter",
+   "romance"
+  ],
+  "intensity": 0.5,
+  "kinds": [
+   "upstage",
+   "apology"
+  ]
+ },
+ {
+  "id": "falls_in_love_with_props",
+  "name": "Falls in love with props",
+  "text": "Gives the heart easily, and always to something with legs.",
+  "triggers": [
+   "chair",
+   "mirror",
+   "mask",
+   "crown",
+   "letter"
+  ],
+  "intensity": 0.45,
+  "kinds": [
+   "flirt",
+   "prop"
+  ]
+ },
+ {
+  "id": "winds_down_mid_scene",
+  "name": "Winds down mid-scene",
+  "text": "Clockwork. Runs for about eleven minutes, then makes a long, sad noise.",
+  "triggers": [
+   "speech",
+   "trial",
+   "mourning",
+   "death"
+  ],
+  "intensity": 0.5,
+  "kinds": [
+   "freeze"
+  ]
+ },
+ {
+  "id": "corpses",
+  "name": "Corpses",
+  "text": "Dies beautifully, then giggles. The trade calls this corpsing.",
+  "triggers": [
+   "death",
+   "murder",
+   "poison",
+   "mourning",
+   "trial"
+  ],
+  "intensity": 0.45,
+  "kinds": [
+   "corpse"
+  ]
+ },
+ {
+  "id": "forgets_which_play",
+  "name": "Forgets which play",
+  "text": "Fully committed to a play. Frequently a different one.",
+  "triggers": [
+   "mistaken_identity",
+   "disguise",
+   "lie",
+   "secret",
+   "reunion"
+  ],
+  "intensity": 0.5,
+  "kinds": [
+   "wrong_play"
+  ]
+ },
+ {
+  "id": "cannot_say_the_word_macbeth",
+  "name": "Won't say the Scottish play",
+  "text": "Will not name it. Calls it 'that one with the hands', spins thrice, and spits.",
+  "triggers": [
+   "murder",
+   "ghost",
+   "sword",
+   "crown",
+   "storm"
+  ],
+  "intensity": 0.4,
+  "kinds": [
+   "freeze",
+   "wrong_play"
+  ]
+ },
+ {
+  "id": "takes_bows_early",
+  "name": "Takes bows early",
+  "text": "Hears one clap and assumes the show is over.",
+  "triggers": [
+   "speech",
+   "song",
+   "death",
+   "dance"
+  ],
+  "intensity": 0.45,
+  "kinds": [
+   "upstage",
+   "corpse"
+  ]
+ },
+ {
+  "id": "waves_at_the_front_row",
+  "name": "Waves at the front row",
+  "text": "Recognises someone in row C. It is always a cousin.",
+  "triggers": [
+   "reunion",
+   "wedding",
+   "speech",
+   "song"
+  ],
+  "intensity": 0.4,
+  "kinds": [
+   "upstage",
+   "flirt",
+   "feast"
+  ]
+ },
+ {
+  "id": "answers_the_prompter_aloud",
+  "name": "Answers the Prompter aloud",
+  "text": "Hears the prompt, replies 'Thank you!', and then says the line.",
+  "triggers": [
+   "secret",
+   "lie",
+   "speech",
+   "trial"
+  ],
+  "intensity": 0.4,
+  "kinds": [
+   "upstage",
+   "apology",
+   "wrong_play"
+  ]
+ },
+ {
+  "id": "sleepwalks_into_the_audience",
+  "name": "Sleepwalks into the audience",
+  "text": "Drifts off the stage during quiet bits and sits down in somebody's coat.",
+  "triggers": [
+   "ghost",
+   "mourning",
+   "stairs",
+   "door"
+  ],
+  "intensity": 0.35,
+  "kinds": [
+   "exit"
+  ]
+ },
+ {
+  "id": "tangles_in_own_strings",
+  "name": "Tangles in own strings",
+  "text": "Walks through the strings, then the scenery, then the cast.",
+  "triggers": [
+   "chase",
+   "dance",
+   "stairs",
+   "slapstick"
+  ],
+  "intensity": 0.5,
+  "kinds": [
+   "collapse",
+   "freeze"
+  ]
+ }
+]

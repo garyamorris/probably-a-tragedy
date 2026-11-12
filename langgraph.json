@@ -1,0 +1,18 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "performance": {"path": "./src/tragedy/graphs/performance.py:graph", "description": "THE SHOW: Madame directs, puppets act, mishaps freeze the stage and you whisper from the Prompter's box (supervisor, subgraph-per-beat, interrupts, Send audience, time travel)"},
+    "casting_call": {"path": "./src/tragedy/graphs/casting_call.py:graph", "description": "Auditions in parallel (Send map-reduce); Madame recommends a cast; you confirm"},
+    "writers_room": {"path": "./src/tragedy/graphs/writers_room.py:graph", "description": "Three quills draft the night's play; judge, revise loop, you pick (Send, evaluator loop, interrupt)"},
+    "reviews": {"path": "./src/tragedy/graphs/reviews.py:graph", "description": "Five pigeon critics review the show (Send map-reduce, custom reducer, streaming)"},
+    "almanac": {"path": "./src/tragedy/graphs/almanac.py:graph", "description": "The Almanac of Calamities: Store memory, semantic recall, enshrine Traditions (interrupt)"},
+    "the_road": {"path": "./src/tragedy/graphs/the_road.py:graph", "description": "The wagon to the next town: durable execution, crash recovery, crossroads (interrupt)"},
+    "playbill_press": {"path": "./src/tragedy/graphs/playbill_press.py:graph", "description": "Prints the programme (Functional API: @entrypoint/@task, previous)"},
+    "greenroom_chat": {"path": "./src/tragedy/graphs/greenroom_chat.py:graph", "description": "Chat with a puppet backstage (create_agent + middleware, tool-call review, Store)"},
+    "rehearsal": {"path": "./src/tragedy/graphs/rehearsal.py:graph", "description": "Twelve imaginary nights in parallel (Send map-reduce), scored against the gold set"}
+  },
+  "http": {"app": "./src/tragedy/server/app.py:app"},
+  "store": {"index": {"embed": "./src/tragedy/embeddings.py:aembed", "dims": 256, "fields": ["text"]}},
+  "python_version": "3.12",
+  "env": ".env"
+}

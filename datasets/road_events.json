@@ -1,0 +1,728 @@
+[
+ {
+  "id": "goose_on_the_bridge",
+  "title": "A goose holds the bridge",
+  "text": "A goose stands mid-bridge with the posture of a toll collector and the eyes of a magistrate. The wagon waits.",
+  "weight": 3,
+  "choices": [
+   {
+    "id": "bribe",
+    "label": "Offer bread (-1 fund)",
+    "effects": {
+     "funds": -1,
+     "morale": 0,
+     "rapport": {
+      "goose": 1
+     }
+    }
+   },
+   {
+    "id": "detour",
+    "label": "Take the long way round",
+    "effects": {
+     "funds": 0,
+     "morale": -1
+    }
+   },
+   {
+    "id": "negotiate",
+    "label": "Send our own goose to negotiate (-2 funds)",
+    "effects": {
+     "funds": -2,
+     "morale": 1,
+     "rapport": {
+      "goose": 2
+     }
+    }
+   }
+  ]
+ },
+ {
+  "id": "goose_nest_in_the_trunk",
+  "title": "A nest in the costume trunk",
+  "text": "Overnight the goose has built a nest in the costume trunk. The wig is, apparently, the egg. Nobody has asked.",
+  "weight": 2,
+  "choices": [
+   {
+    "id": "leave_it",
+    "label": "Leave the nest alone",
+    "effects": {
+     "funds": 0,
+     "morale": 1,
+     "rapport": {
+      "goose": 2
+     }
+    }
+   },
+   {
+    "id": "move_it",
+    "label": "Move the goose, gently; rescue the wig",
+    "effects": {
+     "funds": 0,
+     "morale": 0,
+     "rapport": {
+      "goose": -1,
+      "hortensia": 2
+     }
+    }
+   },
+   {
+    "id": "sell_tickets",
+    "label": "Sell tickets to the nesting (+2 funds)",
+    "effects": {
+     "funds": 2,
+     "morale": 0,
+     "rapport": {
+      "goose": -1
+     }
+    }
+   }
+  ]
+ },
+ {
+  "id": "goose_trophy",
+  "title": "The goose presents a trophy",
+  "text": "The goose approaches with a small brass trophy found in a ditch. It reads BEST IN SHOW, 1962. It looks at you.",
+  "weight": 1,
+  "choices": [
+   {
+    "id": "accept",
+    "label": "Accept it graciously (+1 Encore)",
+    "effects": {
+     "funds": 0,
+     "morale": 0,
+     "rapport": {
+      "goose": 1
+     },
+     "encore": 1
+    }
+   },
+   {
+    "id": "give_to_madame",
+    "label": "Present it to Madame instead",
+    "effects": {
+     "funds": 0,
+     "morale": 2,
+     "rapport": {
+      "goose": -1
+     }
+    }
+   }
+  ]
+ },
+ {
+  "id": "weighbridge_mystery",
+  "title": "The weighbridge disagrees",
+  "text": "The weighbridge says the wagon is two geese heavier than last week. We carry one goose. Nobody asks the other question.",
+  "weight": 2,
+  "choices": [
+   {
+    "id": "pay",
+    "label": "Pay the overweight fee (-2 funds)",
+    "effects": {
+     "funds": -2,
+     "morale": 0,
+     "rapport": {
+      "tock": 1
+     }
+    }
+   },
+   {
+    "id": "dispute",
+    "label": "Dispute the figures, loudly",
+    "effects": {
+     "funds": 0,
+     "morale": -1
+    }
+   },
+   {
+    "id": "weigh_goose",
+    "label": "Weigh the goose alone, for science (-1 fund)",
+    "effects": {
+     "funds": -1,
+     "morale": 1,
+     "rapport": {
+      "goose": 1
+     }
+    }
+   }
+  ]
+ },
+ {
+  "id": "broken_wheel",
+  "title": "The wagon loses a wheel",
+  "text": "The back left wheel departs quietly, like a guest who has overstayed. The wagon lowers itself with great dignity.",
+  "weight": 3,
+  "choices": [
+   {
+    "id": "wheelwright",
+    "label": "Hire the wheelwright (-3 funds)",
+    "effects": {
+     "funds": -3,
+     "morale": 1
+    }
+   },
+   {
+    "id": "ask_tock",
+    "label": "Ask Mr. Tock to improvise (-1 fund)",
+    "effects": {
+     "funds": -1,
+     "morale": 0,
+     "rapport": {
+      "tock": 2
+     }
+    }
+   },
+   {
+    "id": "prop_it_up",
+    "label": "Prop it up with a painted tree",
+    "effects": {
+     "funds": 0,
+     "morale": -1
+    }
+   }
+  ]
+ },
+ {
+  "id": "upside_down_map",
+  "title": "Madame's map",
+  "text": "Madame holds the map upside down with total conviction. The road, she says, is simply being modest.",
+  "weight": 2,
+  "choices": [
+   {
+    "id": "trust_madame",
+    "label": "Trust Madame (-2 funds)",
+    "effects": {
+     "funds": -2,
+     "morale": 2
+    }
+   },
+   {
+    "id": "ask_farmer",
+    "label": "Ask a farmer for directions (-1 fund)",
+    "effects": {
+     "funds": -1,
+     "morale": 0,
+     "rapport": {
+      "tock": 1
+     }
+    }
+   },
+   {
+    "id": "follow_sheep",
+    "label": "Follow the sheep, Captain Nutt leading (-1 fund)",
+    "effects": {
+     "funds": -1,
+     "morale": 1,
+     "rapport": {
+      "bartleby": 1
+     }
+    }
+   }
+  ]
+ },
+ {
+  "id": "fog_and_cow",
+  "title": "A fog with a cow in it",
+  "text": "Fog sits on the road with no plans. Somewhere inside it, a cow is explaining itself to nobody.",
+  "weight": 2,
+  "choices": [
+   {
+    "id": "wait",
+    "label": "Wait for it to leave",
+    "effects": {
+     "funds": 0,
+     "morale": -1,
+     "rapport": {
+      "gus": 2
+     }
+    }
+   },
+   {
+    "id": "follow_cow",
+    "label": "Follow the cow (+1 fund)",
+    "effects": {
+     "funds": 1,
+     "morale": 1,
+     "rapport": {
+      "goose": -1
+     }
+    }
+   },
+   {
+    "id": "by_ear",
+    "label": "Drive on by ear (-1 fund)",
+    "effects": {
+     "funds": -1,
+     "morale": 0,
+     "rapport": {
+      "tock": 1
+     }
+    }
+   }
+  ]
+ },
+ {
+  "id": "barn_pigeons",
+  "title": "A barn full of pigeons",
+  "text": "Rain arrives sideways. A barn offers shelter and, on the rafters, an attentive audience of several hundred pigeons.",
+  "weight": 2,
+  "choices": [
+   {
+    "id": "perform",
+    "label": "Perform for the rafters (+1 fund)",
+    "effects": {
+     "funds": 1,
+     "morale": 1
+    }
+   },
+   {
+    "id": "sit_it_out",
+    "label": "Sit out the storm with Gus",
+    "effects": {
+     "funds": 0,
+     "morale": 0,
+     "rapport": {
+      "gus": 2
+     }
+    }
+   },
+   {
+    "id": "let_hortensia_sing",
+    "label": "Let Hortensia sing to them",
+    "effects": {
+     "funds": 0,
+     "morale": 1,
+     "rapport": {
+      "hortensia": 2
+     }
+    }
+   }
+  ]
+ },
+ {
+  "id": "slow_parade",
+  "title": "A parade for a marrow",
+  "text": "A parade approaches at the speed of thought. It is in honour of a marrow. The marrow waves.",
+  "weight": 1,
+  "choices": [
+   {
+    "id": "join",
+    "label": "Join the parade (-1 fund for ribbons)",
+    "effects": {
+     "funds": -1,
+     "morale": 2
+    }
+   },
+   {
+    "id": "sell_programmes",
+    "label": "Sell programmes to the crowd (+2 funds)",
+    "effects": {
+     "funds": 2,
+     "morale": -1
+    }
+   },
+   {
+    "id": "poppet_float",
+    "label": "Let Poppet ride the float",
+    "effects": {
+     "funds": 0,
+     "morale": 1,
+     "rapport": {
+      "poppet": 2
+     }
+    }
+   }
+  ]
+ },
+ {
+  "id": "cyclist_fan",
+  "title": "A fan on a bicycle",
+  "text": "A woman on a bicycle has followed the wagon for six miles to say that Mabel's left side is her favourite.",
+  "weight": 2,
+  "choices": [
+   {
+    "id": "lantern",
+    "label": "Let her carry the lantern",
+    "effects": {
+     "funds": 0,
+     "morale": 1,
+     "rapport": {
+      "mabel": 2
+     }
+    }
+   },
+   {
+    "id": "programme",
+    "label": "Sell her a programme (+1 fund)",
+    "effects": {
+     "funds": 1,
+     "morale": 0,
+     "rapport": {
+      "mabel": 1
+     }
+    }
+   },
+   {
+    "id": "wave",
+    "label": "Wave and keep going",
+    "effects": {
+     "funds": 0,
+     "morale": 0,
+     "rapport": {
+      "tock": 1
+     }
+    }
+   }
+  ]
+ },
+ {
+  "id": "polite_highwaymen",
+  "title": "Two very polite highwaymen",
+  "text": "Two highwaymen stop the wagon, apologise for it, and ask whether you have anything small and sentimental.",
+  "weight": 2,
+  "choices": [
+   {
+    "id": "hand_over",
+    "label": "Hand over a small prop (-1 fund)",
+    "effects": {
+     "funds": -1,
+     "morale": 1
+    }
+   },
+   {
+    "id": "out_apologise",
+    "label": "Let Reginald out-apologise them",
+    "effects": {
+     "funds": 0,
+     "morale": 0,
+     "rapport": {
+      "reginald": 2
+     }
+    }
+   },
+   {
+    "id": "short_play",
+    "label": "Offer them a short play (+1 fund)",
+    "effects": {
+     "funds": 1,
+     "morale": -1
+    }
+   }
+  ]
+ },
+ {
+  "id": "village_fete",
+  "title": "The fete needs an entertainment",
+  "text": "A village fete is short of a turn. The vicar asks for something with a dying fall. Everyone looks at Reginald, who apologises.",
+  "weight": 2,
+  "choices": [
+   {
+    "id": "scene",
+    "label": "Perform a short scene (+2 funds)",
+    "effects": {
+     "funds": 2,
+     "morale": -1,
+     "rapport": {
+      "reginald": 1
+     }
+    }
+   },
+   {
+    "id": "tombola",
+    "label": "Run the tombola (+1 fund)",
+    "effects": {
+     "funds": 1,
+     "morale": 1
+    }
+   },
+   {
+    "id": "buy_cake",
+    "label": "Buy a cake and move on (-1 fund)",
+    "effects": {
+     "funds": -1,
+     "morale": 2
+    }
+   }
+  ]
+ },
+ {
+  "id": "dry_lighthouse",
+  "title": "The keeper of a dry lighthouse",
+  "text": "A lighthouse keeper has waited eleven years for an audience, and would like the whole show, in the kitchen, now.",
+  "weight": 1,
+  "choices": [
+   {
+    "id": "kitchen_show",
+    "label": "Perform in the kitchen (-1 fund for candles)",
+    "effects": {
+     "funds": -1,
+     "morale": 2,
+     "rapport": {
+      "mabel": 1
+     }
+    }
+   },
+   {
+    "id": "promise",
+    "label": "Promise to come back someday",
+    "effects": {
+     "funds": 0,
+     "morale": -1
+    }
+   }
+  ]
+ },
+ {
+  "id": "inn_ghost",
+  "title": "The inn's ghost wants a part",
+  "text": "The innkeeper's resident ghost offers free rooms in exchange for a speaking part. It would like to play the Butler.",
+  "weight": 1,
+  "choices": [
+   {
+    "id": "accept_terms",
+    "label": "Accept the ghost's terms (+2 funds)",
+    "effects": {
+     "funds": 2,
+     "morale": -1
+    }
+   },
+   {
+    "id": "silent_part",
+    "label": "Offer a non-speaking part (+1 fund)",
+    "effects": {
+     "funds": 1,
+     "morale": 1
+    }
+   },
+   {
+    "id": "pay_rooms",
+    "label": "Pay for the rooms (-2 funds)",
+    "effects": {
+     "funds": -2,
+     "morale": 2
+    }
+   }
+  ]
+ },
+ {
+  "id": "gus_and_the_hedge",
+  "title": "Gus has found a hedge",
+  "text": "Gus has stopped to study a hedge. Gus knows every part, has never been on a stage, and finds hedges reassuring.",
+  "weight": 1,
+  "choices": [
+   {
+    "id": "biscuit",
+    "label": "Coax Gus back with a biscuit (-1 fund)",
+    "effects": {
+     "funds": -1,
+     "morale": 0,
+     "rapport": {
+      "gus": 2
+     }
+    }
+   },
+   {
+    "id": "study",
+    "label": "Study the hedge together",
+    "effects": {
+     "funds": 0,
+     "morale": 1,
+     "rapport": {
+      "gus": 1
+     }
+    }
+   },
+   {
+    "id": "catch_up",
+    "label": "Let Gus catch up on foot (+1 fund)",
+    "effects": {
+     "funds": 1,
+     "morale": -1,
+     "rapport": {
+      "gus": -1
+     }
+    }
+   }
+  ]
+ },
+ {
+  "id": "hortensia_wont_leave",
+  "title": "Hortensia will not leave the wagon",
+  "text": "Hortensia refuses to leave the wagon until someone says 'darling' in precisely the right key. Nobody knows the key.",
+  "weight": 1,
+  "choices": [
+   {
+    "id": "say_darling",
+    "label": "Say 'darling' warmly",
+    "effects": {
+     "funds": 0,
+     "morale": 1,
+     "rapport": {
+      "hortensia": 1
+     }
+    }
+   },
+   {
+    "id": "mirror",
+    "label": "Offer her a mirror (-1 fund)",
+    "effects": {
+     "funds": -1,
+     "morale": 0,
+     "rapport": {
+      "hortensia": 2
+     }
+    }
+   },
+   {
+    "id": "wrong_key",
+    "label": "Say it in the wrong key, defiantly",
+    "effects": {
+     "funds": 0,
+     "morale": 2,
+     "rapport": {
+      "hortensia": -1
+     }
+    }
+   }
+  ]
+ },
+ {
+  "id": "talent_scout_for_poppet",
+  "title": "A man in a checked waistcoat",
+  "text": "A man in a checked waistcoat offers Poppet a three-year contract. Poppet is seven and has read it twice.",
+  "weight": 1,
+  "choices": [
+   {
+    "id": "decline",
+    "label": "Decline politely",
+    "effects": {
+     "funds": 0,
+     "morale": 1,
+     "rapport": {
+      "poppet": 1
+     }
+    }
+   },
+   {
+    "id": "counter",
+    "label": "Let Poppet counter-offer (+2 funds)",
+    "effects": {
+     "funds": 2,
+     "morale": -1,
+     "rapport": {
+      "poppet": 1
+     }
+    }
+   }
+  ]
+ },
+ {
+  "id": "scarecrow_captain",
+  "title": "Captain Nutt salutes a scarecrow",
+  "text": "Captain Bartleby Nutt has mistaken a scarecrow for a senior officer and has been saluting for twenty minutes.",
+  "weight": 1,
+  "choices": [
+   {
+    "id": "salute",
+    "label": "Salute too",
+    "effects": {
+     "funds": 0,
+     "morale": 1,
+     "rapport": {
+      "bartleby": 1
+     }
+    }
+   },
+   {
+    "id": "promote",
+    "label": "Promote the scarecrow to Lieutenant (-1 fund)",
+    "effects": {
+     "funds": -1,
+     "morale": 2,
+     "rapport": {
+      "bartleby": 2
+     }
+    }
+   },
+   {
+    "id": "explain",
+    "label": "Explain, kindly (+1 fund: tip from the farmer)",
+    "effects": {
+     "funds": 1,
+     "morale": -1,
+     "rapport": {
+      "bartleby": -1
+     }
+    }
+   }
+  ]
+ },
+ {
+  "id": "clockmaker_rewind",
+  "title": "A clockmaker offers a rewind",
+  "text": "A very loud clockmaker offers to wind Mr. Tock's spring backwards by exactly one hour, give or take.",
+  "weight": 1,
+  "choices": [
+   {
+    "id": "accept_rewind",
+    "label": "Accept the rewind (-2 funds, +1 Encore)",
+    "effects": {
+     "funds": -2,
+     "morale": 0,
+     "encore": 1
+    }
+   },
+   {
+    "id": "spare_spring",
+    "label": "Buy Tock a spare spring (-1 fund)",
+    "effects": {
+     "funds": -1,
+     "morale": 0,
+     "rapport": {
+      "tock": 2
+     }
+    }
+   },
+   {
+    "id": "forward_only",
+    "label": "Decline; Mr. Tock prefers forward",
+    "effects": {
+     "funds": 0,
+     "morale": 1,
+     "rapport": {
+      "tock": 1
+     }
+    }
+   }
+  ]
+ },
+ {
+  "id": "old_actor_ticket",
+  "title": "A ticket from a retired actor",
+  "text": "On a bench, a retired actor presses a worn ticket into your hand. ADMIT ONE MORE TIME. 'It still works,' they whisper.",
+  "weight": 1,
+  "choices": [
+   {
+    "id": "take_ticket",
+    "label": "Take the ticket (+1 Encore)",
+    "effects": {
+     "funds": 0,
+     "morale": 0,
+     "encore": 1
+    }
+   },
+   {
+    "id": "ask_notes",
+    "label": "Ask for notes first (-1 fund)",
+    "effects": {
+     "funds": -1,
+     "morale": 1,
+     "rapport": {
+      "mabel": 1
+     }
+    }
+   }
+  ]
+ }
+]

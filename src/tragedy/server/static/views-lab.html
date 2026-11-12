@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>views-lab: Probably a Tragedy</title>
+  <link rel="stylesheet" href="./css/tokens.css">
+  <link rel="stylesheet" href="./css/views.css">
+  <style>
+    /* Lab-only chrome. Shell-Core's base.css/components.css are layered on top automatically if they exist (?shell=0 to skip). */
+    html { color-scheme: dark; }
+    body { margin: 0; background: radial-gradient(ellipse at 50% -10%, var(--plum-700), var(--plum-900) 55%, var(--plum-950)); color: var(--fg); font-family: var(--font-ui); min-height: 100vh; }
+    #lab-bar { position: sticky; top: 0; z-index: 50; display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; padding: 8px 14px; background: rgba(19,10,23,.92); border-bottom: 1px solid var(--line); backdrop-filter: blur(6px); font-size: 12px; }
+    #lab-bar strong { color: var(--gold); font-family: var(--font-display); font-size: 14px; }
+    .lab-nav { display: flex; flex-wrap: wrap; gap: 4px; }
+    .lab-nav button, .lab-opts button { font: inherit; padding: 3px 9px; border-radius: 99px; border: 1px solid var(--line); background: transparent; color: var(--cream); cursor: pointer; }
+    .lab-nav button.on { background: var(--gold); color: var(--ink); border-color: var(--gold); }
+    .lab-opts { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+    .lab-opts select { margin-left: 4px; background: var(--plum-800); color: var(--cream); border: 1px solid var(--line); border-radius: 6px; font: inherit; }
+    #lab-log { margin: 0; font: 11px/1.3 var(--font-mono); color: var(--muted); max-width: 40ch; white-space: pre; overflow: hidden; }
+    @media (max-width: 700px) {
+      #lab-bar { position: static; gap: 4px 8px; padding: 6px 10px; font-size: 11px; } #lab-log { display: none; }
+      .lab-nav button, .lab-opts button { padding: 2px 7px; }
+      #lab-root.view { padding: 12px 12px 80px; }
+    }
+    .stage-main { padding: 0; }
+    #lab-root.view { max-width: 1180px; margin: 0 auto; padding: 18px 16px 80px; }
+  </style>
+</head>
+<body>
+  <div id="lab-bar"></div>
+  <main class="stage-main"><div class="view" id="lab-root"></div></main>
+  <script type="module">
+    import { boot } from './js/views/_lab/lab.js';
+    boot();
+  </script>
+</body>
+</html>

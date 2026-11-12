@@ -1,0 +1,56 @@
+{
+ "scenes": [
+  {
+   "id": "A",
+   "text": "Probably a Tragedy is a puppet theatre where you play the Prompter, hidden in a box at the foot of the stage, whispering to a cast that cannot be trusted. Underneath the velvet, every scene is a real LangGraph workflow, and this video shows you how they run."
+  },
+  {
+   "id": "B",
+   "text": "A tour has five towns. Each town loves one kind of play and scorns another, and that taste lives in generated datasets that the graphs read as they run."
+  },
+  {
+   "id": "C",
+   "text": "First, the casting call. Eight puppets audition for three roles at once. That is a fan-out: one node, mapped over twenty-four inputs, with the results merged by a reducer. Each puppet is voiced by a real language model, but the scores come from a deterministic engine, so the game stays fair. Then Madame recommends a cast, and the graph pauses for your approval."
+  },
+  {
+   "id": "D",
+   "text": "The writers' room runs three drafts in parallel. A judge scores them, and a conditional edge decides whether they need another revision or are ready. When the judge is satisfied, the graph stops and asks you to pick one."
+  },
+  {
+   "id": "E",
+   "text": "Spend a candle, and twelve imaginary nights run in parallel, scored against a gold set, to forecast what will go wrong."
+  },
+  {
+   "id": "F",
+   "text": "Then the show. A supervisor node directs, the puppets act, and the paper audience reacts, beat after beat, in one looping graph. When a mishap freezes the stage, the graph calls interrupt. Its whole state is saved to a checkpoint, and nothing runs until you whisper. Your answer resumes the run exactly where it stopped, and because every step is checkpointed, you can even rewind and take a beat again."
+  },
+  {
+   "id": "G",
+   "text": "When the curtain falls, five pigeon critics review the night in parallel, and the Almanac writes each calamity into long-term memory, a store with semantic search, so tomorrow's town remembers tonight's disasters."
+  },
+  {
+   "id": "H",
+   "text": "Let's look at the graphs themselves. A LangGraph is a state machine. Nodes are plain functions that read the shared state and return updates, edges decide what runs next, and reducers define how parallel updates merge. This is the casting call, running live. Watch the audition node fan out into twenty-four parallel tasks, then converge on rank and recommend."
+  },
+  {
+   "id": "I",
+   "text": "Here is the writers' room. The judge scores each draft, and a conditional edge either loops back to revise, or moves on. Now the performance graph. It loops through the Prompter's box, which is an interrupt. The run stops, the checkpointer saves the state against a thread id, and a Command with a resume value wakes it up again."
+  },
+  {
+   "id": "J",
+   "text": "All of this is visible in LangGraph Studio. Point it at the local server and every workflow appears as a graph. Run one, and the nodes light up as they execute. Click a step to inspect its state, or open a finished thread and replay it. The game's Prompt Book deep-links straight to the right graph and thread."
+  },
+  {
+   "id": "K",
+   "text": "And with LangSmith tracing on, every run becomes a trace. This is one night's show. The root run is the graph, each node is a child, and the language model calls sit inside, with their prompts, replies, latency and tokens. Notice there are two traces for one thread: the run that stopped at the Prompter's box, and the run that resumed after the whisper. The thread id ties them together."
+  },
+  {
+   "id": "K2",
+   "text": "And here is the real thing, in the Trace tab inside Studio. Click a model call, and you see the exact prompt, the reply, the tokens and the cost. The waterfall shows where the time went, and the second turn is the run that resumed after the whisper."
+  },
+  {
+   "id": "L",
+   "text": "Nine graphs, fifteen datasets, and a cast voiced by a real model. Start it with make dev, open the game, and use the Studio launcher to follow any run into its graph. Mind the goose."
+  }
+ ]
+}

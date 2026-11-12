@@ -1,0 +1,269 @@
+[
+ {
+  "id": "man_who_hates_death",
+  "name": "The Man Who Hates Death",
+  "hat": "none",
+  "palette": {
+   "coat": "#4a4e69",
+   "skin": "#e0b88f"
+  },
+  "likes": [
+   "reunion",
+   "feast",
+   "wedding"
+  ],
+  "hates": [
+   "death",
+   "murder",
+   "mourning"
+  ],
+  "laugh": 0.5,
+  "cry": 0.15,
+  "gasp": 0.55,
+  "boo": 0.8
+ },
+ {
+  "id": "tearful_aunt",
+  "name": "The Tearful Aunt",
+  "hat": "bonnet",
+  "palette": {
+   "coat": "#8d5a6b",
+   "skin": "#f1d3b3"
+  },
+  "likes": [
+   "wedding",
+   "reunion",
+   "mourning"
+  ],
+  "hates": [
+   "betrayal",
+   "sword"
+  ],
+  "laugh": 0.3,
+  "cry": 0.95,
+  "gasp": 0.6,
+  "boo": 0.05
+ },
+ {
+  "id": "pun_lover",
+  "name": "The Pun Enthusiast",
+  "hat": "bonnet",
+  "palette": {
+   "coat": "#6d597a",
+   "skin": "#e8c9a0"
+  },
+  "likes": [
+   "pun",
+   "rhyme"
+  ],
+  "hates": [
+   "death"
+  ],
+  "laugh": 0.8,
+  "cry": 0.2,
+  "gasp": 0.4,
+  "boo": 0.1
+ },
+ {
+  "id": "child_in_the_front",
+  "name": "The Child in the Front Row",
+  "hat": "bow",
+  "palette": {
+   "coat": "#e07a5f",
+   "skin": "#f4d6b8"
+  },
+  "likes": [
+   "goose",
+   "slapstick",
+   "chase"
+  ],
+  "hates": [
+   "kiss",
+   "speech"
+  ],
+  "laugh": 0.95,
+  "cry": 0.3,
+  "gasp": 0.85,
+  "boo": 0.3
+ },
+ {
+  "id": "retired_actor",
+  "name": "The Retired Actor",
+  "hat": "top",
+  "palette": {
+   "coat": "#3d405b",
+   "skin": "#d9b38c"
+  },
+  "likes": [
+   "speech",
+   "crown",
+   "death"
+  ],
+  "hates": [
+   "pun",
+   "goose"
+  ],
+  "laugh": 0.3,
+  "cry": 0.5,
+  "gasp": 0.2,
+  "boo": 0.6
+ },
+ {
+  "id": "critic_in_disguise",
+  "name": "The Critic in an Obvious Moustache",
+  "hat": "fez",
+  "palette": {
+   "coat": "#5c5470",
+   "skin": "#e5c4a0"
+  },
+  "likes": [
+   "speech",
+   "trial",
+   "letter"
+  ],
+  "hates": [
+   "slapstick",
+   "goose",
+   "pun"
+  ],
+  "laugh": 0.15,
+  "cry": 0.1,
+  "gasp": 0.3,
+  "boo": 0.7
+ },
+ {
+  "id": "sleepy_farmer",
+  "name": "The Sleepy Farmer",
+  "hat": "flat",
+  "palette": {
+   "coat": "#81795b",
+   "skin": "#d6a77a"
+  },
+  "likes": [
+   "feast",
+   "rhyme",
+   "song"
+  ],
+  "hates": [
+   "storm",
+   "chase"
+  ],
+  "laugh": 0.45,
+  "cry": 0.2,
+  "gasp": 0.15,
+  "boo": 0.1
+ },
+ {
+  "id": "goose_fancier",
+  "name": "The Goose Fancier",
+  "hat": "feather",
+  "palette": {
+   "coat": "#7a9e7e",
+   "skin": "#ecd0aa"
+  },
+  "likes": [
+   "goose",
+   "song",
+   "disguise"
+  ],
+  "hates": [
+   "fire",
+   "murder"
+  ],
+  "laugh": 0.7,
+  "cry": 0.25,
+  "gasp": 0.9,
+  "boo": 0.2
+ },
+ {
+  "id": "romantic",
+  "name": "The Incurable Romantic",
+  "hat": "feather",
+  "palette": {
+   "coat": "#b56576",
+   "skin": "#f3d9c2"
+  },
+  "likes": [
+   "romance",
+   "kiss",
+   "wedding"
+  ],
+  "hates": [
+   "slapstick",
+   "betrayal"
+  ],
+  "laugh": 0.35,
+  "cry": 0.75,
+  "gasp": 0.65,
+  "boo": 0.15
+ },
+ {
+  "id": "skeptic",
+  "name": "The Skeptic",
+  "hat": "top",
+  "palette": {
+   "coat": "#4f5d75",
+   "skin": "#e1bf99"
+  },
+  "likes": [
+   "secret",
+   "lie",
+   "mirror"
+  ],
+  "hates": [
+   "ghost",
+   "romance",
+   "mask"
+  ],
+  "laugh": 0.2,
+  "cry": 0.1,
+  "gasp": 0.1,
+  "boo": 0.6
+ },
+ {
+  "id": "snack_vendor",
+  "name": "The Snack Vendor",
+  "hat": "flat",
+  "palette": {
+   "coat": "#bc6c25",
+   "skin": "#e3b887"
+  },
+  "likes": [
+   "feast",
+   "dance",
+   "song"
+  ],
+  "hates": [
+   "storm",
+   "chase",
+   "slapstick"
+  ],
+  "laugh": 0.6,
+  "cry": 0.1,
+  "gasp": 0.3,
+  "boo": 0.2
+ },
+ {
+  "id": "mayor",
+  "name": "The Mayor, Wearing the Paper Crown",
+  "hat": "crown",
+  "palette": {
+   "coat": "#9c2a2a",
+   "skin": "#eac8a2"
+  },
+  "likes": [
+   "speech",
+   "crown",
+   "wedding"
+  ],
+  "hates": [
+   "lie",
+   "betrayal",
+   "slapstick"
+  ],
+  "laugh": 0.4,
+  "cry": 0.3,
+  "gasp": 0.4,
+  "boo": 0.5
+ }
+]

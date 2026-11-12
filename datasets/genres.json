@@ -1,0 +1,4094 @@
+[
+ {
+  "id": "melodrama",
+  "name": "Melodrama",
+  "blurb": "Moustaches, mortgages and a 4:15 that is never late for a tragedy.",
+  "palette": {
+   "sky": "#3a2a4a",
+   "flat": "#8c2f39",
+   "floor": "#2a1b1b",
+   "accent": "#f2c14e"
+  },
+  "roles": {
+   "lead": "The Wronged Heiress",
+   "villain": "The Moustachioed Landlord",
+   "fool": "The Faithful Hound"
+  },
+  "skill_by_beat": {
+   "setup": "drama",
+   "complication": "menace",
+   "reversal": "romance",
+   "twist": "menace",
+   "finale": "drama"
+  },
+  "sets": {
+   "setup": "parlour",
+   "complication": "moor",
+   "reversal": "library",
+   "twist": "graveyard",
+   "finale": "castle"
+  },
+  "beats": {
+   "setup": [
+    {
+     "id": "melodrama_setup_1",
+     "logline": "The mortgage falls due at noon, and the parlour clock has, suspiciously, started to hurry.",
+     "tags": [
+      "lie",
+      "speech"
+     ],
+     "props": [
+      "clock"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "The mortgage falls due at noon, {lead}. Pay it, or the parlour, the piano and the cat's little cushion are mine."
+      },
+      {
+       "role": "lead",
+       "text": "But it is barely nine o'clock, {villain}!"
+      },
+      {
+       "role": "villain",
+       "text": "Look at the {object}. Look at it very, very carefully."
+      },
+      {
+       "role": "fool",
+       "text": "It says noon. It has said noon since breakfast. I think it is frightened of you."
+      }
+     ]
+    },
+    {
+     "id": "melodrama_setup_2",
+     "logline": "A letter arrives from the sailor Jack, three years late and still slightly damp.",
+     "tags": [
+      "romance",
+      "letter"
+     ],
+     "props": [
+      "letter",
+      "bouquet"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "A letter from Jack! Posted three years ago, and only now has it stopped being damp."
+      },
+      {
+       "role": "fool",
+       "text": "I fetched it from the river. The river had already read it. It was very moved."
+      },
+      {
+       "role": "lead",
+       "text": "'Dearest, I return on the 4:15, with a ring, a medal and a very small parrot.'"
+      },
+      {
+       "role": "villain",
+       "text": "The 4:15. How interesting. I shall be on the platform, wearing my best moustache."
+      }
+     ]
+    },
+    {
+     "id": "melodrama_setup_3",
+     "logline": "Papa's funeral tea is served, and the sausage rolls are vanishing at a speed Papa would have admired.",
+     "tags": [
+      "mourning",
+      "feast"
+     ],
+     "props": [
+      "cake",
+      "bottle"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "Papa is cold in the ground, and the tea is warm on the table. Such is life, and such are sausage rolls."
+      },
+      {
+       "role": "villain",
+       "text": "My deepest condolences, {lead}. My deeper condolences about the rent. May I have a sausage roll?"
+      },
+      {
+       "role": "fool",
+       "text": "I have eaten four sausage rolls in Papa's memory. He would have wanted me to be strong."
+      },
+      {
+       "role": "lead",
+       "text": "He would have wanted you to stop at three."
+      }
+     ]
+    },
+    {
+     "id": "melodrama_setup_4",
+     "logline": "Papa's study has been locked since the funeral, and the landlord has begun wearing the key on a chain.",
+     "tags": [
+      "door",
+      "secret",
+      "fire"
+     ],
+     "props": [
+      "door"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "Papa's study has been locked since the funeral. What is behind that {object}, {villain}?"
+      },
+      {
+       "role": "villain",
+       "text": "Nothing. Paperwork. Dust. A small and entirely legal fire."
+      },
+      {
+       "role": "fool",
+       "text": "I can smell it from here. Paper, and wax, and the word 'whereas'."
+      },
+      {
+       "role": "villain",
+       "text": "Heel, {fool}. Sit. Go and be loyal somewhere else."
+      }
+     ]
+    },
+    {
+     "id": "melodrama_setup_5",
+     "logline": "The landlord proposes marriage, citing an enormous fortune and, in a smaller voice, a patched elbow.",
+     "tags": [
+      "wedding",
+      "lie"
+     ],
+     "props": [
+      "bouquet"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "Marry me, {lead}, and I shall make you the owner of an enormous fortune. Ignore the patched elbow; it is fashionable."
+      },
+      {
+       "role": "lead",
+       "text": "I would sooner marry the hat stand!"
+      },
+      {
+       "role": "fool",
+       "text": "The hat stand is flattered, but it has asked me to say it is spoken for."
+      },
+      {
+       "role": "villain",
+       "text": "Then I shall wait. I am patient, {lead}. My moustache is not."
+      }
+     ]
+    }
+   ],
+   "complication": [
+    {
+     "id": "melodrama_complication_1",
+     "logline": "The heiress is tied to the railway line, and the 4:15 has never once been late for a tragedy.",
+     "tags": [
+      "death",
+      "chase"
+     ],
+     "props": [
+      "rope",
+      "clock"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "Unhand me, {villain}! This rope is made of knots and bad intentions!"
+      },
+      {
+       "role": "villain",
+       "text": "The 4:15 is four minutes away, {lead}. It has never once been late for a tragedy."
+      },
+      {
+       "role": "fool",
+       "text": "I will save you! Right after I find a knife. Or a pair of scissors. Or, failing those, teeth."
+      },
+      {
+       "role": "lead",
+       "text": "Teeth are fine, {fool}. Please chew faster."
+      }
+     ]
+    },
+    {
+     "id": "melodrama_complication_2",
+     "logline": "A blizzard of torn paper sweeps the moor, and the Faithful Hound starts to sing.",
+     "tags": [
+      "storm",
+      "song"
+     ],
+     "props": [
+      "lantern",
+      "tree"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "The moor is wide, the night is cold, and my slippers are made entirely of hope."
+      },
+      {
+       "role": "fool",
+       "text": "I shall sing to keep your spirits up. 'Oh, the wind, the wind, the wind, and then the wind again.'"
+      },
+      {
+       "role": "villain",
+       "text": "Stop that. I am trying to menace you through a blizzard, and you are making it cosy."
+      },
+      {
+       "role": "lead",
+       "text": "It is rather cosy, actually. Do go on, {fool}."
+      }
+     ]
+    },
+    {
+     "id": "melodrama_complication_3",
+     "logline": "The landlord offers the Faithful Hound a pork pie in exchange for one small betrayal.",
+     "tags": [
+      "betrayal",
+      "feast"
+     ],
+     "props": [
+      "cake"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "{fool}, I have a pork pie. A whole one. It is yours if you tell me where the will is hidden."
+      },
+      {
+       "role": "fool",
+       "text": "I could never betray {lead}. I am loyal. I am extremely loyal. How big is the pie?"
+      },
+      {
+       "role": "lead",
+       "text": "{fool}! You are my last friend on this wretched moor!"
+      },
+      {
+       "role": "fool",
+       "text": "I know. I know. It is a very good pie."
+      }
+     ]
+    },
+    {
+     "id": "melodrama_complication_4",
+     "logline": "A duel is fought on the cliff edge with one rubber sword, one teapot and no clear rules.",
+     "tags": [
+      "sword",
+      "slapstick"
+     ],
+     "props": [
+      "sword",
+      "teapot"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "En garde, {lead}! I have not duelled since the incident with the pudding."
+      },
+      {
+       "role": "lead",
+       "text": "I have never held a sword! I have held a teapot, once, in anger."
+      },
+      {
+       "role": "fool",
+       "text": "Use the teapot! No, the sword! No, the teapot! Please choose, I am extremely frightened."
+      },
+      {
+       "role": "villain",
+       "text": "Do hold still, {lead}. I am trying to be terrifying, and you are being difficult with a teapot."
+      }
+     ]
+    },
+    {
+     "id": "melodrama_complication_5",
+     "logline": "A kindly widow offers the heiress shelter, a bonnet and an unexpectedly robust moustache.",
+     "tags": [
+      "disguise",
+      "mistaken_identity"
+     ],
+     "props": [
+      "lantern",
+      "rope"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "Good evening, dear. I am an entirely different person: a kindly widow who knits and owns no railways."
+      },
+      {
+       "role": "lead",
+       "text": "What a relief! You have such a lovely bonnet. And such a... remarkable upper lip."
+      },
+      {
+       "role": "villain",
+       "text": "Hereditary. Come, let me take you somewhere with a great deal of rope."
+      },
+      {
+       "role": "fool",
+       "text": "The widow is so kind! Why is the rope always the first thing on the menu?"
+      }
+     ]
+    }
+   ],
+   "reversal": [
+    {
+     "id": "melodrama_reversal_1",
+     "logline": "The will is found in the least-opened book in the library, and it leaves everything to the cat.",
+     "tags": [
+      "treasure",
+      "letter"
+     ],
+     "props": [
+      "book",
+      "letter"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "I have found the will! It was inside 'Sensible Investments, Volume Nine.' Nobody ever opens that one."
+      },
+      {
+       "role": "lead",
+       "text": "Read it aloud, {fool}!"
+      },
+      {
+       "role": "fool",
+       "text": "'To my beloved daughter I leave my blessing and my watch. The fortune goes in trust to...' the cat."
+      },
+      {
+       "role": "villain",
+       "text": "The cat? Then I demand to be appointed the cat's guardian. Nobody tell the cat."
+      }
+     ]
+    },
+    {
+     "id": "melodrama_reversal_2",
+     "logline": "The landlord's terrible secret is revealed: a very large hat, and nowhere else to live.",
+     "tags": [
+      "speech",
+      "secret"
+     ],
+     "props": [
+      "trophy"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "I never wanted your parlour, {lead}. I wanted a parlour. Any parlour. I have been living in a very large hat."
+      },
+      {
+       "role": "lead",
+       "text": "A hat, {villain}?"
+      },
+      {
+       "role": "villain",
+       "text": "It is draughty. The brim leaks. I keep the {object} in it, for company."
+      },
+      {
+       "role": "fool",
+       "text": "I will fetch you a blanket, {villain}. Then I shall go back to hating you. It is a busy week."
+      }
+     ]
+    },
+    {
+     "id": "melodrama_reversal_3",
+     "logline": "The Wronged Heiress learns that the true heiress is, in fact, the Faithful Hound.",
+     "tags": [
+      "crown",
+      "mistaken_identity"
+     ],
+     "props": [
+      "crown"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "The birthmark, {lead}! The one shaped like a small crown! You do not have it. {fool} does."
+      },
+      {
+       "role": "fool",
+       "text": "That is a rash. I have had it since the bath."
+      },
+      {
+       "role": "lead",
+       "text": "All these years I walked you, I fed you, I gave you the good biscuits..."
+      },
+      {
+       "role": "fool",
+       "text": "Then I shall be generous in victory. You may keep the other biscuits."
+      }
+     ]
+    },
+    {
+     "id": "melodrama_reversal_4",
+     "logline": "The landlord throws the will on the fire, only to learn that the Faithful Hound has already eaten it.",
+     "tags": [
+      "fire",
+      "feast"
+     ],
+     "props": [
+      "candle",
+      "letter"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "Behold, {lead}! I cast the will upon the fire! Now your claim is ash!"
+      },
+      {
+       "role": "fool",
+       "text": "Wait. I have already eaten it. I got there first. It tasted of wax and legal destiny."
+      },
+      {
+       "role": "lead",
+       "text": "Then the will lives on, inside {fool}!"
+      },
+      {
+       "role": "villain",
+       "text": "Then we shall all have to wait for nature to take its course. Everyone sit down. Nobody speak."
+      }
+     ]
+    },
+    {
+     "id": "melodrama_reversal_5",
+     "logline": "The library lamp goes out, and the heiress embraces the wrong moustache.",
+     "tags": [
+      "kiss",
+      "mistaken_identity",
+      "romance"
+     ],
+     "props": [
+      "candle",
+      "ladder"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "The lamp has gone out! Jack, my darling, is that you in the dark?"
+      },
+      {
+       "role": "villain",
+       "text": "...Possibly."
+      },
+      {
+       "role": "lead",
+       "text": "I knew it! Kiss me, before the 4:15 does something dramatic!"
+      },
+      {
+       "role": "fool",
+       "text": "Unhand {lead}! That is not Jack! Jack has a parrot! This one only has a faint smell of wax!"
+      }
+     ]
+    }
+   ],
+   "twist": [
+    {
+     "id": "melodrama_twist_1",
+     "logline": "The grave begins to move. It has Papa's shoes.",
+     "tags": [
+      "death",
+      "reunion",
+      "mourning"
+     ],
+     "props": [
+      "skull",
+      "tree"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "{lead}, the grave is moving. I am not saying it is Papa. I am saying it has his shoes."
+      },
+      {
+       "role": "lead",
+       "text": "Papa! You are alive!"
+      },
+      {
+       "role": "villain",
+       "text": "Impossible. I paid for that headstone. I paid extra for the cherub."
+      },
+      {
+       "role": "fool",
+       "text": "Papa says he was hiding from the bank. He says the soil was surprisingly good for his back."
+      }
+     ]
+    },
+    {
+     "id": "melodrama_twist_2",
+     "logline": "Inside the locket is a baby portrait. The baby has a moustache, and it is the landlord's.",
+     "tags": [
+      "reunion",
+      "secret"
+     ],
+     "props": [
+      "lantern"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "In my mother's locket there is a portrait of a baby. A baby with... a moustache."
+      },
+      {
+       "role": "villain",
+       "text": "That is my baby picture, {lead}. It was taken the day we were separated at the fair."
+      },
+      {
+       "role": "fool",
+       "text": "You are siblings! That explains the rent, the railway line, and the matching ears."
+      },
+      {
+       "role": "villain",
+       "text": "I was lonely. It is how I show affection. I am told it is not widely recommended."
+      }
+     ]
+    },
+    {
+     "id": "melodrama_twist_3",
+     "logline": "A ghost rises over Papa's grave. It has a tail, and a bedsheet on backwards.",
+     "tags": [
+      "ghost",
+      "disguise"
+     ],
+     "props": [
+      "ghost_sheet",
+      "lantern"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "Woooo. I am the ghost of Papa. I am extremely dead and not at all a hound under a sheet."
+      },
+      {
+       "role": "villain",
+       "text": "That ghost has a tail. I can see the tail."
+      },
+      {
+       "role": "fool",
+       "text": "The dead wag too, {villain}. It is well documented."
+      },
+      {
+       "role": "lead",
+       "text": "Thank you, {fool}. Your sheet is on backwards, but I am deeply moved."
+      }
+     ]
+    },
+    {
+     "id": "melodrama_twist_4",
+     "logline": "The bottle that killed Papa is found, and it is signed, with a flourish, by the landlord.",
+     "tags": [
+      "poison",
+      "murder",
+      "trial"
+     ],
+     "props": [
+      "bottle",
+      "skull"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "I have found the bottle that killed Papa. It says 'Poison' on the front and 'Landlord's Own' on the back."
+      },
+      {
+       "role": "villain",
+       "text": "Anyone could have written that. Anyone with my handwriting."
+      },
+      {
+       "role": "lead",
+       "text": "It is signed, {villain}. 'Yours sincerely, the villain.'"
+      },
+      {
+       "role": "villain",
+       "text": "I sign everything. It is a compulsion. It is in the moustache."
+      }
+     ]
+    },
+    {
+     "id": "melodrama_twist_5",
+     "logline": "The moustache comes off, and the landlord turns out to be the sailor Jack.",
+     "tags": [
+      "betrayal",
+      "mask"
+     ],
+     "props": [
+      "mask"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "Wait. If I take off the moustache, {villain} is Jack. {villain} is the sailor. I am so confused."
+      },
+      {
+       "role": "lead",
+       "text": "Jack?! You posted the letter, you wrote the mortgage, and you tied me to the tracks?"
+      },
+      {
+       "role": "villain",
+       "text": "I was lonely at sea, {lead}. I got into property. The parrot was a separate decision."
+      },
+      {
+       "role": "fool",
+       "text": "I am going to need everybody to sit down, and also the parrot."
+      }
+     ]
+    }
+   ],
+   "finale": [
+    {
+     "id": "melodrama_finale_1",
+     "logline": "The landlord is defeated and begins to die, in no particular hurry.",
+     "tags": [
+      "death",
+      "speech",
+      "sword"
+     ],
+     "props": [
+      "sword",
+      "banner"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "Aargh! You have bested me, {lead}! I am slain! I am dying! I am dying slightly more!"
+      },
+      {
+       "role": "lead",
+       "text": "Is that the end of it, {villain}?"
+      },
+      {
+       "role": "villain",
+       "text": "No. There is a speech. Gather round. It is mostly apologies and a recipe."
+      },
+      {
+       "role": "fool",
+       "text": "Please die, {villain}. The 4:15 is in the next scene and it hates to be kept waiting."
+      }
+     ]
+    },
+    {
+     "id": "melodrama_finale_2",
+     "logline": "The landlord's fiendish chandelier trap goes off, and the chandelier picks the landlord.",
+     "tags": [
+      "chandelier",
+      "slapstick",
+      "stairs"
+     ],
+     "props": [
+      "chandelier",
+      "rope"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "Stand upon the grand staircase, {lead}, beneath the chandelier! My fiendish contraption will finally..."
+      },
+      {
+       "role": "fool",
+       "text": "Cutting the rope, {lead}! Brace yourselves!"
+      },
+      {
+       "role": "lead",
+       "text": "{fool}, no! {villain} is the one standing under..."
+      },
+      {
+       "role": "villain",
+       "text": "I am wearing the chandelier. I came down the stairs in it. I would like it noted that I have never been so well lit."
+      }
+     ]
+    },
+    {
+     "id": "melodrama_finale_3",
+     "logline": "The parlour is saved, the mortgage is torn, and the wedding has a bride, a vicar and no agreed groom.",
+     "tags": [
+      "wedding",
+      "song"
+     ],
+     "props": [
+      "bouquet",
+      "banner"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "The parlour is saved, the mortgage is torn, and Papa is merely resting. Let the wedding begin!"
+      },
+      {
+       "role": "villain",
+       "text": "Who is the groom? I put myself forward. I have a moustache and a good deal of remorse."
+      },
+      {
+       "role": "fool",
+       "text": "The hat stand has also put itself forward. We have agreed to let the audience decide."
+      },
+      {
+       "role": "lead",
+       "text": "Then let us sing, and settle it during the second verse."
+      }
+     ]
+    },
+    {
+     "id": "melodrama_finale_4",
+     "logline": "The 4:15 arrives early for once, through the castle gates, driven by a very small parrot.",
+     "tags": [
+      "reunion",
+      "slapstick",
+      "door"
+     ],
+     "props": [
+      "banner",
+      "bouquet"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "Hark! The 4:15! It is early, for the first time in its life, and it is coming through the front door!"
+      },
+      {
+       "role": "lead",
+       "text": "Jack? Is that you at last, on the footplate?"
+      },
+      {
+       "role": "villain",
+       "text": "It is a parrot, {lead}. The train is being driven by a very small parrot."
+      },
+      {
+       "role": "fool",
+       "text": "The parrot is doing wonderfully. It has only run over the one flowerbed."
+      }
+     ]
+    },
+    {
+     "id": "melodrama_finale_5",
+     "logline": "With the plot exhausted, the cast appeals directly to the audience, and a hat goes round.",
+     "tags": [
+      "speech",
+      "treasure"
+     ],
+     "props": [
+      "trunk",
+      "banner"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "Friends, neighbours, patrons of {town}: the mortgage remains unpaid, and the 4:15 has been cancelled."
+      },
+      {
+       "role": "villain",
+       "text": "It is true. I have no more moustache to twirl. I do, however, have a hat. Pass it round."
+      },
+      {
+       "role": "fool",
+       "text": "Every penny goes to the parlour. One penny to me, for the ham."
+      },
+      {
+       "role": "lead",
+       "text": "And should we not be saved by the end of the hat, we shall simply perform it all again."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "farce",
+  "name": "Farce",
+  "blurb": "Doors. So many doors, and everyone arriving at once.",
+  "palette": {
+   "sky": "#f6d28b",
+   "flat": "#e07a5f",
+   "floor": "#3d2c2e",
+   "accent": "#81b29a"
+  },
+  "roles": {
+   "lead": "The Flustered Hero",
+   "villain": "The Scheming Brother-in-Law",
+   "fool": "The Wrong Man"
+  },
+  "skill_by_beat": {
+   "setup": "comedy",
+   "complication": "physical",
+   "reversal": "improv",
+   "twist": "comedy",
+   "finale": "physical"
+  },
+  "sets": {
+   "setup": "parlour",
+   "complication": "corridor",
+   "reversal": "bedroom",
+   "twist": "cellar",
+   "finale": "parlour"
+  },
+  "beats": {
+   "setup": [
+    {
+     "id": "farce_setup_1",
+     "logline": "A visitor arrives to read the gas meter and is instantly mistaken for the vicar.",
+     "tags": [
+      "door",
+      "mistaken_identity"
+     ],
+     "props": [
+      "door",
+      "umbrella_stand"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "Good morning. I am only here to read the gas meter."
+      },
+      {
+       "role": "villain",
+       "text": "The vicar! At last! The wedding is in twelve minutes and we have not yet found a bride."
+      },
+      {
+       "role": "lead",
+       "text": "Wedding? What wedding? I only came to return an umbrella!"
+      },
+      {
+       "role": "fool",
+       "text": "I am not a vicar. But I will certainly consider it, if the hat is good."
+      }
+     ]
+    },
+    {
+     "id": "farce_setup_2",
+     "logline": "The Flustered Hero has invited both fiancées to lunch, and describes this as a system.",
+     "tags": [
+      "lie",
+      "romance"
+     ],
+     "props": [
+      "bouquet",
+      "chair"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "I have invited my fiancée to lunch. And my other fiancée. They arrive at one. I am perfectly calm."
+      },
+      {
+       "role": "villain",
+       "text": "Splendid. And which of them knows about the other?"
+      },
+      {
+       "role": "lead",
+       "text": "Neither. That is the foundation of the whole arrangement."
+      },
+      {
+       "role": "fool",
+       "text": "I am not engaged to anyone. May I sit by the window? I should like to be completely uninvolved."
+      }
+     ]
+    },
+    {
+     "id": "farce_setup_3",
+     "logline": "Lunch for twelve, four chairs, and a soufflé that must on no account be sat on.",
+     "tags": [
+      "feast",
+      "chair",
+      "pun"
+     ],
+     "props": [
+      "cake",
+      "chair"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "Lunch for twelve and four chairs. We shall sit in shifts. I have drawn up a rota."
+      },
+      {
+       "role": "lead",
+       "text": "And the soufflé? It must not be disturbed, or it will fall, and so shall I."
+      },
+      {
+       "role": "fool",
+       "text": "I am sitting on the soufflé. It was the only free chair. It is very warm and surprisingly supportive."
+      },
+      {
+       "role": "villain",
+       "text": "Nobody move. It may yet rise."
+      }
+     ]
+    },
+    {
+     "id": "farce_setup_4",
+     "logline": "A telegram arrives reading 'Believe nothing. Burn this.' and is burned before anyone finishes the sentence.",
+     "tags": [
+      "letter",
+      "secret",
+      "fire"
+     ],
+     "props": [
+      "letter",
+      "teapot"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "A telegram! 'ARRIVING TODAY STOP BELIEVE NOTHING STOP BURN THIS STOP.' Who sent it?"
+      },
+      {
+       "role": "lead",
+       "text": "Not me. Probably. It is in my handwriting, but I was very tired that week."
+      },
+      {
+       "role": "fool",
+       "text": "I have burned it, as instructed. It was easier than reading it."
+      },
+      {
+       "role": "villain",
+       "text": "Excellent. Now nobody knows what we are hiding. Least of all us."
+      }
+     ]
+    },
+    {
+     "id": "farce_setup_5",
+     "logline": "The brother-in-law begins a welcome speech, and the doorbell keeps rewriting it.",
+     "tags": [
+      "speech",
+      "door"
+     ],
+     "props": [
+      "door",
+      "umbrella_stand"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "Friends, welcome to a weekend of peace, quiet and uncomplicated relationships. Is that the doorbell?"
+      },
+      {
+       "role": "lead",
+       "text": "No. Nobody is expected. We shall not answer. It is a draught with ambitions."
+      },
+      {
+       "role": "fool",
+       "text": "That is the fourth draught. I am letting them in, and then hiding in the umbrella stand."
+      },
+      {
+       "role": "villain",
+       "text": "I said uncomplicated. I should like that on the record."
+      }
+     ]
+    }
+   ],
+   "complication": [
+    {
+     "id": "farce_complication_1",
+     "logline": "Seven doors, one corridor, and everyone certain that the exit is behind somebody else's.",
+     "tags": [
+      "door",
+      "chase"
+     ],
+     "props": [
+      "door",
+      "ladder"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "Quick, through here! No, not here, that is the cupboard. Which one is the corridor?"
+      },
+      {
+       "role": "villain",
+       "text": "You are in the corridor. You have been in it for two minutes. It is simply very long."
+      },
+      {
+       "role": "fool",
+       "text": "I have gone through the same door four times. I keep coming out of the other one. It is thrilling."
+      },
+      {
+       "role": "lead",
+       "text": "The corridor is round, {fool}. Somebody built this house in a circle, to be spiteful."
+      }
+     ]
+    },
+    {
+     "id": "farce_complication_2",
+     "logline": "The hero poses as the maid to avoid a fiancée, and the brother-in-law develops a weakness.",
+     "tags": [
+      "disguise",
+      "romance",
+      "mirror"
+     ],
+     "props": [
+      "mask",
+      "mirror"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "I am Marguerite, the maid. I am not {lead}. {lead} left in a cab, with a cold. I have checked the mirror."
+      },
+      {
+       "role": "villain",
+       "text": "Marguerite! What a coincidence. I have a weakness for maids and a second, smaller weakness for lies."
+      },
+      {
+       "role": "fool",
+       "text": "Marguerite, the mirror is on your side, but you do have a moustache. I say it kindly. Put it away before lunch."
+      },
+      {
+       "role": "lead",
+       "text": "It is a family trait. We are a very hairy and extremely modest family."
+      }
+     ]
+    },
+    {
+     "id": "farce_complication_3",
+     "logline": "The only chair in the corridor has wheels, and sitting down is everyone's only alibi.",
+     "tags": [
+      "chair",
+      "slapstick"
+     ],
+     "props": [
+      "chair"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "Sit, {lead}! Nobody can accuse a person who is sitting. It is the first law of hospitality."
+      },
+      {
+       "role": "lead",
+       "text": "The {object} is moving! The {object} is leaving the corridor, with me on it!"
+      },
+      {
+       "role": "fool",
+       "text": "I will catch you! There! Oh. I have caught the {object}. You are now over there, sitting in a plant."
+      },
+      {
+       "role": "villain",
+       "text": "Well, at least the plant is not accusing anybody."
+      }
+     ]
+    },
+    {
+     "id": "farce_complication_4",
+     "logline": "A tureen of soup begins its journey up the stairs and has not yet been seen to arrive.",
+     "tags": [
+      "stairs",
+      "feast"
+     ],
+     "props": [
+      "teapot"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "Soup for the bedroom! I have carried the tureen up all eighteen stairs without spilling a drop."
+      },
+      {
+       "role": "villain",
+       "text": "Admirable. You are, however, holding only the lid."
+      },
+      {
+       "role": "fool",
+       "text": "I am holding... only the lid. Where is the soup?"
+      },
+      {
+       "role": "lead",
+       "text": "Down the banister, I should think. Listen. It is still going."
+      }
+     ]
+    },
+    {
+     "id": "farce_complication_5",
+     "logline": "Three secret notes arrange three private meetings in the same bedroom at the same time.",
+     "tags": [
+      "letter",
+      "romance"
+     ],
+     "props": [
+      "letter",
+      "bed"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "A note under the door: 'Meet me in the blue bedroom at three. Come alone. Bring nothing.' I am touched."
+      },
+      {
+       "role": "villain",
+       "text": "I also received a note. 'The blue bedroom at three. Come alone. Bring snacks.'"
+      },
+      {
+       "role": "fool",
+       "text": "Mine says 'The blue bedroom at three. Come alone. Tell no one.' I have told nobody. I have only told you."
+      },
+      {
+       "role": "lead",
+       "text": "So three people will be alone together in the blue bedroom at three. It is the cleverest plan I have ever not made."
+      }
+     ]
+    },
+    {
+     "id": "farce_complication_6",
+     "logline": "The hero attempts a dignified farewell kiss from the top of the stairs and does not stop at the bottom.",
+     "tags": [
+      "kiss",
+      "stairs"
+     ],
+     "props": [
+      "bouquet",
+      "ladder"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "I shall say farewell with a kiss, from the top of the stairs. Dignified. Heroic. Brief."
+      },
+      {
+       "role": "villain",
+       "text": "That is the banister, {lead}. You are kissing the banister."
+      },
+      {
+       "role": "lead",
+       "text": "It is an excellent banister. It has been waiting its whole life for this."
+      },
+      {
+       "role": "fool",
+       "text": "You are now at the bottom of the stairs. The banister is still at the top. You were not formally introduced."
+      }
+     ]
+    }
+   ],
+   "reversal": [
+    {
+     "id": "farce_reversal_1",
+     "logline": "It turns out the Wrong Man was the groom all along, which is more than anyone mentioned.",
+     "tags": [
+      "wedding",
+      "mistaken_identity"
+     ],
+     "props": [
+      "bed",
+      "trunk"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "Someone must be the groom. The bride has been waiting in the next room since breakfast, with the register."
+      },
+      {
+       "role": "fool",
+       "text": "Me? I only came about the gas meter."
+      },
+      {
+       "role": "lead",
+       "text": "Look at the register! The groom's name is {fool}! Right house, right man, wrong everything else."
+      },
+      {
+       "role": "fool",
+       "text": "I am delighted. And a little frightened. May I sit down on the bed?"
+      }
+     ]
+    },
+    {
+     "id": "farce_reversal_2",
+     "logline": "Three people hide in the wardrobe from a fourth person, who is also in the wardrobe.",
+     "tags": [
+      "secret",
+      "slapstick"
+     ],
+     "props": [
+      "door",
+      "bed"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "Quick, in the wardrobe! Nobody will look in the wardrobe!"
+      },
+      {
+       "role": "villain",
+       "text": "{lead}, I am already in the wardrobe. I got here first. Please remove your elbow from my ear."
+      },
+      {
+       "role": "fool",
+       "text": "I too am in the wardrobe. I came for a coat. I stayed out of loyalty."
+      },
+      {
+       "role": "lead",
+       "text": "Then who is knocking from the back of the wardrobe?"
+      }
+     ]
+    },
+    {
+     "id": "farce_reversal_3",
+     "logline": "The hero discovers a handsome but shifty intruder in the bedroom mirror and demands an explanation.",
+     "tags": [
+      "mirror",
+      "slapstick"
+     ],
+     "props": [
+      "mirror",
+      "bed"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "There is a stranger in the room! They are wearing my coat! They copy everything I do!"
+      },
+      {
+       "role": "villain",
+       "text": "That is a mirror, {lead}."
+      },
+      {
+       "role": "lead",
+       "text": "That is what they want us to think. Look, they are pointing at me. Stop pointing at me!"
+      },
+      {
+       "role": "fool",
+       "text": "Please don't shout at the mirror. It is very sensitive. I have been speaking kindly to it all week."
+      }
+     ]
+    },
+    {
+     "id": "farce_reversal_4",
+     "logline": "Great-Uncle Percival has died in the bed, and the wedding must not find out.",
+     "tags": [
+      "death",
+      "lie"
+     ],
+     "props": [
+      "bed",
+      "chair"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "Great-Uncle Percival has died, quietly, in the bed. If the vicar finds out, the wedding is off."
+      },
+      {
+       "role": "lead",
+       "text": "Then Percival will attend the wedding. As a guest. A very still, very supportive guest."
+      },
+      {
+       "role": "fool",
+       "text": "I have dressed him. He looks marvellous. He has agreed with everything I have said."
+      },
+      {
+       "role": "lead",
+       "text": "Percival was always an excellent listener."
+      }
+     ]
+    },
+    {
+     "id": "farce_reversal_5",
+     "logline": "The hero serenades the bedroom window and, in the dark, the wrong wall.",
+     "tags": [
+      "song",
+      "romance",
+      "rhyme"
+     ],
+     "props": [
+      "harp",
+      "bouquet"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "Come to the window, my dearest dove, and hear the song of my undying love... whichever one you are!"
+      },
+      {
+       "role": "villain",
+       "text": "That is my bedroom wall. You are serenading plaster."
+      },
+      {
+       "role": "fool",
+       "text": "It is rather a good wall. It has not left yet."
+      },
+      {
+       "role": "lead",
+       "text": "Then I shall continue. It is the most attentive audience I have had all week."
+      }
+     ]
+    }
+   ],
+   "twist": [
+    {
+     "id": "farce_twist_1",
+     "logline": "The trunk everyone has been guarding contains the body, which turns out to be potatoes in a good suit.",
+     "tags": [
+      "death",
+      "secret"
+     ],
+     "props": [
+      "trunk"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "Open the {object}. Slowly. Brace yourselves for the body."
+      },
+      {
+       "role": "fool",
+       "text": "It is not a body. It is potatoes. Very well-dressed potatoes, in Percival's good suit."
+      },
+      {
+       "role": "villain",
+       "text": "Then what have I been burying in the garden all morning?"
+      },
+      {
+       "role": "fool",
+       "text": "Probably more potatoes. It is that sort of week."
+      }
+     ]
+    },
+    {
+     "id": "farce_twist_2",
+     "logline": "The deed to the house is found in the cellar, around the neck of a goose.",
+     "tags": [
+      "goose",
+      "treasure"
+     ],
+     "props": [
+      "goose",
+      "trunk"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "I have found the owner of the house. It is down here. It is wearing the deed around its neck."
+      },
+      {
+       "role": "villain",
+       "text": "That is a goose. A goose cannot own a house. There are laws."
+      },
+      {
+       "role": "lead",
+       "text": "There are no laws on the subject, {villain}. I asked the solicitor to check. Twice."
+      },
+      {
+       "role": "fool",
+       "text": "It has allowed us to stay. It would only like the bread to be better."
+      }
+     ]
+    },
+    {
+     "id": "farce_twist_3",
+     "logline": "The family puts the Wrong Man on trial in the cellar before a jury of twelve unimpressed barrels.",
+     "tags": [
+      "trial",
+      "speech"
+     ],
+     "props": [
+      "chair",
+      "bottle"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "Members of the jury: the accused is charged with arriving at the wrong house. How do you plead?"
+      },
+      {
+       "role": "fool",
+       "text": "Innocent, by reason of directions. They said 'second left'. This was a second left."
+      },
+      {
+       "role": "lead",
+       "text": "The defence rests, my lord. The jury is twelve barrels, and I believe they were moved."
+      },
+      {
+       "role": "villain",
+       "text": "They have not moved an inch. Guilty, then, of everything."
+      }
+     ]
+    },
+    {
+     "id": "farce_twist_4",
+     "logline": "Music is coming from under the floor. The cellar, it turns out, has a very busy social calendar.",
+     "tags": [
+      "dance",
+      "secret"
+     ],
+     "props": [
+      "harp",
+      "banner"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "Music? Under the floor? Who is dancing in the {place}?"
+      },
+      {
+       "role": "villain",
+       "text": "The neighbours, and most of {town}. Every night since the wedding was announced. It is a secret society. They dance."
+      },
+      {
+       "role": "fool",
+       "text": "I am in it. I am the treasurer. Dues are two buttons and a good attitude."
+      },
+      {
+       "role": "lead",
+       "text": "I have always wanted to join a secret society. Is there a casserole rota?"
+      }
+     ]
+    },
+    {
+     "id": "farce_twist_5",
+     "logline": "The brother-in-law's great scheme turns out to be a surprise party, which is worse.",
+     "tags": [
+      "feast",
+      "lie"
+     ],
+     "props": [
+      "cake",
+      "banner"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "Why is the cellar full of bunting and a very large cake with my name on it?"
+      },
+      {
+       "role": "villain",
+       "text": "It was meant to be a surprise. I have been lying to you for three weeks. It was exhausting."
+      },
+      {
+       "role": "fool",
+       "text": "I was not invited. I came in through the coal chute. May I stay? I brought nothing, but I am very surprised."
+      },
+      {
+       "role": "lead",
+       "text": "You scheming, thoughtful soul. I shall never forgive you. Is it lemon?"
+      }
+     ]
+    }
+   ],
+   "finale": [
+    {
+     "id": "farce_finale_1",
+     "logline": "Eleven people use seven doors simultaneously, and somehow end up where they started.",
+     "tags": [
+      "door",
+      "slapstick"
+     ],
+     "props": [
+      "door",
+      "umbrella_stand"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "Everyone out through the doors, calmly, in an orderly fashion, one door each!"
+      },
+      {
+       "role": "villain",
+       "text": "There are eleven of us and seven doors. I will take two. I have earned two."
+      },
+      {
+       "role": "fool",
+       "text": "I went out of the front door and in through the window, and now I am the person in the middle."
+      },
+      {
+       "role": "lead",
+       "text": "We are all back in the {place}, from different directions, at once. It is the neatest thing we have ever done."
+      }
+     ]
+    },
+    {
+     "id": "farce_finale_2",
+     "logline": "The wedding goes ahead with the right hat and, by a clerical oversight, the wrong couple.",
+     "tags": [
+      "wedding",
+      "kiss"
+     ],
+     "props": [
+      "bouquet"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "Do you, {lead}, take {fool} to be your lawfully wedded... oh. This is the wrong couple. The list was eaten."
+      },
+      {
+       "role": "lead",
+       "text": "I will if you will, {fool}. I do not know why, but it feels right. It feels damp."
+      },
+      {
+       "role": "fool",
+       "text": "I do. I came to read the gas meter, and I have stayed for the cake."
+      },
+      {
+       "role": "villain",
+       "text": "By the power vested in me by a borrowed hat, I pronounce you both... something. You may kiss, ideally each other."
+      }
+     ]
+    },
+    {
+     "id": "farce_finale_3",
+     "logline": "Lunch is finally served, and the soufflé rises, and rises, and does not stop.",
+     "tags": [
+      "feast",
+      "slapstick"
+     ],
+     "props": [
+      "cake",
+      "chair"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "Ladies, gentlemen and one goose: lunch is served. Sit where you can. Sit on whom you must."
+      },
+      {
+       "role": "lead",
+       "text": "The soufflé has risen! After eleven attempts, it has risen!"
+      },
+      {
+       "role": "villain",
+       "text": "It is still rising, {lead}. It has reached the ceiling."
+      },
+      {
+       "role": "fool",
+       "text": "It has left through the roof. It wishes us all well. It wants to see the world."
+      }
+     ]
+    },
+    {
+     "id": "farce_finale_4",
+     "logline": "Everyone confesses everything at once, and the confessions cancel each other out.",
+     "tags": [
+      "lie",
+      "speech"
+     ],
+     "props": [
+      "umbrella_stand"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "I confess! I have two fiancées, a borrowed umbrella, and a deep, abiding fear of the cellar!"
+      },
+      {
+       "role": "villain",
+       "text": "I confess! I arranged everything: the wedding, the telegram, the soufflé and the goose!"
+      },
+      {
+       "role": "fool",
+       "text": "I confess! I am from the gas board! I do not know why I am saying this so loudly!"
+      },
+      {
+       "role": "lead",
+       "text": "Wonderful. Now we all know everything, and nobody has to do anything about it."
+      }
+     ]
+    },
+    {
+     "id": "farce_finale_5",
+     "logline": "The chandelier, which has hung over the whole farce with intent, finally comes down.",
+     "tags": [
+      "chandelier",
+      "door"
+     ],
+     "props": [
+      "chandelier",
+      "door"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "Does anyone else notice that the chandelier is lower than it was? Considerably lower?"
+      },
+      {
+       "role": "fool",
+       "text": "It was bolted to the ceiling. I have the bolts here in my pocket. I thought they were buttons."
+      },
+      {
+       "role": "lead",
+       "text": "Everyone stand perfectly still. Do not breathe. Do not, under any circumstances, ring the doorbell."
+      },
+      {
+       "role": "fool",
+       "text": "...I think that was the doorbell."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "whodunit",
+  "name": "Whodunit",
+  "blurb": "A dead host, a helpful butler, and a goose who saw everything and will not be drawn.",
+  "palette": {
+   "sky": "#26303b",
+   "flat": "#6b705c",
+   "floor": "#1c1a1a",
+   "accent": "#b23a48"
+  },
+  "roles": {
+   "lead": "The Out-of-Depth Detective",
+   "villain": "The Helpful Butler",
+   "fool": "The Witness Who Saw Everything"
+  },
+  "skill_by_beat": {
+   "setup": "drama",
+   "complication": "improv",
+   "reversal": "menace",
+   "twist": "drama",
+   "finale": "menace"
+  },
+  "sets": {
+   "setup": "ballroom",
+   "complication": "library",
+   "reversal": "garden",
+   "twist": "cellar",
+   "finale": "parlour"
+  },
+  "beats": {
+   "setup": [
+    {
+     "id": "whodunit_setup_1",
+     "logline": "His lordship raises a glass, announces that he knows what everyone did, and falls into the soup.",
+     "tags": [
+      "death",
+      "feast",
+      "poison"
+     ],
+     "props": [
+      "bottle",
+      "cake"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "His lordship raised his glass, said 'I know what every one of you did,' and fell into the soup."
+      },
+      {
+       "role": "lead",
+       "text": "Then nobody leaves this room. Nobody touches the soup. Nobody touches his lordship."
+      },
+      {
+       "role": "fool",
+       "text": "I touched the soup. It is lovely. It is a little murdery, but very well seasoned."
+      },
+      {
+       "role": "villain",
+       "text": "I should mention that I am the butler, that I was nowhere near the soup, and that nobody asked."
+      }
+     ]
+    },
+    {
+     "id": "whodunit_setup_2",
+     "logline": "The storm has washed out the bridge, and the front door has locked itself in solidarity.",
+     "tags": [
+      "storm",
+      "door"
+     ],
+     "props": [
+      "door",
+      "lantern"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "I regret to say the bridge to {town} has gone, the telephone has been eaten, and the weather has locked all the doors."
+      },
+      {
+       "role": "lead",
+       "text": "So we are trapped in a country house with a dead host and no way out?"
+      },
+      {
+       "role": "villain",
+       "text": "Not at all. There are eleven ways out. All of them lead into the weather."
+      },
+      {
+       "role": "fool",
+       "text": "I saw the storm lock the front door. It used a key shaped like lightning. I can describe the key."
+      }
+     ]
+    },
+    {
+     "id": "whodunit_setup_3",
+     "logline": "There are exactly two witnesses to the crime, and one of them is a goose.",
+     "tags": [
+      "goose",
+      "secret"
+     ],
+     "props": [
+      "goose"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "I saw everything. I was in the corner, quiet as a hat. It happened at 9:41, and it was extremely rude."
+      },
+      {
+       "role": "lead",
+       "text": "What happened at 9:41?"
+      },
+      {
+       "role": "fool",
+       "text": "Everything. All of it, one thing after another, in the wrong order. Ask the {object}; it saw more than I did."
+      },
+      {
+       "role": "villain",
+       "text": "The witness is unreliable and the {object} is a goose. I would advise the detective to disregard both."
+      }
+     ]
+    },
+    {
+     "id": "whodunit_setup_4",
+     "logline": "It is a masked ball, which is a lovely idea until somebody has to be identified.",
+     "tags": [
+      "mask",
+      "disguise"
+     ],
+     "props": [
+      "mask"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "A masked ball. Everyone in a face that is not theirs. How am I to find a murderer in all this?"
+      },
+      {
+       "role": "villain",
+       "text": "I have taken the liberty of collecting everyone's masks, shoes and, as a courtesy, their opinions."
+      },
+      {
+       "role": "fool",
+       "text": "I took mine off. There was another underneath. I am three masks deep and I have lost track of who I am."
+      },
+      {
+       "role": "lead",
+       "text": "Splendid. Then the first suspect is whoever asked for the masks. {villain}, please do not leave the room."
+      }
+     ]
+    },
+    {
+     "id": "whodunit_setup_5",
+     "logline": "Every guest received an invitation reading 'I know what you did.' One of them is from an aunt.",
+     "tags": [
+      "letter",
+      "secret"
+     ],
+     "props": [
+      "letter",
+      "cake"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "Each of you received an invitation reading 'I know what you did.' May I see them?"
+      },
+      {
+       "role": "villain",
+       "text": "I received one too. I assumed it was about the soup. It is always about the soup."
+      },
+      {
+       "role": "fool",
+       "text": "Mine says 'I know what you did, and I forgive you, and could you bring a cake.' It is from my aunt."
+      },
+      {
+       "role": "lead",
+       "text": "I will set that one aside."
+      }
+     ]
+    }
+   ],
+   "complication": [
+    {
+     "id": "whodunit_complication_1",
+     "logline": "A second body turns up in the library, between 'Poisons' and 'Poisoners: A Beginner's Guide.'",
+     "tags": [
+      "murder",
+      "poison"
+     ],
+     "props": [
+      "book",
+      "bottle"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "I have found a second body, in the {place}, between 'Poisons' and 'Poisoners: A Beginner's Guide.'"
+      },
+      {
+       "role": "villain",
+       "text": "It is Mrs. Grimble, the cook. She knew the recipe for the soup, the wine and, I regret to say, me."
+      },
+      {
+       "role": "lead",
+       "text": "What exactly did she know about you?"
+      },
+      {
+       "role": "villain",
+       "text": "Only that I am extremely helpful. I shall fetch some tea and be somewhere else."
+      }
+     ]
+    },
+    {
+     "id": "whodunit_complication_2",
+     "logline": "The detective leans on a book, the bookcase revolves, and the investigation takes a brief and unplanned turn.",
+     "tags": [
+      "secret",
+      "slapstick"
+     ],
+     "props": [
+      "book",
+      "ladder"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "This book is conspicuously out of place. It is called 'Do Not Pull This Book.'"
+      },
+      {
+       "role": "fool",
+       "text": "Do not pull it. It says so on the spine."
+      },
+      {
+       "role": "lead",
+       "text": "Too late! The bookcase is turning! I am being taken somewhere, in the line of duty, and I shall report back!"
+      },
+      {
+       "role": "villain",
+       "text": "I shall note that the detective has gone into the wall. I will fetch the sherry; it is that sort of evening."
+      }
+     ]
+    },
+    {
+     "id": "whodunit_complication_3",
+     "logline": "The detective interrogates the suspects and obtains two alibis for the same spoon.",
+     "tags": [
+      "lie",
+      "trial"
+     ],
+     "props": [
+      "teapot"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "Where were you at 9:41, {villain}?"
+      },
+      {
+       "role": "villain",
+       "text": "In the pantry, polishing a spoon. The spoon will confirm it."
+      },
+      {
+       "role": "fool",
+       "text": "I was also in the pantry. We were not together. We were politely adjacent."
+      },
+      {
+       "role": "lead",
+       "text": "So the spoon was polished twice, by two people who were not together. That spoon has seen more than anyone in this house."
+      }
+     ]
+    },
+    {
+     "id": "whodunit_complication_4",
+     "logline": "Every clue the detective finds points firmly at the detective.",
+     "tags": [
+      "mistaken_identity",
+      "murder",
+      "mirror"
+     ],
+     "props": [
+      "mirror",
+      "book"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "A footprint, size seven. A button from a green coat. A monocle engraved with my initials. How curious."
+      },
+      {
+       "role": "fool",
+       "text": "Look in the mirror, detective. Green coat. Size seven shoes. One monocle. Quite a convincing murderer."
+      },
+      {
+       "role": "villain",
+       "text": "The detective is the culprit. I am shocked. I am also, privately, impressed by the efficiency."
+      },
+      {
+       "role": "lead",
+       "text": "Nonsense. I have been framed. Quite possibly by myself, but still."
+      }
+     ]
+    },
+    {
+     "id": "whodunit_complication_5",
+     "logline": "A poem is found under the blotter, and it is somehow worse than the murder.",
+     "tags": [
+      "rhyme",
+      "letter"
+     ],
+     "props": [
+      "letter",
+      "book"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "His lordship's last word was 'marmalade.' His last poem was worse. 'Roses are red, the soup has gone sour...'"
+      },
+      {
+       "role": "fool",
+       "text": "'...I shall be dead within the hour.' It scans! Whoever did it, his lordship died a poet."
+      },
+      {
+       "role": "villain",
+       "text": "Evidence in verse. I have never been so insulted on behalf of the law."
+      },
+      {
+       "role": "lead",
+       "text": "It is signed 'Yours, in agony and iambs.' I believe we are looking for an English teacher."
+      }
+     ]
+    }
+   ],
+   "reversal": [
+    {
+     "id": "whodunit_reversal_1",
+     "logline": "The body is the gardener in his lordship's dinner jacket, which raises further questions about the jacket.",
+     "tags": [
+      "death",
+      "mistaken_identity"
+     ],
+     "props": [
+      "tree",
+      "trunk"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "I looked closely at the body. It is wearing his lordship's dinner jacket. It has the gardener's hands."
+      },
+      {
+       "role": "lead",
+       "text": "So the dead man is not the host."
+      },
+      {
+       "role": "villain",
+       "text": "Then where is the host? And why does the gardener own such a very nice jacket?"
+      },
+      {
+       "role": "lead",
+       "text": "Two excellent questions. I shall write them on my cuff and refer to them later."
+      }
+     ]
+    },
+    {
+     "id": "whodunit_reversal_2",
+     "logline": "The butler's unbreakable alibi turns out to rest on a garden clock that has been wrong since 1923.",
+     "tags": [
+      "lie",
+      "secret"
+     ],
+     "props": [
+      "clock"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "I can prove I was nowhere near the library at 9:41. The garden clock confirms it."
+      },
+      {
+       "role": "lead",
+       "text": "The garden clock says 9:41. It also says it is Thursday. It has said so since 1923."
+      },
+      {
+       "role": "fool",
+       "text": "I have always liked that clock. It never lies. It simply refuses to move."
+      },
+      {
+       "role": "villain",
+       "text": "I stand by the clock. A clock that does not move is a clock that cannot move against you."
+      }
+     ]
+    },
+    {
+     "id": "whodunit_reversal_3",
+     "logline": "The motive flips: his lordship was penniless, and the family fortune is a very large stuffed pike.",
+     "tags": [
+      "treasure",
+      "secret"
+     ],
+     "props": [
+      "fish",
+      "trunk"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "I have found the family fortune. It is in the greenhouse. It is a stuffed pike. The pike is wearing a monocle."
+      },
+      {
+       "role": "lead",
+       "text": "That is the fortune? I thought his lordship was rich!"
+      },
+      {
+       "role": "villain",
+       "text": "He was rich in spirit, and in pikes. Mostly in pikes."
+      },
+      {
+       "role": "lead",
+       "text": "Then someone killed him for a pike. I have never been so concerned for a fish."
+      }
+     ]
+    },
+    {
+     "id": "whodunit_reversal_4",
+     "logline": "The detective and the prime suspect waltz in the greenhouse, strictly in the interests of the investigation.",
+     "tags": [
+      "romance",
+      "dance"
+     ],
+     "props": [
+      "bouquet"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "May I have this dance, detective? Purely to establish where everyone was standing at 9:41."
+      },
+      {
+       "role": "lead",
+       "text": "Purely investigatory. One has to be thorough. Mind the geraniums."
+      },
+      {
+       "role": "fool",
+       "text": "I am witnessing this. I do not know what I am witnessing. It is mostly elbows."
+      },
+      {
+       "role": "lead",
+       "text": "I find myself, {villain}, entirely unable to suspect you. This is a serious professional problem."
+      }
+     ]
+    },
+    {
+     "id": "whodunit_reversal_5",
+     "logline": "The soup is cleared of all charges. The biscuit, however, has a great deal to answer for.",
+     "tags": [
+      "poison",
+      "feast"
+     ],
+     "props": [
+      "bottle",
+      "cake"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "The laboratory report is in. The soup was perfectly wholesome. Slightly dull, but wholesome."
+      },
+      {
+       "role": "fool",
+       "text": "I knew it. I said it was only a little murdery. I now apologise to the soup."
+      },
+      {
+       "role": "villain",
+       "text": "Then what was it, detective? A tragic accident? A biscuit?"
+      },
+      {
+       "role": "lead",
+       "text": "Oh. Oh no. Why would you say 'a biscuit'? {villain}, why are you holding the biscuit tin?"
+      }
+     ]
+    }
+   ],
+   "twist": [
+    {
+     "id": "whodunit_twist_1",
+     "logline": "The Helpful Butler confesses to the murder but insists, in mitigation, that the victim asked.",
+     "tags": [
+      "murder",
+      "betrayal",
+      "speech"
+     ],
+     "props": [
+      "bottle",
+      "trunk"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "I did it, detective. But I wish it recorded that his lordship asked me to, in writing, with a lovely signature."
+      },
+      {
+       "role": "lead",
+       "text": "He asked to be murdered?"
+      },
+      {
+       "role": "villain",
+       "text": "He said it would raise the tone of the weekend. He wanted it done before the bread course."
+      },
+      {
+       "role": "fool",
+       "text": "He did say he wanted to go out with a bang. I thought he meant fireworks."
+      }
+     ]
+    },
+    {
+     "id": "whodunit_twist_2",
+     "logline": "The goose finally testifies. It honks once, with enormous confidence, in the direction of the biscuit tin.",
+     "tags": [
+      "goose",
+      "trial"
+     ],
+     "props": [
+      "goose",
+      "chair"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "Order! The court calls its only reliable witness. {fool}, please translate."
+      },
+      {
+       "role": "fool",
+       "text": "The goose says: 'HONK.' In my professional opinion, this means 'it was the one with the biscuit tin.'"
+      },
+      {
+       "role": "villain",
+       "text": "That is slander. From a goose. In a cellar. At an inconvenient time."
+      },
+      {
+       "role": "lead",
+       "text": "It is the first testimony all night that was not a lie or a poem. Hand over the biscuit tin, {villain}."
+      }
+     ]
+    },
+    {
+     "id": "whodunit_twist_3",
+     "logline": "The butler removes the whiskers, and it is his lordship, who has been serving the soup for six years.",
+     "tags": [
+      "disguise",
+      "secret",
+      "mask"
+     ],
+     "props": [
+      "mask"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "If you take off the whiskers... {villain} is his lordship. Lord Pembry-Wattle has been the butler all along."
+      },
+      {
+       "role": "villain",
+       "text": "I wished to hear what people said when they thought I was not listening. It was a mistake. They said nothing."
+      },
+      {
+       "role": "lead",
+       "text": "Then who is the man in the soup?"
+      },
+      {
+       "role": "villain",
+       "text": "A cousin. I am so sorry. I was behind the tureen for most of it and I missed the details."
+      }
+     ]
+    },
+    {
+     "id": "whodunit_twist_4",
+     "logline": "His lordship's ghost appears in the cellar and points at the culprit, and at everyone else, in turn.",
+     "tags": [
+      "ghost",
+      "death"
+     ],
+     "props": [
+      "ghost_sheet"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "Detective, behind you. A ghost, in a dinner jacket, pointing."
+      },
+      {
+       "role": "lead",
+       "text": "Lord Pembry-Wattle! Who did this to you? Point at the culprit!"
+      },
+      {
+       "role": "fool",
+       "text": "He is pointing at me. Now at you. Now at {villain}. Now at the wine. Now at {town}, which is eleven miles away."
+      },
+      {
+       "role": "villain",
+       "text": "He is also saying 'marmalade' again. He does that. I believe it is a clue, or a preference."
+      }
+     ]
+    },
+    {
+     "id": "whodunit_twist_5",
+     "logline": "Behind the wine rack lies the real motive: a crown, a duchy, and a pond.",
+     "tags": [
+      "crown",
+      "treasure"
+     ],
+     "props": [
+      "crown",
+      "trunk"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "The motive, at last: behind the wine rack, the Crown of Little Mumbling. A duchy of six houses and a pond."
+      },
+      {
+       "role": "villain",
+       "text": "A duchy! Whoever wore that crown would be a duke. Of the pond."
+      },
+      {
+       "role": "fool",
+       "text": "I would murder for a pond. I am not saying I did. I am saying I understand."
+      },
+      {
+       "role": "lead",
+       "text": "The most pathetic motive I have ever heard, and the most believable."
+      }
+     ]
+    },
+    {
+     "id": "whodunit_twist_6",
+     "logline": "The Helpful Butler produces a sword from the umbrella stand and politely threatens everyone with it.",
+     "tags": [
+      "sword",
+      "murder"
+     ],
+     "props": [
+      "sword",
+      "umbrella_stand"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "I regret that I must now be unhelpful. Nobody move. This sword has been in the umbrella stand since Easter."
+      },
+      {
+       "role": "lead",
+       "text": "Put it down, {villain}! You are a butler! Butlers do not have swords!"
+      },
+      {
+       "role": "villain",
+       "text": "I do not have a licence for it, certainly. But I have a great deal of sympathy for the sword."
+      },
+      {
+       "role": "fool",
+       "text": "For the record, it took four attempts to draw. The umbrella stand held on very bravely."
+      }
+     ]
+    }
+   ],
+   "finale": [
+    {
+     "id": "whodunit_finale_1",
+     "logline": "The detective gathers the suspects and announces that everyone in this room is a suspect, including the room.",
+     "tags": [
+      "speech",
+      "murder"
+     ],
+     "props": [
+      "chair"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "I have gathered you all in the {place} because everyone in this room is a suspect. Including the room."
+      },
+      {
+       "role": "villain",
+       "text": "The room has an alibi, detective. It was in the house the whole time."
+      },
+      {
+       "role": "lead",
+       "text": "The killer had access to the soup, knew the library, and is at this moment handing round the biscuits."
+      },
+      {
+       "role": "villain",
+       "text": "...I do so like to be useful."
+      }
+     ]
+    },
+    {
+     "id": "whodunit_finale_2",
+     "logline": "The guilty party is exposed, and the chandelier, sensing a climax, joins in.",
+     "tags": [
+      "chandelier",
+      "slapstick"
+     ],
+     "props": [
+      "chandelier",
+      "rope"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "The weapon was never the soup. It was the chandelier, which has been loose since Tuesday!"
+      },
+      {
+       "role": "fool",
+       "text": "I did say it looked lower. I said it to the goose. The goose said nothing."
+      },
+      {
+       "role": "villain",
+       "text": "I did not touch the chandelier. I merely polished it, thoroughly, with intent."
+      },
+      {
+       "role": "lead",
+       "text": "Everybody stand clear of the... oh. It has fallen. It was the only predictable thing all evening."
+      }
+     ]
+    },
+    {
+     "id": "whodunit_finale_3",
+     "logline": "The detective proposes tea as a test of guilt, and the teapot proposes a goose.",
+     "tags": [
+      "feast",
+      "goose"
+     ],
+     "props": [
+      "teapot",
+      "goose"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "The tea is poured. The killer, I believe, will be the one who does not drink it."
+      },
+      {
+       "role": "villain",
+       "text": "I do not take tea. It is a long-standing and entirely unrelated principle."
+      },
+      {
+       "role": "lead",
+       "text": "Everyone will drink, on my count. One, two... why is there a goose in the teapot?"
+      },
+      {
+       "role": "fool",
+       "text": "It saw everything. It is trying to leave."
+      }
+     ]
+    },
+    {
+     "id": "whodunit_finale_4",
+     "logline": "The guilty party flees, and every door in the house turns out to be a cupboard.",
+     "tags": [
+      "door",
+      "chase"
+     ],
+     "props": [
+      "door",
+      "umbrella_stand"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "I shall be leaving by the front door. Do not follow. I have a head start and an umbrella."
+      },
+      {
+       "role": "lead",
+       "text": "Stop! Every exit is guarded!"
+      },
+      {
+       "role": "fool",
+       "text": "Detective, that door is a cupboard. That door is a cupboard. That one is a cupboard that thinks it is a door."
+      },
+      {
+       "role": "villain",
+       "text": "This is the third cupboard. I have never been so thoroughly defeated by joinery."
+      }
+     ]
+    },
+    {
+     "id": "whodunit_finale_5",
+     "logline": "His lordship wakes up. He was only asleep in the soup, and is mortified about the fuss.",
+     "tags": [
+      "death",
+      "reunion"
+     ],
+     "props": [
+      "bottle"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "His lordship has woken up. He was asleep in the soup. He says he is very sorry about the fuss."
+      },
+      {
+       "role": "lead",
+       "text": "Asleep? For three hours? In the soup?"
+      },
+      {
+       "role": "villain",
+       "text": "He is a very sound sleeper. I should have mentioned it. I was busy being suspicious."
+      },
+      {
+       "role": "lead",
+       "text": "Then I have solved nothing. I shall bill for the weekend regardless."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "gothic_romance",
+  "name": "Gothic Romance",
+  "blurb": "Moors, candles and a ghost who is mostly disappointed. Everyone is brooding; some of them on time.",
+  "palette": {
+   "sky": "#5c5f7a",
+   "flat": "#2d2a3e",
+   "floor": "#16141f",
+   "accent": "#f0c987"
+  },
+  "roles": {
+   "lead": "The Governess of Doubtful Credentials",
+   "villain": "The Brooding Master of the House",
+   "fool": "The Disappointed Ghost"
+  },
+  "skill_by_beat": {
+   "setup": "drama",
+   "complication": "romance",
+   "reversal": "drama",
+   "twist": "drama",
+   "finale": "romance"
+  },
+  "sets": {
+   "setup": "moor",
+   "complication": "castle",
+   "reversal": "library",
+   "twist": "attic",
+   "finale": "graveyard"
+  },
+  "beats": {
+   "setup": [
+    {
+     "id": "gothic_romance_setup_1",
+     "logline": "The new governess crosses the moor in a storm, clutching a letter of reference that has not survived the rain.",
+     "tags": [
+      "storm",
+      "letter"
+     ],
+     "props": [
+      "lantern",
+      "letter"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "The directions said 'just past the second gorse bush.' I have passed eleven. They were all rather sinister."
+      },
+      {
+       "role": "fool",
+       "text": "It is the house with the light on. Do not go in. I would say that more ominously if I had the energy."
+      },
+      {
+       "role": "villain",
+       "text": "You are late. The last governess was late too. She is in the walls now, I think. She sends her regards."
+      },
+      {
+       "role": "lead",
+       "text": "I carry a letter of reference from the Bishop of Mumbling. It has, regrettably, become a puddle."
+      }
+     ]
+    },
+    {
+     "id": "gothic_romance_setup_2",
+     "logline": "A figure on the hill broods at the horizon, in the rain, without an umbrella.",
+     "tags": [
+      "romance",
+      "mourning"
+     ],
+     "props": [
+      "moon",
+      "tree"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "There is a figure on the hill, gazing at the horizon as though it owed them money."
+      },
+      {
+       "role": "fool",
+       "text": "That is {villain}, who has been brooding since Tuesday. It is a thorough job."
+      },
+      {
+       "role": "villain",
+       "text": "I am contemplating a loss I cannot name."
+      },
+      {
+       "role": "lead",
+       "text": "Is it the umbrella? You seem to have lost the umbrella."
+      }
+     ]
+    },
+    {
+     "id": "gothic_romance_setup_3",
+     "logline": "The front door opens by itself, which is a ghost's way of saying 'I suppose you had better come in.'",
+     "tags": [
+      "ghost",
+      "door"
+     ],
+     "props": [
+      "door",
+      "ghost_sheet"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "Oooooh. Welcome. I am the ghost. I was going to rattle some chains, but they are in the wash."
+      },
+      {
+       "role": "lead",
+       "text": "A ghost! How marvellous. Are you going to haunt me?"
+      },
+      {
+       "role": "fool",
+       "text": "I was going to. I have been trying since Tuesday. I am not very good. Nobody has been frightened since the Regency."
+      },
+      {
+       "role": "villain",
+       "text": "Do not encourage the ghost, {lead}. It will want to discuss its feelings."
+      }
+     ]
+    },
+    {
+     "id": "gothic_romance_setup_4",
+     "logline": "Someone is singing in the closed west wing, very sincerely and about a quarter-tone flat.",
+     "tags": [
+      "song",
+      "secret",
+      "door"
+     ],
+     "props": [
+      "harp",
+      "candle"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "I can hear someone singing in the west wing. Very softly. Terribly flat."
+      },
+      {
+       "role": "villain",
+       "text": "There is nobody in the west wing. The door has been locked for years, and also for reasons."
+      },
+      {
+       "role": "fool",
+       "text": "That is me. I am practising. It is 'The Last Rose of Summer', but the rose keeps going off-key."
+      },
+      {
+       "role": "lead",
+       "text": "A ghost, singing flat, in a closed wing, for reasons. I could not be more delighted."
+      }
+     ]
+    },
+    {
+     "id": "gothic_romance_setup_5",
+     "logline": "Tea is served on the moor in a gale, because the family believes in the weather.",
+     "tags": [
+      "feast",
+      "speech"
+     ],
+     "props": [
+      "teapot",
+      "cake"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "Tea is served on the moor. It has been served on the moor since 1790. The weather is part of the family."
+      },
+      {
+       "role": "lead",
+       "text": "May we take it indoors? My cup is full of sideways rain."
+      },
+      {
+       "role": "fool",
+       "text": "I have attended this tea for two hundred years. The rain has not improved."
+      },
+      {
+       "role": "villain",
+       "text": "Then we shall observe a minute of silence for the scones, which have blown to Norfolk."
+      }
+     ]
+    }
+   ],
+   "complication": [
+    {
+     "id": "gothic_romance_complication_1",
+     "logline": "The governess descends the grand staircase with dignity and is caught at the bottom by the master of the house.",
+     "tags": [
+      "stairs",
+      "romance"
+     ],
+     "props": [
+      "candle"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "I shall descend the grand staircase with dignity, composure and the {object}..."
+      },
+      {
+       "role": "villain",
+       "text": "Mind the third step. It has taken a governess before."
+      },
+      {
+       "role": "lead",
+       "text": "You caught me. You have caught me quite by accident, and with surprisingly gentle hands."
+      },
+      {
+       "role": "fool",
+       "text": "I did not push you. I merely sighed in your direction. It is a very draughty staircase."
+      }
+     ]
+    },
+    {
+     "id": "gothic_romance_complication_2",
+     "logline": "The harp plays itself in the empty ballroom, badly, and the master asks the governess to dance.",
+     "tags": [
+      "dance",
+      "romance"
+     ],
+     "props": [
+      "harp",
+      "candle"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "The harp is playing itself again. Badly. It is usually a waltz. Will you... dance?"
+      },
+      {
+       "role": "lead",
+       "text": "I do not waltz. I have only ever danced with a coat stand, at school."
+      },
+      {
+       "role": "fool",
+       "text": "I would play the harp, but I have no hands. I shall do it mostly with mood."
+      },
+      {
+       "role": "lead",
+       "text": "Then let us be bad at it together."
+      }
+     ]
+    },
+    {
+     "id": "gothic_romance_complication_3",
+     "logline": "A ghost is perched on the great chandelier, sulking in the draught.",
+     "tags": [
+      "chandelier",
+      "ghost"
+     ],
+     "props": [
+      "chandelier"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "There is a ghost on the {object}. It appears to be sulking."
+      },
+      {
+       "role": "fool",
+       "text": "I am not sulking. I am perching with disappointment. I have been up here since 1823 and no one has once looked up."
+      },
+      {
+       "role": "villain",
+       "text": "Do not stand beneath it, {lead}. It has fallen on two governesses and a delegation from {town}. We keep a ledger."
+      },
+      {
+       "role": "lead",
+       "text": "Then I shall admire it from the doorway, with great respect and a small umbrella."
+      }
+     ]
+    },
+    {
+     "id": "gothic_romance_complication_4",
+     "logline": "The governess finds a letter in which the master of the house requests, from the Bishop, a dog instead of a governess.",
+     "tags": [
+      "letter",
+      "secret"
+     ],
+     "props": [
+      "letter",
+      "candle"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "I found a letter in the hall, addressed to the Bishop. 'Do not send me a governess. Send me a dog. A calm one.'"
+      },
+      {
+       "role": "villain",
+       "text": "That was written before I met you. I would like to amend it: send me a dog and a governess."
+      },
+      {
+       "role": "fool",
+       "text": "{villain} has been writing it for years. I proofread. The dog was my suggestion."
+      },
+      {
+       "role": "lead",
+       "text": "I am not offended. I am slightly offended. But mostly I am flattered by the dog."
+      }
+     ]
+    },
+    {
+     "id": "gothic_romance_complication_5",
+     "logline": "The great hall's fire will not light, because there is a storm in the chimney and the candle has opinions.",
+     "tags": [
+      "fire",
+      "storm"
+     ],
+     "props": [
+      "candle",
+      "lantern"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "The fire will not light. There is a storm in the chimney. It has been there since Tuesday."
+      },
+      {
+       "role": "lead",
+       "text": "I could light it with this candle."
+      },
+      {
+       "role": "fool",
+       "text": "Oooh. The candle went out. That is the tenth time today. It is a very good effect. I am jealous."
+      },
+      {
+       "role": "villain",
+       "text": "It happens whenever anyone says something hopeful in this house."
+      }
+     ]
+    },
+    {
+     "id": "gothic_romance_complication_6",
+     "logline": "The ghost tries to pull a chair out from under the governess. The chair, and the ghost, have other plans.",
+     "tags": [
+      "slapstick",
+      "chair"
+     ],
+     "props": [
+      "chair",
+      "ghost_sheet"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "I have decided to haunt you properly. I shall move this chair. Watch closely. It is a very frightening chair."
+      },
+      {
+       "role": "lead",
+       "text": "I am watching. Oh, it moves. How unsettling. I shall sit down, to steady myself."
+      },
+      {
+       "role": "fool",
+       "text": "Not there! That is where I... oh. You have sat on the ghost. I am now underneath you."
+      },
+      {
+       "role": "villain",
+       "text": "Do not apologise, {lead}. It is the first time in two hundred years that anything has frightened the ghost."
+      }
+     ]
+    }
+   ],
+   "reversal": [
+    {
+     "id": "gothic_romance_reversal_1",
+     "logline": "The master's diary reveals the house's terrible secret: a goose.",
+     "tags": [
+      "goose",
+      "secret"
+     ],
+     "props": [
+      "book",
+      "goose"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "I found your diary. 'Today I stared at the moor again. I was not looking at the moor. I was watching for the goose.'"
+      },
+      {
+       "role": "villain",
+       "text": "It is a very large goose. It has a look. I have not set foot on the moor in eleven years."
+      },
+      {
+       "role": "fool",
+       "text": "I have met the goose. It is quite nice. It only wants to be loved, and also your hat."
+      },
+      {
+       "role": "lead",
+       "text": "So the dark secret of the house is a goose. I feel strangely relieved, and slightly cheated."
+      }
+     ]
+    },
+    {
+     "id": "gothic_romance_reversal_2",
+     "logline": "The portrait of the woman the master lost is revealed to be a portrait of a pony.",
+     "tags": [
+      "mistaken_identity",
+      "mourning"
+     ],
+     "props": [
+      "candle"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "That portrait is of the woman I lost, {lead}. You are the image of her. Same cheekbones. Same disapproving eyebrow."
+      },
+      {
+       "role": "fool",
+       "text": "That is not a woman. That is Dorothea, the pony. The family is very attached."
+      },
+      {
+       "role": "villain",
+       "text": "She was a good pony. She had a way of looking at one."
+      },
+      {
+       "role": "lead",
+       "text": "Then I am honoured to resemble Dorothea."
+      }
+     ]
+    },
+    {
+     "id": "gothic_romance_reversal_3",
+     "logline": "The master of the house tries to declare an affection and can only do it in rhyme.",
+     "tags": [
+      "rhyme",
+      "romance"
+     ],
+     "props": [
+      "book",
+      "candle"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "I cannot say it plainly, so I shall say it in rhyme: I find you quite agreeable, most of the time."
+      },
+      {
+       "role": "lead",
+       "text": "That is the most romantic thing anyone has ever said to me, and it scanned."
+      },
+      {
+       "role": "villain",
+       "text": "I have a drawer of poems. Everything rhymes with 'moor'. I have been to the very bottom of 'more'."
+      },
+      {
+       "role": "fool",
+       "text": "I wrote half of them. 'Door' and 'floor' were mine. 'Gore' was entirely {villain}'s."
+      }
+     ]
+    },
+    {
+     "id": "gothic_romance_reversal_4",
+     "logline": "The Bishop of Mumbling arrives to examine the governess's credentials, which are a puddle.",
+     "tags": [
+      "trial",
+      "lie"
+     ],
+     "props": [
+      "book",
+      "letter"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "The Bishop of Mumbling has arrived to examine your credentials, {lead}. He is in the library with a clipboard."
+      },
+      {
+       "role": "lead",
+       "text": "I have excellent credentials. I have a letter. It is a puddle, but it is a very distinguished puddle."
+      },
+      {
+       "role": "fool",
+       "text": "I looked over the Bishop's shoulder. He has written 'Governess: unqualified. Lovely smile.' All on one line."
+      },
+      {
+       "role": "villain",
+       "text": "I have decided to overlook the first part."
+      }
+     ]
+    },
+    {
+     "id": "gothic_romance_reversal_5",
+     "logline": "The master unmasks to reveal the terrible scar that has shaped everything, and it is a pencil mark.",
+     "tags": [
+      "mask",
+      "secret"
+     ],
+     "props": [
+      "mask"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "You wear a mask in the house, {villain}. I think I deserve to know why."
+      },
+      {
+       "role": "villain",
+       "text": "Beneath this mask is a terrible scar. A duel. A storm. A great betrayal."
+      },
+      {
+       "role": "fool",
+       "text": "It is a pencil mark. {villain} sat on a pencil at school, in a hurry."
+      },
+      {
+       "role": "villain",
+       "text": "It was a very sharp pencil, {fool}. Do not mock the pencil."
+      }
+     ]
+    },
+    {
+     "id": "gothic_romance_reversal_6",
+     "logline": "The master challenges the ghost to a duel over a review of some poetry. Neither can hit the other.",
+     "tags": [
+      "sword",
+      "rhyme"
+     ],
+     "props": [
+      "sword",
+      "book"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "Ghost, you insulted my verse! I shall make your afterlife worse! En garde!"
+      },
+      {
+       "role": "fool",
+       "text": "I said it was 'a bold use of the word moor'. That is not an insult. That is a review."
+      },
+      {
+       "role": "lead",
+       "text": "Please, both of you. One of you cannot be hit, and the other cannot hit."
+      },
+      {
+       "role": "villain",
+       "text": "The sword goes straight through you, {fool}. It is the most insulting thing that has ever happened to my sword."
+      }
+     ]
+    }
+   ],
+   "twist": [
+    {
+     "id": "gothic_romance_twist_1",
+     "logline": "The attic is full of love letters addressed to a governess the master had not yet met.",
+     "tags": [
+      "letter",
+      "romance"
+     ],
+     "props": [
+      "trunk",
+      "letter"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "The attic is full of letters. Hundreds of them. All addressed to 'The Governess I Have Not Yet Met.'"
+      },
+      {
+       "role": "villain",
+       "text": "I wrote one every night. It is a hobby. I realise it is not a conventional hobby."
+      },
+      {
+       "role": "fool",
+       "text": "There are also forty-one addressed to 'The Dog.' {villain} was very optimistic."
+      },
+      {
+       "role": "lead",
+       "text": "Then I am, apparently, the first reply."
+      }
+     ]
+    },
+    {
+     "id": "gothic_romance_twist_2",
+     "logline": "The attic mirror reflects only the governess, which is two reflections fewer than anyone had prepared for.",
+     "tags": [
+      "mirror",
+      "ghost"
+     ],
+     "props": [
+      "mirror",
+      "trunk"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "The mirror shows only me. It does not show you, {fool}, which I expected. It does not show you, {villain}, which I did not."
+      },
+      {
+       "role": "villain",
+       "text": "...I had hoped to raise it at a more suitable moment. I am also a ghost. It has been a long time. I did not like to say."
+      },
+      {
+       "role": "fool",
+       "text": "Since 1871. I promised not to tell. I am bad at secrets but excellent at not bothering."
+      },
+      {
+       "role": "lead",
+       "text": "Then the brooding was not a character flaw. It was a lifestyle."
+      }
+     ]
+    },
+    {
+     "id": "gothic_romance_twist_3",
+     "logline": "The family silver is found in the attic, and the thief is the household ghost.",
+     "tags": [
+      "treasure",
+      "betrayal"
+     ],
+     "props": [
+      "trunk",
+      "candle"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "The attic contains the family silver. Every spoon. Two hundred years' worth."
+      },
+      {
+       "role": "fool",
+       "text": "I can explain. I was lonely. A ghost needs something to hold. Spoons are excellent company."
+      },
+      {
+       "role": "villain",
+       "text": "I thought the burglars were thorough. It was you, {fool}. You have been robbing us from the inside."
+      },
+      {
+       "role": "fool",
+       "text": "From beyond, actually. It is different. There is a lot of paperwork."
+      }
+     ]
+    },
+    {
+     "id": "gothic_romance_twist_4",
+     "logline": "The governess confesses to being an acrobat, and the chandelier is mentioned with interest.",
+     "tags": [
+      "lie",
+      "chandelier"
+     ],
+     "props": [
+      "rope",
+      "ladder"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "I must confess something. I am not a qualified governess. I am a trained acrobat. The references were my cousin's."
+      },
+      {
+       "role": "fool",
+       "text": "That explains the window on the first night. And the banister. I thought it was the draught."
+      },
+      {
+       "role": "lead",
+       "text": "I am so sorry. I could teach the children the trapeze, if there are any children."
+      },
+      {
+       "role": "villain",
+       "text": "There are no children. But there is a very sturdy chandelier."
+      }
+     ]
+    },
+    {
+     "id": "gothic_romance_twist_5",
+     "logline": "Uncle Ambrose is found in the attic rocking chair, wearing a cardigan and a long silence.",
+     "tags": [
+      "death",
+      "chair"
+     ],
+     "props": [
+      "skull",
+      "chair"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "In the rocking chair there is a skeleton, wearing a very nice cardigan."
+      },
+      {
+       "role": "villain",
+       "text": "That is Uncle Ambrose. He did not like to be moved. He has been very consistent about it."
+      },
+      {
+       "role": "fool",
+       "text": "I know him! We were at school together. He is the reason I became a ghost. He made it look so easy."
+      },
+      {
+       "role": "lead",
+       "text": "He is very still. He is the best houseguest I have ever had."
+      }
+     ]
+    }
+   ],
+   "finale": [
+    {
+     "id": "gothic_romance_finale_1",
+     "logline": "The wedding takes place in the graveyard, with a vicar, a ghost and an unconvincing rain machine.",
+     "tags": [
+      "wedding",
+      "ghost"
+     ],
+     "props": [
+      "banner",
+      "bouquet"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "I, {villain}, take you, {lead}, to be my governess, my companion and my reason to come in from the rain."
+      },
+      {
+       "role": "lead",
+       "text": "I, {lead}, take you. I should like it noted that I am doing so under a very small umbrella."
+      },
+      {
+       "role": "fool",
+       "text": "I object! No, wait, I do not. I have always wanted to say that. I object to nothing. It is lovely."
+      },
+      {
+       "role": "villain",
+       "text": "Then by the authority of the moor, and a vicar in a hat, I suppose we are married."
+      }
+     ]
+    },
+    {
+     "id": "gothic_romance_finale_2",
+     "logline": "At last the master says it aloud, and the sky can think of nothing to add but lightning.",
+     "tags": [
+      "kiss",
+      "storm"
+     ],
+     "props": [
+      "lantern",
+      "tree"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "I have waited my whole life to say it. I love you, {lead}. There. The sky may now do as it likes."
+      },
+      {
+       "role": "fool",
+       "text": "That is the best lightning I have ever seen, and I was here for the 1790s."
+      },
+      {
+       "role": "lead",
+       "text": "Then kiss me quickly, before the weather gets any better."
+      },
+      {
+       "role": "fool",
+       "text": "Sorry. I am standing on {villain}'s foot. I was trying to be supportive."
+      }
+     ]
+    },
+    {
+     "id": "gothic_romance_finale_3",
+     "logline": "The household ghost is finally laid to rest, mildly disappointed that it was not harder.",
+     "tags": [
+      "death",
+      "song"
+     ],
+     "props": [
+      "skull",
+      "candle"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "I think it has worked. I am... going. I always thought it would be more dramatic."
+      },
+      {
+       "role": "lead",
+       "text": "You were a wonderful ghost, {fool}. The best I have ever had."
+      },
+      {
+       "role": "fool",
+       "text": "I am the only one you have ever had. But thank you. It is the first review I have ever received."
+      },
+      {
+       "role": "villain",
+       "text": "Let us sing. It is customary. Somebody start the hymn, and start it badly, for {fool}."
+      }
+     ]
+    },
+    {
+     "id": "gothic_romance_finale_4",
+     "logline": "The master of the house delivers a long-awaited speech on love and loss. It is short.",
+     "tags": [
+      "speech",
+      "mourning"
+     ],
+     "props": [
+      "skull",
+      "candle"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "I have a few words to say about love and loss. They are: love, and loss."
+      },
+      {
+       "role": "lead",
+       "text": "That was beautiful. Is there more?"
+      },
+      {
+       "role": "villain",
+       "text": "No. That is the full text. I have been working on it for years."
+      },
+      {
+       "role": "fool",
+       "text": "It is the best speech anyone has given in this graveyard. And I have heard the one about the fox."
+      }
+     ]
+    },
+    {
+     "id": "gothic_romance_finale_5",
+     "logline": "The previous governess emerges from the churchyard wall with a clipboard, a grievance and no tea.",
+     "tags": [
+      "reunion",
+      "feast"
+     ],
+     "props": [
+      "teapot",
+      "candle"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "The previous governess has come out of the churchyard wall. She has a clipboard. She has notes."
+      },
+      {
+       "role": "lead",
+       "text": "Hello. I do hope you were not too uncomfortable in there."
+      },
+      {
+       "role": "villain",
+       "text": "She is very cross. She says the wall is damp, the company poor, and the biscuits a long time ago."
+      },
+      {
+       "role": "lead",
+       "text": "May I offer you tea? I am told the ghost makes a decent one, mostly by sighing at the kettle."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "pantomime",
+  "name": "Pantomime",
+  "blurb": "He's behind you! A dame, a cow in two halves, and a great deal of shouting.",
+  "palette": {
+   "sky": "#9bdcf5",
+   "flat": "#f4a261",
+   "floor": "#6a3d3d",
+   "accent": "#ef476f"
+  },
+  "roles": {
+   "lead": "The Principal Boy",
+   "villain": "The Wicked Baron",
+   "fool": "The Dame"
+  },
+  "skill_by_beat": {
+   "setup": "comedy",
+   "complication": "physical",
+   "reversal": "improv",
+   "twist": "comedy",
+   "finale": "improv"
+  },
+  "sets": {
+   "setup": "garden",
+   "complication": "castle",
+   "reversal": "ballroom",
+   "twist": "cellar",
+   "finale": "stage"
+  },
+  "beats": {
+   "setup": [
+    {
+     "id": "pantomime_setup_1",
+     "logline": "The village goose lays a golden egg, and it is in the wrong hands before the applause has finished.",
+     "tags": [
+      "goose",
+      "treasure"
+     ],
+     "props": [
+      "goose",
+      "trophy"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "Good morning, boys and girls! Look, our little goose has laid an egg! A golden one! Nobody tell the Baron!"
+      },
+      {
+       "role": "villain",
+       "text": "Did somebody say Baron? Do not bother to boo, I have had my breakfast. I shall simply take the egg."
+      },
+      {
+       "role": "lead",
+       "text": "Put it down, Baron! It belongs to the village and to the goose's many friends!"
+      },
+      {
+       "role": "fool",
+       "text": "The goose says it was a one-off. She is retiring. She wants to go into catering."
+      }
+     ]
+    },
+    {
+     "id": "pantomime_setup_2",
+     "logline": "The Dame enters in a hat shaped like a cottage loaf and delivers eleven puns, none of them necessary.",
+     "tags": [
+      "pun",
+      "speech"
+     ],
+     "props": [
+      "cake"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "Hello, boys and girls! I am the Dame! I have just come from the baker's. I was feeling a bit crusty!"
+      },
+      {
+       "role": "lead",
+       "text": "Good morning, Dame. That is a very large hat."
+      },
+      {
+       "role": "fool",
+       "text": "It is a loaf, dear. I wore it to sell the bread. I was selling like hot... rolls!"
+      },
+      {
+       "role": "villain",
+       "text": "I have been a wicked baron for thirty years, and I have never heard a pun that hurt like that."
+      }
+     ]
+    },
+    {
+     "id": "pantomime_setup_3",
+     "logline": "The whole village launches into the opening number, and the Baron attends purely to ruin it.",
+     "tags": [
+      "song",
+      "dance"
+     ],
+     "props": [
+      "banner",
+      "tree"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "Good morning, {town}! It is a lovely day for a song and a dance!"
+      },
+      {
+       "role": "fool",
+       "text": "Everybody on the green! Left foot! Right foot! Other left foot! I only have two, but I am trying!"
+      },
+      {
+       "role": "villain",
+       "text": "I hate this. The singing. The dancing. The rhyming. I shall ruin it, and I shall do it in time to the music."
+      },
+      {
+       "role": "lead",
+       "text": "Then join us, Baron! The chorus has a part for a villain. It is mostly 'boo'."
+      }
+     ]
+    },
+    {
+     "id": "pantomime_setup_4",
+     "logline": "Buttercup the cow enters in two halves, who immediately disagree about the direction of the play.",
+     "tags": [
+      "slapstick",
+      "pun"
+     ],
+     "props": [
+      "tree"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "Everybody say hello to Buttercup, our cow! Front half, wave. Back half... lift your tail, dear."
+      },
+      {
+       "role": "lead",
+       "text": "She seems to be walking in two directions at once."
+      },
+      {
+       "role": "villain",
+       "text": "That is the back half. It wants the pantry. The front half wants the barn. They are both correct."
+      },
+      {
+       "role": "fool",
+       "text": "It is the first time she has given a straight answer. Well, a straight half-answer."
+      }
+     ]
+    },
+    {
+     "id": "pantomime_setup_5",
+     "logline": "The King decrees that whoever finds the golden egg may marry the Principal Boy. Nobody tells the Principal Boy.",
+     "tags": [
+      "crown",
+      "wedding"
+     ],
+     "props": [
+      "crown",
+      "banner"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "Oyez, oyez, boys and girls! By order of the King: whoever finds the golden egg may marry the Principal Boy!"
+      },
+      {
+       "role": "lead",
+       "text": "Has anyone asked the Principal Boy?"
+      },
+      {
+       "role": "villain",
+       "text": "Nobody asks the Principal Boy. It is tradition. Nobody asks the egg either."
+      },
+      {
+       "role": "fool",
+       "text": "I did ask the egg. It seemed keen. It also seemed like an egg."
+      }
+     ]
+    }
+   ],
+   "complication": [
+    {
+     "id": "pantomime_complication_1",
+     "logline": "The Baron creeps up behind the Principal Boy, and the audience has several suggestions.",
+     "tags": [
+      "chase",
+      "slapstick"
+     ],
+     "props": [
+      "door"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "Is somebody behind me, boys and girls? Because I have a funny feeling about the back of my head."
+      },
+      {
+       "role": "fool",
+       "text": "He is behind you! Behind you! No, the other behind!"
+      },
+      {
+       "role": "villain",
+       "text": "I am merely standing here. I am doing nothing. If the Principal Boy turns around, I shall have to turn around too."
+      },
+      {
+       "role": "lead",
+       "text": "I am turning! He is turning! We are all turning! This is the longest circle I have ever made."
+      }
+     ]
+    },
+    {
+     "id": "pantomime_complication_2",
+     "logline": "The Baron's banquet is musical chairs with one chair, twelve guests and no clear exit strategy.",
+     "tags": [
+      "chair",
+      "feast"
+     ],
+     "props": [
+      "chair",
+      "cake"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "Welcome to my banquet. Please take a seat. There are twelve guests and one chair. It is a game. I call it 'Dinner'."
+      },
+      {
+       "role": "fool",
+       "text": "It is musical chairs! Boys and girls, start the music! When it stops, sit on the nearest Baron!"
+      },
+      {
+       "role": "lead",
+       "text": "Dum de dum dum... somebody stop the music!"
+      },
+      {
+       "role": "villain",
+       "text": "Get off me, {fool}. I am a villain with a bad back. We are the most dangerous kind."
+      }
+     ]
+    },
+    {
+     "id": "pantomime_complication_3",
+     "logline": "The Baron consults the magic mirror and receives, for the first time, a complaint.",
+     "tags": [
+      "mirror",
+      "disguise"
+     ],
+     "props": [
+      "mirror"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "Magic mirror, tell me true: who is the loveliest in the land?"
+      },
+      {
+       "role": "fool",
+       "text": "It says... hang on... 'Please can you stop leaning on the glass.'"
+      },
+      {
+       "role": "lead",
+       "text": "That is not a mirror! That is the back half of Buttercup in a picture frame!"
+      },
+      {
+       "role": "villain",
+       "text": "It is a very good frame. It is the only part of this castle I paid for."
+      }
+     ]
+    },
+    {
+     "id": "pantomime_complication_4",
+     "logline": "A sword fight is conducted entirely in rhyming couplets, and the Baron runs out of rhymes before the sword.",
+     "tags": [
+      "sword",
+      "rhyme"
+     ],
+     "props": [
+      "sword"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "En garde, you wretched Principal Boy! I will make you sorry! I will make you cry! I will run you over with a... lorry?"
+      },
+      {
+       "role": "lead",
+       "text": "That is a modern vehicle, Baron. We are in the Middle Ages."
+      },
+      {
+       "role": "fool",
+       "text": "It is the rhyme's fault, dear! {villain} is under pressure! Everybody help! What rhymes with 'sorry'?"
+      },
+      {
+       "role": "villain",
+       "text": "Do not ask them. They will say 'lorry'."
+      }
+     ]
+    },
+    {
+     "id": "pantomime_complication_5",
+     "logline": "The Baron disguises as the Good Fairy, wearing wings made from a dustpan.",
+     "tags": [
+      "disguise",
+      "lie"
+     ],
+     "props": [
+      "mask",
+      "banner"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "Greetings, children! I am the Good Fairy! I am not the Baron. I am a perfectly different shape."
+      },
+      {
+       "role": "lead",
+       "text": "Good Fairy, you are wearing a wicked cloak and three days of beard."
+      },
+      {
+       "role": "villain",
+       "text": "Fairies are naturally scruffy. It is the wings. They take it out of one."
+      },
+      {
+       "role": "fool",
+       "text": "Boys and girls, is that the Good Fairy? I can't hear you! IS THAT THE GOOD FAIRY?"
+      }
+     ]
+    }
+   ],
+   "reversal": [
+    {
+     "id": "pantomime_reversal_1",
+     "logline": "At the ball the Baron asks the Dame to dance, and everyone agrees to pretend this is normal.",
+     "tags": [
+      "dance",
+      "romance",
+      "kiss"
+     ],
+     "props": [
+      "bouquet",
+      "harp"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "Dame, may I have the honour? I have been a villain for forty years, and I should like to be a nuisance in a different way."
+      },
+      {
+       "role": "fool",
+       "text": "Oh, Baron! I have not danced since the Great Pudding Fire!"
+      },
+      {
+       "role": "lead",
+       "text": "Boys and girls, the Baron is in love with the Dame! This is either a triumph or a very large mistake!"
+      },
+      {
+       "role": "villain",
+       "text": "Do not mock this, Principal Boy. The Dame has beautiful hands, and I intend to kiss both of them."
+      }
+     ]
+    },
+    {
+     "id": "pantomime_reversal_2",
+     "logline": "At the masked ball everyone is unmasked on the count of three, to a disappointing silence.",
+     "tags": [
+      "mask",
+      "disguise"
+     ],
+     "props": [
+      "mask"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "Everyone take off your masks on the count of three! One, two, three!"
+      },
+      {
+       "role": "fool",
+       "text": "My mask is off! Oh. It is still me. It is me underneath. I was hoping for somebody more glamorous."
+      },
+      {
+       "role": "villain",
+       "text": "Mine is off too. Underneath is a smaller, sadder Baron. Please do not look."
+      },
+      {
+       "role": "lead",
+       "text": "And mine... oh. It is all of us. Nobody is anyone else. This is the dullest unmasking in the history of balls."
+      }
+     ]
+    },
+    {
+     "id": "pantomime_reversal_3",
+     "logline": "The Principal Boy swings out on the ballroom chandelier, which turns out to have been sold.",
+     "tags": [
+      "chandelier",
+      "slapstick"
+     ],
+     "props": [
+      "chandelier"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "Stand back! I shall swing across the ballroom on the chandelier and rescue the Dame!"
+      },
+      {
+       "role": "fool",
+       "text": "Be careful, dear, it is an antique! It is from the age before swinging!"
+      },
+      {
+       "role": "villain",
+       "text": "It is no longer attached to anything. I sold it on Tuesday. The buyer collects at eight."
+      },
+      {
+       "role": "lead",
+       "text": "That would explain why I am taking the ceiling with me."
+      }
+     ]
+    },
+    {
+     "id": "pantomime_reversal_4",
+     "logline": "The Baron tries a clog on every foot in the kingdom, and it fits the back half of a cow.",
+     "tags": [
+      "stairs",
+      "mistaken_identity",
+      "crown"
+     ],
+     "props": [
+      "crown"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "Whoever fits this clog is the rightful heir! Everyone form a queue on the stairs! One foot at a time!"
+      },
+      {
+       "role": "fool",
+       "text": "It fits Buttercup's back left! Oh, what a terrible thing to happen to a cow!"
+      },
+      {
+       "role": "lead",
+       "text": "The heir to the throne is a cow!"
+      },
+      {
+       "role": "villain",
+       "text": "The back half of a cow. I demand a recount."
+      }
+     ]
+    },
+    {
+     "id": "pantomime_reversal_5",
+     "logline": "The sing-along begins, and the Baron joins in for a boiled sweet, to everyone's surprise, especially the Baron's.",
+     "tags": [
+      "song",
+      "feast"
+     ],
+     "props": [
+      "banner",
+      "cake"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "Boys and girls, it is time for the sing-along! The words are on the banner! Left side, you are the Baron's team!"
+      },
+      {
+       "role": "villain",
+       "text": "I refuse to sing. I am wicked. I have standards. ...Oh, there is a prize? What kind of prize?"
+      },
+      {
+       "role": "fool",
+       "text": "A boiled sweet! Whoever sings loudest wins a boiled sweet!"
+      },
+      {
+       "role": "villain",
+       "text": "Then I shall sing. Tell the boys and girls to stop making that noise. ...Oh. That is me making that noise."
+      }
+     ]
+    },
+    {
+     "id": "pantomime_reversal_6",
+     "logline": "The Baron dies, spectacularly and repeatedly, and keeps opening one eye to check the reviews.",
+     "tags": [
+      "death",
+      "slapstick"
+     ],
+     "props": [
+      "skull"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "Aargh! I am slain! I am dead! I have never been so dead in all my life!"
+      },
+      {
+       "role": "fool",
+       "text": "Boys and girls, is the Baron dead? Oh no he isn't! Oh yes he is! Oh no he isn't! I can't keep up!"
+      },
+      {
+       "role": "lead",
+       "text": "The Baron has been dead for three minutes, and has opened one eye to check whether we are watching."
+      },
+      {
+       "role": "villain",
+       "text": "I am still dead. I am only resting my eyes. I shall be dead again in the finale."
+      }
+     ]
+    }
+   ],
+   "twist": [
+    {
+     "id": "pantomime_twist_1",
+     "logline": "A ghost drifts through the cellar, and the Dame is the only one who cannot see it.",
+     "tags": [
+      "ghost",
+      "door"
+     ],
+     "props": [
+      "ghost_sheet",
+      "door"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "Oooh, it is spooky down here! Boys and girls, is there a ghost? I don't see a ghost!"
+      },
+      {
+       "role": "lead",
+       "text": "There is a ghost behind you, Dame!"
+      },
+      {
+       "role": "fool",
+       "text": "Where? Oh no there isn't! Oh, there is! It has gone through the door, and me, and the Baron!"
+      },
+      {
+       "role": "villain",
+       "text": "I felt that. It was clammy. I request that the ghost apologise."
+      }
+     ]
+    },
+    {
+     "id": "pantomime_twist_2",
+     "logline": "It is discovered that the goose has been the Good Fairy all along, and the Baron has been tying her to a fence.",
+     "tags": [
+      "goose",
+      "mistaken_identity"
+     ],
+     "props": [
+      "goose",
+      "rope"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "I have just had a thought, boys and girls. Has anybody ever seen the goose and the Good Fairy in the same room?"
+      },
+      {
+       "role": "lead",
+       "text": "Never! Do you mean the goose..."
+      },
+      {
+       "role": "villain",
+       "text": "...is the Good Fairy? I have been tying a fairy to a fence post for three years."
+      },
+      {
+       "role": "fool",
+       "text": "She is very forgiving. She would like to be untied now, please, and also a sandwich."
+      }
+     ]
+    },
+    {
+     "id": "pantomime_twist_3",
+     "logline": "The Baron's deadly potion turns out to be lemonade, and the lemonade turns out to be the plot.",
+     "tags": [
+      "poison",
+      "pun"
+     ],
+     "props": [
+      "bottle"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "Behold! The {object}! One sip and you shall be turned into... into... something worse."
+      },
+      {
+       "role": "fool",
+       "text": "Is it a toad, Baron? A newt? A very small bishop?"
+      },
+      {
+       "role": "villain",
+       "text": "It is lemonade. I mixed up the labels. Give it back; that was to be my elevenses."
+      },
+      {
+       "role": "lead",
+       "text": "So the poison is lemonade, and the lemonade is poison. Boys and girls, that is what we call a sour twist."
+      }
+     ]
+    },
+    {
+     "id": "pantomime_twist_4",
+     "logline": "The Dame is revealed as the Baron's double agent, to the surprise of everyone except the audience.",
+     "tags": [
+      "betrayal",
+      "lie"
+     ],
+     "props": [
+      "cake",
+      "trunk"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "Dame! You have been helping the Baron all this time?"
+      },
+      {
+       "role": "fool",
+       "text": "Oh, I can explain, dear. The pay is terrible, but the hat budget is marvellous."
+      },
+      {
+       "role": "villain",
+       "text": "The Dame has been my double agent for eleven years. Paid in buns."
+      },
+      {
+       "role": "lead",
+       "text": "Boys and girls, did you know about this? You did? Then why didn't you shout?"
+      }
+     ]
+    },
+    {
+     "id": "pantomime_twist_5",
+     "logline": "A dragon named Gerald guards the cellar. It has a cough, and every cough costs somebody a wig.",
+     "tags": [
+      "fire",
+      "chase"
+     ],
+     "props": [
+      "lantern",
+      "ladder"
+     ],
+     "lines": [
+      {
+       "role": "villain",
+       "text": "The cellar is guarded by a fire-breathing dragon. It is called Gerald."
+      },
+      {
+       "role": "fool",
+       "text": "Gerald is lovely! He has a bad cough, though. Every time he coughs, somebody's wig goes up."
+      },
+      {
+       "role": "lead",
+       "text": "Everyone back! I can feel the heat! I am only a Principal Boy and I am not insured!"
+      },
+      {
+       "role": "villain",
+       "text": "It has my wig. It has my good wig. Somebody fetch the second-best wig."
+      }
+     ]
+    }
+   ],
+   "finale": [
+    {
+     "id": "pantomime_finale_1",
+     "logline": "The Baron is beaten, the goose is free, and the whole cast gets married at once, mostly to each other.",
+     "tags": [
+      "song",
+      "wedding",
+      "romance"
+     ],
+     "props": [
+      "bouquet",
+      "banner"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "Boys and girls, the Baron is beaten, the goose is free, and we are going to have a wedding!"
+      },
+      {
+       "role": "fool",
+       "text": "Who is marrying whom? Nobody has told me! I was only told to wear this!"
+      },
+      {
+       "role": "villain",
+       "text": "I am to marry the Dame, which is the best-run plot twist of the evening, and I stand by it."
+      },
+      {
+       "role": "lead",
+       "text": "Then let us sing the wedding song! Everybody! Left side, right side, and the people in the middle who always forget!"
+      }
+     ]
+    },
+    {
+     "id": "pantomime_finale_2",
+     "logline": "The traditional slosh scene begins with forty custard pies and ends with everyone the same colour.",
+     "tags": [
+      "slapstick",
+      "feast"
+     ],
+     "props": [
+      "cake",
+      "chair"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "And now the traditional slosh scene! I have prepared forty custard pies and one very polite bucket!"
+      },
+      {
+       "role": "villain",
+       "text": "I refuse to be hit by a pie. I have dignity. I have a reputation. I have... oh. Oh, I have a pie."
+      },
+      {
+       "role": "lead",
+       "text": "Boys and girls, shall we? Three, two, one! Aim for the Baron, but be kind to the bucket!"
+      },
+      {
+       "role": "fool",
+       "text": "Everybody is covered! Even the bucket is covered! We are all the same colour! It is beautiful!"
+      }
+     ]
+    },
+    {
+     "id": "pantomime_finale_3",
+     "logline": "The King abdicates in favour of the goose, which accepts with the dignity of a creature that expected nothing less.",
+     "tags": [
+      "crown",
+      "goose"
+     ],
+     "props": [
+      "crown",
+      "goose"
+     ],
+     "lines": [
+      {
+       "role": "lead",
+       "text": "People of {town}: the King has been found, and he has abdicated in favour of the goose."
+      },
+      {
+       "role": "fool",
+       "text": "The goose is wearing the crown! It looks wonderful! It looks like it has been waiting all its life!"
+      },
+      {
+       "role": "villain",
+       "text": "A goose queen. I am too tired to object. I shall be a loyal subject, as soon as somebody finds me a chair."
+      },
+      {
+       "role": "lead",
+       "text": "Long live the goose! Boys and girls, you know the next bit! Long live the..."
+      }
+     ]
+    },
+    {
+     "id": "pantomime_finale_4",
+     "logline": "The Dame delivers the traditional closing couplet in place of the Good Fairy, who is off sick.",
+     "tags": [
+      "rhyme",
+      "speech"
+     ],
+     "props": [
+      "banner"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "The Good Fairy is off sick, so: the play is done, the day is won, the Baron's gone, and we've had fun!"
+      },
+      {
+       "role": "villain",
+       "text": "It lacks a moral."
+      },
+      {
+       "role": "lead",
+       "text": "Then here is one: never tie a fairy to a fence."
+      },
+      {
+       "role": "fool",
+       "text": "That does not rhyme, but it is true, which is better."
+      }
+     ]
+    },
+    {
+     "id": "pantomime_finale_5",
+     "logline": "Buttercup the cow finally agrees on a direction, which is two directions, and goes.",
+     "tags": [
+      "slapstick",
+      "pun"
+     ],
+     "props": [
+      "banner",
+      "tree"
+     ],
+     "lines": [
+      {
+       "role": "fool",
+       "text": "And finally, boys and girls, Buttercup the cow has decided where she is going!"
+      },
+      {
+       "role": "lead",
+       "text": "Which way, Buttercup?"
+      },
+      {
+       "role": "villain",
+       "text": "Front half, left. Back half, the pub. They have parted. It is the happiest break-up I have ever seen."
+      },
+      {
+       "role": "fool",
+       "text": "She will be fine! She is two cows now! Wave goodbye to the front half! And to the back half, who does not care!"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

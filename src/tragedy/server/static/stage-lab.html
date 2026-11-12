@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stage Lab: Probably a Tragedy</title>
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/stage.css">
+</head>
+<body class="stage-lab">
+<div class="lab-wrap">
+  <div class="lab-head">
+    <h1>Stage Lab</h1>
+    <span class="sub">the toy theatre, standalone &middot; <code>?seed=7&amp;t=4200</code> freezes the scene at t ms &middot; <code>&amp;bare=1</code> hides the controls</span>
+    <span class="lab-stats" id="stats">&nbsp;</span>
+  </div>
+
+  <div class="lab-main">
+    <div class="lab-stage">
+      <div class="stage-frame" id="frame"><canvas class="stage-canvas" id="stage" aria-label="The theatre"></canvas></div>
+      <div class="lab-panel" style="margin-top:10px">
+        <div class="lab-row">
+          <button id="play" class="pri">Play</button>
+          <button id="step">Step</button>
+          <button id="restart">Restart</button>
+          <label>speed <select id="speed"><option value="0">skip</option><option value="0.5">0.5x</option><option value="1" selected>1x</option><option value="2">2x</option><option value="4">4x</option></select></label>
+          <label><input type="checkbox" id="ghost"> ghost timeline</label>
+          <label><input type="checkbox" id="rm"> reduced motion</label>
+          <label><input type="checkbox" id="snd"> sound</label>
+        </div>
+        <div class="lab-row">
+          <input type="range" id="seek" class="lab-seek" min="0" max="1" value="0" step="1">
+          <span id="seekLbl" class="sub">0 / 0</span>
+        </div>
+        <div class="lab-row">
+          <label>warmth <input type="range" id="warm" min="0" max="100" value="40"></label>
+          <label>chaos <input type="range" id="chaos" min="0" max="100" value="10"></label>
+          <button id="finale">Finale (curtain)</button>
+          <button id="knot">Finale (knotted)</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="lab-side">
+      <div class="lab-panel"><h2>Mishap (target <select id="who"></select>)</h2><div class="lab-row" id="mishaps"></div></div>
+      <div class="lab-panel"><h2>Emotion (stage.line)</h2><div class="lab-row" id="emotions"></div></div>
+      <div class="lab-panel"><h2>Cue</h2><div class="lab-row" id="cues"></div><div class="lab-row"><button id="decision" class="mini">decision</button><button id="chain" class="mini">yes-and chain</button><button id="direct" class="mini">Madame's note</button><button id="beat" class="mini">next beat</button><button id="exit" class="mini">exit / re-enter</button></div></div>
+      <div class="lab-panel"><h2>Audience <label>intensity <input type="range" id="inten" min="0.2" max="1" step="0.05" value="0.8"></label></h2><div class="lab-row" id="reacts"></div></div>
+      <div class="lab-panel"><h2>Cast gallery</h2><div class="lab-row" id="casts"></div></div>
+      <div class="lab-panel"><h2>Last events</h2><div class="lab-log" id="elog"></div></div>
+    </div>
+  </div>
+</div>
+<div class="lab-toast" id="toast"></div>
+<script type="module" src="js/stage/lab.js"></script>
+</body>
+</html>

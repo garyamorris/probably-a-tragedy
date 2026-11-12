@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.langgraph_api/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+var/
+node_modules/
+.DS_Store
+# local tooling and secrets
+.claude/
+.env.*
+!.env.example
+# the walkthrough videos ship as GitHub Release assets, not in git
+docs/demo/*.mp4
