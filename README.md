@@ -1,5 +1,9 @@
 # Probably a Tragedy
 
+> **Watch it first:** a narrated 4-minute walkthrough (real animation, live LangGraph graphs, a LangSmith trace) is attached to the
+> [v0.1.0 release](https://github.com/garyamorris/probably-a-tragedy/releases/tag/v0.1.0). Run it yourself with `make install && make dev`,
+> then open http://127.0.0.1:2027/app/. Licensed MIT.
+
 **A puppet-theatre game built as nine LangGraph workflows.** You are the Prompter, hidden in the box at the foot of a toy
 theatre. The Wibbling Players, a troupe of puppets that cannot be trusted, improvise a new play in a new town every night.
 Cast them, pick the script, then whisper the right line (or the wrong one) when a flaw meets a plot beat and the stage
